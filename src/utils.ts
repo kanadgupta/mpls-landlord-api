@@ -1,7 +1,7 @@
 import pkg from "../package.json" with { type: "json" };
 import type { NominatimPlace } from "./types/nominatim.ts";
 
-const nominatimBaseUrl =
+export const nominatimBaseUrl =
   process.env.NOMINATIM_BASE_URL || "https://nominatim.openstreetmap.org";
 
 export async function nominatimFetch(q: string) {

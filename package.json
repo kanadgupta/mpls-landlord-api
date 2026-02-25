@@ -22,6 +22,7 @@
   "devDependencies": {
     "@types/geojson": "^7946.0.16",
     "@types/node": "^25.3.0",
+    "nock": "^14.0.11",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
