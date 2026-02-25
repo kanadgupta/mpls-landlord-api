@@ -1,0 +1,6394 @@
+{
+  "1150dfca10de7214f7f5d1f3b34d9dca34ce2cfda60300676fdf7297d5dc8093": {
+    "opendata": {
+      "property": {
+        "address": "811 4TH ST NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony West",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99767,
+        "longitude": -93.26083
+      },
+      "applicant": {
+        "address": "811 4TH ST NE #1",
+        "email": "GABE@OPALACRES.COM",
+        "name": "GABRIEL ROJAS-WESTALL",
+        "phone": null,
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "811 4TH ST NE #1",
+        "email": "GABE@OPALACRES.COM",
+        "name": "GABRIEL ROJAS-WESTALL",
+        "phone": null,
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "811, 4th Street Northeast, Sheridan, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [1006375943],
+      "place_ids": [1421310]
+    }
+  },
+  "713ea4a15e8ccf75e2c86606a9b949e21e57ad341d5dfc6cb0127f08ca47086d": {
+    "opendata": {
+      "property": {
+        "address": "2310 ALDRICH AVE S",
+        "ward": "10",
+        "neighborhood": "Lowry Hill East",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.95969,
+        "longitude": -93.28967
+      },
+      "applicant": {
+        "address": "IPG LIVING",
+        "email": "PERMITS@IPGLIVING.COM",
+        "name": "Brian L Fitterer",
+        "phone": null,
+        "state": "MN",
+        "zip": "55404"
+      },
+      "owner": {
+        "address": "18006 SkyPark Circle #200",
+        "email": "jrodriguez@sageaptmgt.com",
+        "name": "Brian Fitterer",
+        "phone": "(949)757-1330",
+        "state": "CA",
+        "zip": "92614"
+      }
+    },
+    "nominatim": {
+      "address": "2310, Aldrich Avenue South, Calhoun Isles, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [70194452],
+      "place_ids": [626002]
+    }
+  },
+  "c89df5ff162ee4f21f9fb6028aa373441262e9f4fde407e80db2ce35105c0e10": {
+    "opendata": {
+      "property": {
+        "address": "2001 GLENWOOD AVE",
+        "ward": "5",
+        "neighborhood": "Harrison",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.98047,
+        "longitude": -93.30582
+      },
+      "applicant": {
+        "address": "2001 GLENWOOD AVENUE #2",
+        "email": "RYANDAVISBUSINESS@GMAIL.COM",
+        "name": "RYAN S DAVIS",
+        "phone": "(720)352-7320",
+        "state": "MN",
+        "zip": "55405"
+      },
+      "owner": {
+        "address": "2001 GLENWOOD AVENUE #2",
+        "email": "RYANDAVISBUSINESS@GMAIL.COM",
+        "name": "RYAN S DAVIS",
+        "phone": "(720)352-7320",
+        "state": "MN",
+        "zip": "55405"
+      }
+    },
+    "nominatim": {
+      "address": "2001, 2005, Glenwood Avenue, Harrison, Minneapolis, Hennepin County, 55405, United States",
+      "osm_ids": [989254407],
+      "place_ids": [632486]
+    }
+  },
+  "d18d539d2349bcdab59af1f256eb48bd2bc0bf75e8f1bc71d7ba23e30f9bd767": {
+    "opendata": {
+      "property": {
+        "address": "4610 CEDAR AVE S",
+        "ward": "11",
+        "neighborhood": "Northrop",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91916,
+        "longitude": -93.2477
+      },
+      "applicant": {
+        "address": "4708 MERILANE AVE",
+        "email": null,
+        "name": "JAMES C LOPESIO",
+        "phone": "9529294122",
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "4708 MERILANE AVE",
+        "email": null,
+        "name": "JAMES C LOPESIO",
+        "phone": "9529294122",
+        "state": "MN",
+        "zip": "55436"
+      }
+    },
+    "nominatim": {
+      "address": "4610, Cedar Avenue South, Northrop, Nokomis, Minneapolis, Hennepin County, 55407, United States",
+      "osm_ids": [1384327187],
+      "place_ids": [1422029]
+    }
+  },
+  "8eac64c48d16b4bb9d2783e5cd5ed64b0040a175ee6721e6b45410ebcc45bdf5": {
+    "opendata": {
+      "property": {
+        "address": "4849 VINCENT AVE S",
+        "ward": "13",
+        "neighborhood": "Fulton",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91457,
+        "longitude": -93.31596
+      },
+      "applicant": {
+        "address": "2901 S Wayzata Blvd - #100",
+        "email": "hlumley@thesteppingstonegroup.com",
+        "name": "Heather Lumley",
+        "phone": "(612)500-6223",
+        "state": "MN",
+        "zip": "55405"
+      },
+      "owner": {
+        "address": "2901 SOUTH WAYZATA BLVD",
+        "email": "HHARNELL@THESTEPPINGSTONEGROUP.COM",
+        "name": "HEATHER K LUMLEY",
+        "phone": "(952)913-5239",
+        "state": "MN",
+        "zip": "55405"
+      }
+    },
+    "nominatim": {
+      "address": "4849, Vincent Avenue South, Fulton, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [1159591425],
+      "place_ids": [1391304]
+    }
+  },
+  "bf8229fa22bca3be899a5f6a76916afaaea2c5a875620f81a32d314f8b4d7587": {
+    "opendata": {
+      "property": {
+        "address": "723 TYLER ST NE",
+        "ward": "3",
+        "neighborhood": "Beltrami",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99753,
+        "longitude": -93.24572
+      },
+      "applicant": {
+        "address": "15325 190TH ST E",
+        "email": "DENOYER32@MSN.COM",
+        "name": "ROBERT JAMES DENOYER",
+        "phone": "6123632012",
+        "state": "MN",
+        "zip": "55033"
+      },
+      "owner": {
+        "address": "15325 190TH ST E",
+        "email": "DENOYER32@MSN.COM",
+        "name": "ROBERT JAMES DENOYER",
+        "phone": "6123632012",
+        "state": "MN",
+        "zip": "55033"
+      }
+    },
+    "nominatim": {
+      "address": "723, Northeast Tyler Street, Beltrami, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [324009457],
+      "place_ids": [437485]
+    }
+  },
+  "01662d5d36347843a1f7cfe08bad14c1a7d31e0f403e28f60b47668b112629e0": {
+    "opendata": {
+      "property": {
+        "address": "1106 24TH AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00393,
+        "longitude": -93.29445
+      },
+      "applicant": {
+        "address": "802 BENTON ST",
+        "email": "princecrs@yahoo.com",
+        "name": "CALVIN  PRINCE",
+        "phone": "(763)381-2138",
+        "state": "MN",
+        "zip": "55303"
+      },
+      "owner": {
+        "address": "5537 DUPONT AVE S",
+        "email": "JAMESELLIOT1918@GMAIL.COM",
+        "name": "James E Swartwood",
+        "phone": "(612)822-7910",
+        "state": "MN",
+        "zip": "55419"
+      }
+    },
+    "nominatim": {
+      "address": "1106, 24th Avenue North, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [1246448215],
+      "place_ids": [1435760]
+    }
+  },
+  "e14406caeb4b3656667d897a3d094296dae397b90e9cdc07569bbb6fdfde3d2c": {
+    "opendata": {
+      "property": {
+        "address": "5552 36TH AVE S",
+        "ward": "12",
+        "neighborhood": "Morris Park",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90201,
+        "longitude": -93.22074
+      },
+      "applicant": {
+        "address": "5509 25TH AVE S",
+        "email": "TMODEN22@COMCAST.NET",
+        "name": "TANYA J MODEN",
+        "phone": "6127888584",
+        "state": "MN",
+        "zip": "55417"
+      },
+      "owner": {
+        "address": "5509 25TH AVE S",
+        "email": "TMODEN22@COMCAST.NET",
+        "name": "TANYA J MODEN",
+        "phone": "6127888584",
+        "state": "MN",
+        "zip": "55417"
+      }
+    },
+    "nominatim": {
+      "address": "5552, 36th Avenue South, Morris Park, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1054575830],
+      "place_ids": [471257]
+    }
+  },
+  "19f2af61e1d42264d163dcea45b12d82773f78df9b263f504aa3fb576dc3eb25": {
+    "opendata": {
+      "property": {
+        "address": "923 25TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98742,
+        "longitude": -93.21799
+      },
+      "applicant": {
+        "address": "4631 Parksidge Dr",
+        "email": "gjb_itc@hotmail.com",
+        "name": "Gonzalo J Bellido",
+        "phone": "(651)329-4879",
+        "state": "MN",
+        "zip": "55123"
+      },
+      "owner": {
+        "address": "4631 Parksidge Dr",
+        "email": "gjb_itc@hotmail.com",
+        "name": "Gonzalo J Bellido",
+        "phone": "(651)329-4879",
+        "state": "MN",
+        "zip": "55123"
+      }
+    },
+    "nominatim": {
+      "address": "923, Southeast 25th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6034718],
+      "place_ids": [1444823]
+    }
+  },
+  "b6e8dbd5f1960751a7b28ab87776bee0459b456917d13c87e1ac0eaebcce8bdc": {
+    "opendata": {
+      "property": {
+        "address": "2806 27TH AVE S",
+        "ward": null,
+        "neighborhood": null,
+        "community": null,
+        "precinct": null,
+        "latitude": 44.95159,
+        "longitude": -93.23358
+      },
+      "applicant": {
+        "address": "810 S 7th St STE 300",
+        "email": "mnetland@trellismn.org",
+        "name": "Megan Netland",
+        "phone": "(651)802-6105",
+        "state": "MN",
+        "zip": "55415"
+      },
+      "owner": {
+        "address": "614 N 1ST STREET #100",
+        "email": null,
+        "name": "MINNEHAHA SUPPORTIVE HOUSING LIMITED PARTNERSHIP",
+        "phone": null,
+        "state": "MN",
+        "zip": "55401"
+      }
+    },
+    "nominatim": {
+      "address": "2806, 27th Avenue South, Longfellow, Minneapolis, Hennepin County, 55406, United States",
+      "osm_ids": [636383873],
+      "place_ids": [1453244]
+    }
+  },
+  "586e606318cd29383fcc7cbd3dbff39b73936ab6925ae8bb81756178f267c990": {
+    "opendata": {
+      "property": {
+        "address": "5437 31ST AVE S",
+        "ward": "11",
+        "neighborhood": "Wenonah",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90415,
+        "longitude": -93.22682
+      },
+      "applicant": {
+        "address": "4517 2ND AVE S",
+        "email": "CHELY044@GMAIL.COM",
+        "name": "ARACELI  RODRIGUEZ",
+        "phone": "6122006191",
+        "state": "MN",
+        "zip": "55419"
+      },
+      "owner": {
+        "address": "4517 2ND AVE S",
+        "email": "CHELY044@GMAIL.COM",
+        "name": "ARACELI  RODRIGUEZ",
+        "phone": "6122006191",
+        "state": "MN",
+        "zip": "55419"
+      }
+    },
+    "nominatim": {
+      "address": "5437, 31st Avenue South, Wenonah, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1052354145],
+      "place_ids": [479592]
+    }
+  },
+  "ba38160eaa5609794359cbfc7e14e2f97847cb12651fca403456bcfff8604e3a": {
+    "opendata": {
+      "property": {
+        "address": "1322 JOHNSON ST NE",
+        "ward": "1",
+        "neighborhood": "Northeast Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00109,
+        "longitude": -93.23754
+      },
+      "applicant": {
+        "address": "3104 32ND AVE S",
+        "email": "douglaslaramore@gmail.com",
+        "name": "DOUGLAS R LARAMORE",
+        "phone": "(612)788-3977",
+        "state": "MN",
+        "zip": "55406"
+      },
+      "owner": {
+        "address": "3104 32ND AVE S",
+        "email": "douglaslaramore@gmail.com",
+        "name": "DOUGLAS R LARAMORE",
+        "phone": "(612)788-3977",
+        "state": "MN",
+        "zip": "55406"
+      }
+    },
+    "nominatim": {
+      "address": "1322, Johnson Street Northeast, Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [1191938618],
+      "place_ids": [1396002]
+    }
+  },
+  "89054402ac5a224b9afea34e26635155bf273f8441c60f1a49975030d3f6db47": {
+    "opendata": {
+      "property": {
+        "address": "5337 27TH AVE S",
+        "ward": "11",
+        "neighborhood": "Keewaydin",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90602,
+        "longitude": -93.23321
+      },
+      "applicant": {
+        "address": "5625 DUPONT AVE S",
+        "email": "MATTENGEN@GMAIL.COM",
+        "name": "MATT P ENGEN",
+        "phone": "6128172805",
+        "state": "MN",
+        "zip": "55417"
+      },
+      "owner": {
+        "address": "5625 DUPONT AVE S",
+        "email": "MATTENGEN@GMAIL.COM",
+        "name": "MATT P ENGEN",
+        "phone": "6128172805",
+        "state": "MN",
+        "zip": "55417"
+      }
+    },
+    "nominatim": {
+      "address": "5337, 27th Avenue South, Keewaydin, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1050799466],
+      "place_ids": [472041]
+    }
+  },
+  "6a9dd80d64f7252e67cc24397f5021b8379997966e9e18253fd7c962454c047c": {
+    "opendata": {
+      "property": {
+        "address": "2806 GIRARD AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00883,
+        "longitude": -93.29648
+      },
+      "applicant": {
+        "address": "2806 Girard Ave N",
+        "email": "demetriusdwilson@gmail.com",
+        "name": "Demetrius Wilson",
+        "phone": null,
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "2806 Girard Ave N",
+        "email": "demetriusdwilson@gmail.com",
+        "name": "Demetrius Wilson",
+        "phone": null,
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "2806, Girard Avenue North, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [204823790],
+      "place_ids": [1411218]
+    }
+  },
+  "6ff66fe617bc0abf03a763a3630b24743ed332d7970cc58a1d2442de8e578cb9": {
+    "opendata": {
+      "property": {
+        "address": "900 25TH ST W",
+        "ward": "10",
+        "neighborhood": "Lowry Hill East",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.95748,
+        "longitude": -93.29094
+      },
+      "applicant": {
+        "address": "REIMAGINE REAL ESTATE",
+        "email": "dan@reimaginere.com",
+        "name": "Dan Schnerk",
+        "phone": null,
+        "state": "MN",
+        "zip": "55345"
+      },
+      "owner": {
+        "address": "5500 NICOLLET AVENUE SOUTH #19393",
+        "email": "MJBRUNNETTE@GMAIL.COM",
+        "name": "PROPOWN MUELLER PARK LOFTS, LLC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55419"
+      }
+    },
+    "nominatim": {
+      "address": "900,902, West 25th Street, Lowry Hill East, Calhoun Isles, Minneapolis, Hennepin County, 55405, United States",
+      "osm_ids": [135339085],
+      "place_ids": [623834]
+    }
+  },
+  "27784e0bc390759d94b7fd5472d667196e645830e0510d2f2a8db7e872493b46": {
+    "opendata": {
+      "property": {
+        "address": "1312 16TH AVE N",
+        "ward": "5",
+        "neighborhood": "Near - North",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99554,
+        "longitude": -93.29792
+      },
+      "applicant": {
+        "address": "927 W Broadway Ave, Suite 301",
+        "email": "asalesoly@urbanhomeworks.org",
+        "name": "AsaleSol Young",
+        "phone": null,
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "927 W Broadway Ave, Suite 301",
+        "email": "asalesoly@urbanhomeworks.org",
+        "name": "AsaleSol Young",
+        "phone": null,
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "1312, 16th Avenue North, Willard-Hay, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6020886],
+      "place_ids": [1435764]
+    }
+  },
+  "d5c5c6e006199dccd33871c582c2c6a16eda1e5a168b2bb88029b46f87b95ce9": {
+    "opendata": {
+      "property": {
+        "address": "620 BUCHANAN ST NE",
+        "ward": "3",
+        "neighborhood": "Beltrami",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99578,
+        "longitude": -93.24007
+      },
+      "applicant": {
+        "address": "708 5th St S.E.",
+        "email": "kara@millenniummn.com",
+        "name": "Kara Silva",
+        "phone": "(952)999-9500",
+        "state": "MN",
+        "zip": "55414"
+      },
+      "owner": {
+        "address": "708 5TH ST SE # B100",
+        "email": "adam@nhhproperties.com",
+        "name": "ADAM M SERAPHINE",
+        "phone": "6122251250",
+        "state": "MN",
+        "zip": "55414"
+      }
+    },
+    "nominatim": {
+      "address": "620, Northeast Buchanan Street, Beltrami, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [512168520],
+      "place_ids": [438088]
+    }
+  },
+  "f9d66c33143a276f67d0e0c4a5f9657b6c0170f77c1936eee1f2da4653098003": {
+    "opendata": {
+      "property": {
+        "address": "3124 TYLER ST NE",
+        "ward": "1",
+        "neighborhood": "Audubon Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.02481,
+        "longitude": -93.24642
+      },
+      "applicant": {
+        "address": "3407 Buchanan St NE",
+        "email": "saraholst88@icloud.com",
+        "name": "SARA Holst",
+        "phone": "(763)458-7060",
+        "state": "MN",
+        "zip": "55418"
+      },
+      "owner": {
+        "address": "3407 Buchanan St NE",
+        "email": "saraholst88@icloud.com",
+        "name": "SARA Holst",
+        "phone": "(763)458-7060",
+        "state": "MN",
+        "zip": "55418"
+      }
+    },
+    "nominatim": {
+      "address": "3124, Northeast Tyler Street, Northeast, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [937833630],
+      "place_ids": [295736]
+    }
+  },
+  "ff6c33363b4c262c7bdfcf1364e61711c696ea17d7d35dac5f6c262aa9d82a22": {
+    "opendata": {
+      "property": {
+        "address": "4201 21ST AVE S",
+        "ward": "12",
+        "neighborhood": "Standish",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.92675,
+        "longitude": -93.24188
+      },
+      "applicant": {
+        "address": "4201 21st Ave S - #2",
+        "email": "smigsmpls@gmail.com",
+        "name": "Matthew R Smigielski",
+        "phone": "(612)834-2447",
+        "state": "MN",
+        "zip": "55407"
+      },
+      "owner": {
+        "address": "3412 Meridian Dr ",
+        "email": null,
+        "name": "Jasmine Radue",
+        "phone": null,
+        "state": "MN",
+        "zip": "55422"
+      }
+    },
+    "nominatim": {
+      "address": "4201, 21st Avenue South, Standish, Nokomis, Minneapolis, Hennepin County, 55407, United States",
+      "osm_ids": [926903098],
+      "place_ids": [464526]
+    }
+  },
+  "2d5b6bd7c88f38f23e7902faa7571647a45bef98f13620ebc4b1829b2c6f9efc": {
+    "opendata": {
+      "property": {
+        "address": "3635 1ST AVE S",
+        "ward": "8",
+        "neighborhood": "King Field",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.93641,
+        "longitude": -93.27625
+      },
+      "applicant": {
+        "address": "15915 27th Pl N",
+        "email": "jennyinvestmentsllc@gmail.com",
+        "name": "Jeniffer N Kuria",
+        "phone": "(612)232-7264",
+        "state": "MN",
+        "zip": "55447"
+      },
+      "owner": {
+        "address": "15915 27th Pl N",
+        "email": "jennyinvestmentsllc@gmail.com",
+        "name": "Jeniffer N Kuria",
+        "phone": "(612)232-7264",
+        "state": "MN",
+        "zip": "55447"
+      }
+    },
+    "nominatim": {
+      "address": "3635, 1st Avenue South, King Field, Southwest, Minneapolis, Hennepin County, 55409, United States",
+      "osm_ids": [1044589084],
+      "place_ids": [597309]
+    }
+  },
+  "5e9a11a1daaef4991d7e43dd1fec1f48ab473477baf0741ab1bb95388b4aee46": {
+    "opendata": {
+      "property": {
+        "address": "3132 IRVING AVE S",
+        "ward": "10",
+        "neighborhood": "East Bde Maka Ska",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.94541,
+        "longitude": -93.30249
+      },
+      "applicant": {
+        "address": "5115 Excelsior Blvd, Suite 235",
+        "email": "adam@triodesignandbuild.com",
+        "name": "Adam Koch",
+        "phone": "(612)205-2060",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "5115 Excelsior Blvd, Suite 235",
+        "email": "adam@triodesignandbuild.com",
+        "name": "Adam Koch",
+        "phone": "(612)205-2060",
+        "state": "MN",
+        "zip": "55416"
+      }
+    },
+    "nominatim": {
+      "address": "3132, Irving Avenue South, East Bde Maka Ska, Calhoun Isles, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [89276269],
+      "place_ids": [621155]
+    }
+  },
+  "d08c03a993417a552bfeece10bb1b0fee4109a1358eb01d314285b32222cc46e": {
+    "opendata": {
+      "property": {
+        "address": "3956 42ND AVE S",
+        "ward": "12",
+        "neighborhood": "Howe",
+        "community": "Longfellow",
+        "precinct": "3",
+        "latitude": 44.9308,
+        "longitude": -93.21314
+      },
+      "applicant": {
+        "address": "5608 Grove Street",
+        "email": "bergjandrew@gmail.com",
+        "name": "Andrew J Berg",
+        "phone": "(646)303-0014",
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "5608 Grove Street",
+        "email": "bergjandrew@gmail.com",
+        "name": "Andrew J Berg",
+        "phone": "(646)303-0014",
+        "state": "MN",
+        "zip": "55436"
+      }
+    },
+    "nominatim": {
+      "address": "3956, 42nd Avenue South, Howe, Longfellow, Minneapolis, Hennepin County, 55406, United States",
+      "osm_ids": [161841834],
+      "place_ids": [1415863]
+    }
+  },
+  "13cc5158b848a846c016a84410945a17aef6e4be8c44c43bafa070e0a1043703": {
+    "opendata": {
+      "property": {
+        "address": "4901 28TH AVE S",
+        "ward": "12",
+        "neighborhood": "Keewaydin",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91426,
+        "longitude": -93.23184
+      },
+      "applicant": {
+        "address": "2805 49TH ST E",
+        "email": null,
+        "name": "THOMAS J WHISENAND",
+        "phone": "6122379815",
+        "state": "MN",
+        "zip": "55417"
+      },
+      "owner": {
+        "address": "2805 49TH ST E",
+        "email": null,
+        "name": "THOMAS J WHISENAND",
+        "phone": "6122379815",
+        "state": "MN",
+        "zip": "55417"
+      }
+    },
+    "nominatim": {
+      "address": "4901, 28th Avenue South, Keewaydin, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1050773053],
+      "place_ids": [475612]
+    }
+  },
+  "9992a234f12701966e87f19f95e9761a5daf201daf3448d82bc8b885169e47da": {
+    "opendata": {
+      "property": {
+        "address": "1959 STINSON PKWY",
+        "ward": "1",
+        "neighborhood": "Windom Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00935,
+        "longitude": -93.22627
+      },
+      "applicant": {
+        "address": "1951 Stinson Blvd",
+        "email": "kingledion@gmail.com",
+        "name": "Daniel D Hartig",
+        "phone": "(651)247-5667",
+        "state": "MN",
+        "zip": "55418"
+      },
+      "owner": {
+        "address": "1951 Stinson Blvd",
+        "email": "kingledion@gmail.com",
+        "name": "Daniel D Hartig",
+        "phone": "(651)247-5667",
+        "state": "MN",
+        "zip": "55418"
+      }
+    },
+    "nominatim": {
+      "address": "1959, Stinson Parkway, Northeast Park, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [116766482, 203047361],
+      "place_ids": [1374478, 1374474]
+    }
+  },
+  "7ab11378a8ec94aa224a3a7fd883f03fd8d4b3728dab3c44c10957069977ac1a": {
+    "opendata": {
+      "property": {
+        "address": "635 ADAMS ST NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony East",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.9961,
+        "longitude": -93.25588
+      },
+      "applicant": {
+        "address": "5700 Schaefer Road",
+        "email": null,
+        "name": "Star Max Property Management",
+        "phone": null,
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "845 TUSCARORA AVE W",
+        "email": "GBGROUP@GMAIL.COM",
+        "name": "JOSHUA C BEATTY",
+        "phone": "7636398367",
+        "state": "MN",
+        "zip": "55102"
+      }
+    },
+    "nominatim": {
+      "address": "635, Northeast Adams Street, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [6041803],
+      "place_ids": [1442265]
+    }
+  },
+  "2dd0647f1e61c1d0eb7f910e7d5f1b2097d9000124d4d0b2ae418c6a73171cb6": {
+    "opendata": {
+      "property": {
+        "address": "4054 NOKOMIS AVE S",
+        "ward": "12",
+        "neighborhood": "Standish",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.92883,
+        "longitude": -93.22867
+      },
+      "applicant": {
+        "address": "2105 Bryant Ave S",
+        "email": "dhmontgomery@gmail.com",
+        "name": "David Henry Montgomery",
+        "phone": "(612)757-8617",
+        "state": "MN",
+        "zip": "55405"
+      },
+      "owner": {
+        "address": "2105 Bryant Ave S",
+        "email": "dhmontgomery@gmail.com",
+        "name": "David Henry Montgomery",
+        "phone": "(612)757-8617",
+        "state": "MN",
+        "zip": "55405"
+      }
+    },
+    "nominatim": {
+      "address": "4054, Nokomis Avenue South, Standish, Nokomis, Minneapolis, Hennepin County, 55406, United States",
+      "osm_ids": [809867487],
+      "place_ids": [471218]
+    }
+  },
+  "d0e0ee169c3a69abd792c0995acdf50c17fabdd767012c15818775c56466dcd9": {
+    "opendata": {
+      "property": {
+        "address": "3207 GIRARD AVE N",
+        "ward": "4",
+        "neighborhood": "Folwell",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.01345,
+        "longitude": -93.29722
+      },
+      "applicant": {
+        "address": "917 5th St N",
+        "email": "admin@nicholascapitalinc.com",
+        "name": "Jerrett N Williams",
+        "phone": null,
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "917 5th St N",
+        "email": "admin@nicholascapitalinc.com",
+        "name": "Jerrett N Williams",
+        "phone": null,
+        "state": "MN",
+        "zip": "55401"
+      }
+    },
+    "nominatim": {
+      "address": "3207, Girard Avenue North, Near North, Minneapolis, Hennepin County, 55412, United States",
+      "osm_ids": [204823790],
+      "place_ids": [1371466]
+    }
+  },
+  "ad29dcf57b4c388938d1d8bb974a5df59343c1dcc52daa4e608b1f1d1987458f": {
+    "opendata": {
+      "property": {
+        "address": "2311 LYNDALE AVE N",
+        "ward": "5",
+        "neighborhood": "Hawthorne",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00301,
+        "longitude": -93.28842
+      },
+      "applicant": {
+        "address": "2905 STRATTON CIRCLE",
+        "email": "GLADKOV70@GMAIL.COM",
+        "name": "Alexander Gladkov",
+        "phone": "(612)578-6646",
+        "state": "MN",
+        "zip": "55305"
+      },
+      "owner": {
+        "address": "2905 STRATTON CIRCLE",
+        "email": "GLADKOV70@GMAIL.COM",
+        "name": "Alexander Gladkov",
+        "phone": "(612)578-6646",
+        "state": "MN",
+        "zip": "55305"
+      }
+    },
+    "nominatim": {
+      "address": "2311, North Lyndale Avenue, Hawthorne, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [938245849],
+      "place_ids": [286457]
+    }
+  },
+  "aacb71a5c7694731b9c9df3c6c48920878f6277184bb4d710b0dabb897eddda7": {
+    "opendata": {
+      "property": {
+        "address": "2627 QUINCY ST NE",
+        "ward": "1",
+        "neighborhood": "Holland",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.01589,
+        "longitude": -93.25039
+      },
+      "applicant": {
+        "address": "2627 QUINCY ST NE #A",
+        "email": "KEEGAN.ROLENC@GMAIL.COM",
+        "name": "KEEGAN JAMAAL ROLENC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55418"
+      },
+      "owner": {
+        "address": "2627 QUINCY ST NE #A",
+        "email": "KEEGAN.ROLENC@GMAIL.COM",
+        "name": "KEEGAN JAMAAL ROLENC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55418"
+      }
+    },
+    "nominatim": {
+      "address": "2627, Quincy Street Northeast, Logan Park, Northeast, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [6024455],
+      "place_ids": [1392468]
+    }
+  },
+  "298cbd1fa6a3e12d9d847b617eb7a3da49f696dab78960ae4e504cf4716dc75c": {
+    "opendata": {
+      "property": {
+        "address": "1806 NEWTON AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99767,
+        "longitude": -93.30534
+      },
+      "applicant": {
+        "address": "2123 UPTON AVE N",
+        "email": null,
+        "name": "SONG  VANG",
+        "phone": "(612)817-7394",
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "2123 UPTON AVE N",
+        "email": null,
+        "name": "SONG  VANG",
+        "phone": "(612)817-7394",
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "1806, Newton Avenue North, Harrison, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [762661581],
+      "place_ids": [638429]
+    }
+  },
+  "be1bcb227448b2b8a3cbb863bd028e26eef237d29f075df972934c4df0f6a313": {
+    "opendata": {
+      "property": {
+        "address": "2750 1ST AVE S",
+        "ward": "10",
+        "neighborhood": "Whittier",
+        "community": "Powderhorn",
+        "precinct": "5",
+        "latitude": 44.95236,
+        "longitude": -93.27696
+      },
+      "applicant": {
+        "address": "1021 East Franklin Ave",
+        "email": "eduardo.barrera@ppl-inc.org",
+        "name": "Eduardo Barrera",
+        "phone": "(612)249-7965",
+        "state": "MN",
+        "zip": "55404"
+      },
+      "owner": {
+        "address": null,
+        "email": null,
+        "name": "PPL Simpson Housing LLC",
+        "phone": null,
+        "state": null,
+        "zip": null
+      }
+    },
+    "nominatim": {
+      "address": "2750, 1st Avenue South, Whittier, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [278427486],
+      "place_ids": [1421973]
+    }
+  },
+  "8a7d6d4583014094012e1e1a3b451e9e0039033a048f46952836c5d5aec256b7": {
+    "opendata": {
+      "property": {
+        "address": "3123 2ND AVE S",
+        "ward": "8",
+        "neighborhood": "Central",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.9459,
+        "longitude": -93.27374
+      },
+      "applicant": {
+        "address": "5415 Nicollet Ave Ste B",
+        "email": "a.salgado@suevegroup.com",
+        "name": "Aide Salgado-Diaz",
+        "phone": "(612)346-4420",
+        "state": "MN",
+        "zip": "55419"
+      },
+      "owner": {
+        "address": "3455 4TH AVE S",
+        "email": null,
+        "name": "SALDI LLC",
+        "phone": "(612)819-4999",
+        "state": "MN",
+        "zip": "55408"
+      }
+    },
+    "nominatim": {
+      "address": "3123, 2nd Avenue South, Central, Phillips, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [734460374],
+      "place_ids": [1376998]
+    }
+  },
+  "96b36770a76fa148e60601e1235017619885c7f73e9103e77e33abafa033fb87": {
+    "opendata": {
+      "property": {
+        "address": "919 WEST BROADWAY",
+        "ward": "5",
+        "neighborhood": "Near - North",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99889,
+        "longitude": -93.29199
+      },
+      "applicant": {
+        "address": "919 WEST BROADWAY AVE",
+        "email": null,
+        "name": "CHIDI D EGBUJOR",
+        "phone": "(612)390-3576",
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "919 WEST BROADWAY AVE",
+        "email": null,
+        "name": "CHIDI D EGBUJOR",
+        "phone": "(612)390-3576",
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "919, West Broadway Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [199761254],
+      "place_ids": [1420986]
+    }
+  },
+  "e64cfd7745dfef603039e4049f1801971cfad740fca777fe5742e090bc607581": {
+    "opendata": {
+      "property": {
+        "address": "1217 MONROE ST NE",
+        "ward": "1",
+        "neighborhood": "Logan Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00046,
+        "longitude": -93.25209
+      },
+      "applicant": {
+        "address": "1217 MONROE ST NE # 2",
+        "email": "MARYNS@GMAIL.COM",
+        "name": "NICHOLAS A MARYNS",
+        "phone": "6122326331",
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "1217 MONROE ST NE # 2",
+        "email": "MARYNS@GMAIL.COM",
+        "name": "NICHOLAS A MARYNS",
+        "phone": "6122326331",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "1217, Northeast Monroe Street, Logan Park, Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [947929034],
+      "place_ids": [289661]
+    }
+  },
+  "9ce6552adfe46ca9fea12df9e58cbac45cd0d5200fd2554ba9b9d8a6356d504c": {
+    "opendata": {
+      "property": {
+        "address": "1068 15TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98997,
+        "longitude": -93.23038
+      },
+      "applicant": {
+        "address": "14910 64th Pl N",
+        "email": "bunkbedproperties@gmail.com",
+        "name": "Patrick Smith",
+        "phone": "(612)310-8120",
+        "state": "MN",
+        "zip": "55311"
+      },
+      "owner": {
+        "address": "14910 64th Pl N",
+        "email": "bunkbedproperties@gmail.com",
+        "name": "Patrick Smith",
+        "phone": "(612)310-8120",
+        "state": "MN",
+        "zip": "55311"
+      }
+    },
+    "nominatim": {
+      "address": "1068, Southeast 15th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [88314299],
+      "place_ids": [438799]
+    }
+  },
+  "9c40e7ef2bd7afcdafeae0b36d272f2d1b0e8142707e901f98c0d7331fa788e3": {
+    "opendata": {
+      "property": {
+        "address": "435 MADISON ST NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony East",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99429,
+        "longitude": -93.25333
+      },
+      "applicant": {
+        "address": "14033 Commerce Ave NE",
+        "email": "joseph@homesteadplus.com",
+        "name": "Joseph D Boehmer",
+        "phone": "(763)221-0702",
+        "state": "MN",
+        "zip": "55372"
+      },
+      "owner": {
+        "address": "4855 Winton Way",
+        "email": "larissachalgren@gmail.com",
+        "name": "Larissa Chalgren",
+        "phone": "(651)270-1955",
+        "state": "CA",
+        "zip": "95124"
+      }
+    },
+    "nominatim": {
+      "address": "435, Northeast Madison Street, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [38400158],
+      "place_ids": [1444812]
+    }
+  },
+  "6644490b80b54fa16fd49b029d83b0b499a8a889c4268be45b76107019452b2c": {
+    "opendata": {
+      "property": {
+        "address": "1123 5TH ST NE",
+        "ward": "3",
+        "neighborhood": "Sheridan",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99942,
+        "longitude": -93.25986
+      },
+      "applicant": {
+        "address": "700 68th Lane N",
+        "email": "RMULLER090@GMAIL.COM",
+        "name": "ROBERT DOUGLAS MULLER",
+        "phone": "(612)245-4436",
+        "state": "MN",
+        "zip": "55430"
+      },
+      "owner": {
+        "address": "1123 5TH ST NE",
+        "email": "RMULLER090@GMAIL.COM",
+        "name": "ROBERT DOUGLAS MULLER",
+        "phone": "6122454436",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "1123, 5th Street Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [730894813],
+      "place_ids": [1439566]
+    }
+  },
+  "c3a270e96188b89cb730732faca64b14321085f1f08ab37de695a534d73835ae": {
+    "opendata": {
+      "property": {
+        "address": "5020 FREMONT AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.04644,
+        "longitude": -93.29627
+      },
+      "applicant": {
+        "address": "1737 Canary LN.",
+        "email": "davidrekstad@gmail.com",
+        "name": "David M Rekstad",
+        "phone": "(612)799-4991",
+        "state": "MN",
+        "zip": "55364"
+      },
+      "owner": {
+        "address": "7711 BERKSHIRE WAY",
+        "email": "MARYREKSTAD@COMCAST.NET",
+        "name": "DAVID M REKSTAD",
+        "phone": "6127994991",
+        "state": "MN",
+        "zip": "55311"
+      }
+    },
+    "nominatim": {
+      "address": "5020, North Fremont Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934504514],
+      "place_ids": [274379]
+    }
+  },
+  "6a66362d96d5d5ccc4684c54a06160ef37617048f23beb67cf9fcb8613e2f0f8": {
+    "opendata": {
+      "property": {
+        "address": "5013 ALDRICH AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.04628,
+        "longitude": -93.29056
+      },
+      "applicant": {
+        "address": "605 Hwy 169 N",
+        "email": "dmeier@agrexinc.com",
+        "name": "Dwayne Meier",
+        "phone": "(612)750-7731",
+        "state": "MN",
+        "zip": "55441"
+      },
+      "owner": {
+        "address": "605 Hwy 169 N",
+        "email": "dmeier@agrexinc.com",
+        "name": "Dwayne Meier",
+        "phone": "(612)750-7731",
+        "state": "MN",
+        "zip": "55441"
+      }
+    },
+    "nominatim": {
+      "address": "5013, North Aldrich Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934504898],
+      "place_ids": [276007]
+    }
+  },
+  "ec2792e92a1860173addaa5d5fbec2d0d008ad56b2f966ed0b0878946ca39315": {
+    "opendata": {
+      "property": {
+        "address": "1040 26TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98918,
+        "longitude": -93.21609
+      },
+      "applicant": {
+        "address": "C/O MAI THAO",
+        "email": "mai.thao@invitationhomes.com",
+        "name": "INVITATION HOMES",
+        "phone": "(952)563-1950",
+        "state": "MN",
+        "zip": "55120"
+      },
+      "owner": {
+        "address": "1270 EAGAN INDUSTRIAL RD # 160",
+        "email": "MNRENTALLICENSE@INVITATIONHOMES.COM",
+        "name": "JEFFREY  KERSHNER",
+        "phone": "9525631950",
+        "state": "MN",
+        "zip": "55121"
+      }
+    },
+    "nominatim": {
+      "address": "1040, Southeast 26th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6040042],
+      "place_ids": [1436008]
+    }
+  },
+  "9889688b6248cf3d13e3c902da497fe68cded3bde0931fbbcd75e9173fe8caf7": {
+    "opendata": {
+      "property": {
+        "address": "2100 DUPONT AVE N",
+        "ward": null,
+        "neighborhood": null,
+        "community": null,
+        "precinct": null,
+        "latitude": 45.00038,
+        "longitude": -93.29221
+      },
+      "applicant": {
+        "address": "927 W Broadway Ave, Suite 301",
+        "email": "asalesoly@urbanhomeworks.org",
+        "name": "AsaleSol Young",
+        "phone": null,
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "2015 Emerson Avenue N",
+        "email": "chad.schwitters@urbanhomeworks.org",
+        "name": "Chad Schwitters",
+        "phone": "(612)275-2855",
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "2100, North Dupont Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [938251701],
+      "place_ids": [284701]
+    }
+  },
+  "e3ec0603494926a38c5a319295b40b774690c3388e884d4551a70078e977266f": {
+    "opendata": {
+      "property": {
+        "address": "856 19TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98515,
+        "longitude": -93.22519
+      },
+      "applicant": {
+        "address": "449 KIOWA AVE",
+        "email": "JOY636@AOL.COM",
+        "name": "JOY E THEOBALD",
+        "phone": "6512619900",
+        "state": "MN",
+        "zip": "55112"
+      },
+      "owner": {
+        "address": "449 KIOWA AVE",
+        "email": "JOY636@AOL.COM",
+        "name": "JOY E THEOBALD",
+        "phone": "6512619900",
+        "state": "MN",
+        "zip": "55112"
+      }
+    },
+    "nominatim": {
+      "address": "856, Southeast 19th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [39799983],
+      "place_ids": [1421835]
+    }
+  },
+  "bcae45239bdfd8ebe9413ad035494c7ed59d2c101e72c7820ba62b0a3f7c601e": {
+    "opendata": {
+      "property": {
+        "address": "872 19TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98559,
+        "longitude": -93.22519
+      },
+      "applicant": {
+        "address": "831 LINWOOD AVE",
+        "email": "kathrynmarieguthrie@gmail.com",
+        "name": "KATHY  GUTHRIE",
+        "phone": "(612)219-2470",
+        "state": "MN",
+        "zip": "55105"
+      },
+      "owner": {
+        "address": "831 LINWOOD AVE",
+        "email": "kathrynmarieguthrie@gmail.com",
+        "name": "VIRGINIA R GUTHRIE TRUST",
+        "phone": "6512221697",
+        "state": "MN",
+        "zip": "55105"
+      }
+    },
+    "nominatim": {
+      "address": "872, Southeast 19th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [39799983],
+      "place_ids": [1421835]
+    }
+  },
+  "d0c59d35b57024ec543fcd638689649b70ef36564f9f4c13a6d09c135d1bb515": {
+    "opendata": {
+      "property": {
+        "address": "1217 26TH AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00574,
+        "longitude": -93.29666
+      },
+      "applicant": {
+        "address": "1729 Lyndale Ave N",
+        "email": "bilalm@almaauun.org",
+        "name": "Bilal Muhammad",
+        "phone": "(612)806-9246",
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "1729 Lyndale Ave N",
+        "email": "makrame@almaauun.org",
+        "name": "Makram El-Amin",
+        "phone": "(612)521-5990",
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "1217, North 26th Avenue, Jordan, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [1040021392],
+      "place_ids": [285841]
+    }
+  },
+  "89bb5818b3b4aebddc8c17a29c126e8078b8863cdc3e55fc298fbf71d9ce7ed3": {
+    "opendata": {
+      "property": {
+        "address": "3115 CEDAR AVE S",
+        "ward": "9",
+        "neighborhood": "Corcoran",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.94599,
+        "longitude": -93.24701
+      },
+      "applicant": {
+        "address": "222 9TH STREET #1600",
+        "email": "LINAPROPERTYMANAGEMENTLLC@GMAIL.COM",
+        "name": "MOHAMED HUSSEIN",
+        "phone": null,
+        "state": "MN",
+        "zip": "55402"
+      },
+      "owner": {
+        "address": "222 9TH STREET #1600",
+        "email": "LINAPROPERTYMANAGEMENTLLC@GMAIL.COM",
+        "name": "LINA PROPERTY MANAGEMENT LLC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55402"
+      }
+    },
+    "nominatim": {
+      "address": "3115, Cedar Avenue South, Corcoran, Powderhorn, Minneapolis, Hennepin County, 55407, United States",
+      "osm_ids": [1007897194],
+      "place_ids": [1384650]
+    }
+  },
+  "84da2fe292e0f7e84d0fd41b94aa8c4b89706d7960111b55f74f8be152af864d": {
+    "opendata": {
+      "property": {
+        "address": "1014 PORTLAND AVE",
+        "ward": "6",
+        "neighborhood": "Elliot Park",
+        "community": "Central",
+        "precinct": "1",
+        "latitude": 44.97025,
+        "longitude": -93.26735
+      },
+      "applicant": {
+        "address": "5865 AYRSHIRE LANE",
+        "email": "JENNA.M.TIETJE@GMAIL.COM",
+        "name": "JENNA T GILDAY",
+        "phone": "(612)396-3514",
+        "state": "MN",
+        "zip": "55331"
+      },
+      "owner": {
+        "address": "5865 AYRSHIRE LANE",
+        "email": "JENNA.M.TIETJE@GMAIL.COM",
+        "name": "JENNA T GILDAY",
+        "phone": "(612)396-3514",
+        "state": "MN",
+        "zip": "55331"
+      }
+    },
+    "nominatim": {
+      "address": "1014, Portland Avenue South, Phillips, Minneapolis, Hennepin County, 55404, United States",
+      "osm_ids": [23120490],
+      "place_ids": [1421399]
+    }
+  },
+  "c912ef914b1d9349e6e330d4df33aaebbb4c402c3c30f7db96b65f74e2ea2286": {
+    "opendata": {
+      "property": {
+        "address": "3010 RUSSELL AVE N",
+        "ward": "4",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.01179,
+        "longitude": -93.31043
+      },
+      "applicant": {
+        "address": "4660 77th St W Apt 647",
+        "email": "bradybengtson@icloud.com",
+        "name": "Brady Bengtson",
+        "phone": "(952)201-1923",
+        "state": "MN",
+        "zip": "55435"
+      },
+      "owner": {
+        "address": "4660 77th St W Apt 647",
+        "email": "bradybengtson@icloud.com",
+        "name": "Brady Bengtson",
+        "phone": "(952)201-1923",
+        "state": "MN",
+        "zip": "55435"
+      }
+    },
+    "nominatim": {
+      "address": "3010, North Russell Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6000647],
+      "place_ids": [1371371]
+    }
+  },
+  "dfa4a78511ce0b8e658af9372ab014e217f83c6456f98aca353a8afa5b9d045a": {
+    "opendata": {
+      "property": {
+        "address": "4716 NICOLLET AVE",
+        "ward": "11",
+        "neighborhood": "Tangletown",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91717,
+        "longitude": -93.27837
+      },
+      "applicant": {
+        "address": "2504 WASHBURN AVENUE SOUTH",
+        "email": "OTTEM612@HOTMAIL.COM",
+        "name": "JEFFREY JAMES OTTEM",
+        "phone": "(612)710-7899",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "2504 WASHBURN AVENUE SOUTH",
+        "email": "OTTEM612@HOTMAIL.COM",
+        "name": "JEFFREY JAMES OTTEM",
+        "phone": "(612)710-7899",
+        "state": "MN",
+        "zip": "55416"
+      }
+    },
+    "nominatim": {
+      "address": "4716, Nicollet Avenue South, Tangletown, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [313772142],
+      "place_ids": [592090]
+    }
+  },
+  "fbe33d682586606e69c16783e0499e623ec0fe5ef997226fc5b08174ef624e45": {
+    "opendata": {
+      "property": {
+        "address": "1603 WASHINGTON ST NE",
+        "ward": "1",
+        "neighborhood": "Logan Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00435,
+        "longitude": -93.25719
+      },
+      "applicant": {
+        "address": "2039 SHERIDAN AVE S",
+        "email": "cvpminneapolis@gmail.com",
+        "name": "GUSTAF  KUPETZ",
+        "phone": "(612)599-8715",
+        "state": "MN",
+        "zip": "55405"
+      },
+      "owner": {
+        "address": "12013 23RD AVE N",
+        "email": "SKUPETZ@AOL.COM",
+        "name": "GUSTAF  KUPETZ",
+        "phone": "6125998715",
+        "state": "MN",
+        "zip": "55441"
+      }
+    },
+    "nominatim": {
+      "address": "1603, Northeast Washington Street, Holland, Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [947913886],
+      "place_ids": [290591]
+    }
+  },
+  "441c8349705f26efef8a2f1fe1b193acd5808c1f0cf37f773f74df4f98c407d1": {
+    "opendata": {
+      "property": {
+        "address": "891 27TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98655,
+        "longitude": -93.2156
+      },
+      "applicant": {
+        "address": "1522 COMO AVE SE",
+        "email": "GRANTVAITH@GMAIL.COM",
+        "name": "GRANT T VAITH",
+        "phone": "(651)210-7314",
+        "state": "MN",
+        "zip": "55414"
+      },
+      "owner": {
+        "address": "1522 COMO AVE SE",
+        "email": "GRANTVAITH@GMAIL.COM",
+        "name": "GRANT T VAITH",
+        "phone": "(651)210-7314",
+        "state": "MN",
+        "zip": "55414"
+      }
+    },
+    "nominatim": {
+      "address": "891, Southeast 27th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6041919, 53191315, 53191315],
+      "place_ids": [1444814, 1375302, 1444817]
+    }
+  },
+  "f0e6ff734e361b56819aa81f1da50dcc1b1bd865a5ac7ecd4df944f9fb8afe4d": {
+    "opendata": {
+      "property": {
+        "address": "814 24TH AVE N",
+        "ward": "5",
+        "neighborhood": "Hawthorne",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00392,
+        "longitude": -93.29039
+      },
+      "applicant": {
+        "address": "7040 LAKELAND AVE N STE 112",
+        "email": "HOMES@LENNYFROLOV.COM",
+        "name": "LENNY  FROLOV",
+        "phone": "(612)242-9073",
+        "state": "MN",
+        "zip": "55428"
+      },
+      "owner": {
+        "address": "7040 LAKELAND AVE N STE 112",
+        "email": "homes@lennyfrolov.com",
+        "name": "LENNY  FROLOV",
+        "phone": "(612)242-9073",
+        "state": "MN",
+        "zip": "55428"
+      }
+    },
+    "nominatim": {
+      "address": "814, 24th Avenue North, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [1246448215],
+      "place_ids": [1420972]
+    }
+  },
+  "ee65572e41c17581885ab7fd37c1de7aa2d81e0933780d2d02566abbea3349ce": {
+    "opendata": {
+      "property": {
+        "address": "1010 21ST AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98826,
+        "longitude": -93.22257
+      },
+      "applicant": {
+        "address": "KARINE BUECHLER",
+        "email": "craigbuechler1@gmail.com",
+        "name": "CRAIG  BUECHLER",
+        "phone": "6125983884",
+        "state": "MN",
+        "zip": "55331"
+      },
+      "owner": {
+        "address": "KARINE BUECHLER",
+        "email": "craigbuechler1@gmail.com",
+        "name": "CRAIG  BUECHLER",
+        "phone": "6125983884",
+        "state": "MN",
+        "zip": "55331"
+      }
+    },
+    "nominatim": {
+      "address": "1010, Southeast 21st Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [39799981],
+      "place_ids": [1421828]
+    }
+  },
+  "7dc9e7cbcd3a9ae7909cf7a0234487234ec3e2ea46c43d8bab6f20d6b91ad4a7": {
+    "opendata": {
+      "property": {
+        "address": "1010 18TH AVE NE",
+        "ward": "1",
+        "neighborhood": "Northeast Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00576,
+        "longitude": -93.24557
+      },
+      "applicant": {
+        "address": "517 19TH AVE NE",
+        "email": "MCHUGHMPLS@AOL.COM",
+        "name": "LISA A MCHUGH",
+        "phone": "(612)702-4599",
+        "state": "MN",
+        "zip": "55418"
+      },
+      "owner": {
+        "address": "517 19TH AVE NE",
+        "email": "MCHUGHMPLS@AOL.COM",
+        "name": "LISA A MCHUGH",
+        "phone": "(612)702-4599",
+        "state": "MN",
+        "zip": "55418"
+      }
+    },
+    "nominatim": {
+      "address": "1010, 18th Avenue Northeast, Northeast, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [6019703],
+      "place_ids": [1410420]
+    }
+  },
+  "3c8d69f08c860472b73e4367cdd31d53af0eecec734a4f5dcd0c4960e85ed9c3": {
+    "opendata": {
+      "property": {
+        "address": "4400 UPTON AVE S #303",
+        "ward": "13",
+        "neighborhood": "Linden Hills",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.92298,
+        "longitude": -93.31546
+      },
+      "applicant": {
+        "address": "4400 Upton Ave S Unit 303",
+        "email": "ritadiaz529@gmail.com",
+        "name": "Rita Diaz",
+        "phone": "(612)517-4046",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "1406 Standford St Unit A",
+        "email": "tgd1960@gmail.com",
+        "name": "Thomas G Diaz",
+        "phone": "(346)763-9154",
+        "state": "TX",
+        "zip": "77019"
+      }
+    },
+    "nominatim": {
+      "address": "4400, Upton Avenue South, Linden Hills, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [6029143],
+      "place_ids": [1387218]
+    }
+  },
+  "0bf31cce75adefd45c998dce6a6fb723cadbaa5cf0ce8a97163b3df6324269c3": {
+    "opendata": {
+      "property": {
+        "address": "4925 28TH AVE S",
+        "ward": "12",
+        "neighborhood": "Keewaydin",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91361,
+        "longitude": -93.23185
+      },
+      "applicant": {
+        "address": "904 Harriet St S",
+        "email": "brian@poschbuilders.com",
+        "name": "Brian Posch",
+        "phone": "(612)839-3878",
+        "state": "MN",
+        "zip": "55408"
+      },
+      "owner": {
+        "address": "904 Harriet St S",
+        "email": "brian@poschbuilders.com",
+        "name": "Brian Posch",
+        "phone": "(612)839-3878",
+        "state": "MN",
+        "zip": "55408"
+      }
+    },
+    "nominatim": {
+      "address": "4925, 28th Avenue South, Keewaydin, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1050772953],
+      "place_ids": [474185]
+    }
+  },
+  "5b6d580c06989b1658f7274f4934574731a9ab9b8ffd525ecd9e1e32eb7a9365": {
+    "opendata": {
+      "property": {
+        "address": "627 QUEEN AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.9851,
+        "longitude": -93.31007
+      },
+      "applicant": {
+        "address": "7900 Telegraph Rd",
+        "email": "victoria@vymgmt.com",
+        "name": "Victoria Yepez",
+        "phone": "(651)210-7800",
+        "state": "MN",
+        "zip": "55438"
+      },
+      "owner": {
+        "address": "7900 Telegraph Rd",
+        "email": "victoria@vymgmt.com",
+        "name": "Victoria Yepez",
+        "phone": "(651)210-7800",
+        "state": "MN",
+        "zip": "55438"
+      }
+    },
+    "nominatim": {
+      "address": "627, Queen Avenue North, Harrison, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6029526],
+      "place_ids": [1390122]
+    }
+  },
+  "9c078252820ecbf9a499824f2e0cbc62ee7a1db8def6a311a27dbd4fc80c68fc": {
+    "opendata": {
+      "property": {
+        "address": "2436 NEWTON AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00483,
+        "longitude": -93.30535
+      },
+      "applicant": {
+        "address": "2355 MN HIGHWAY 36 # 400",
+        "email": "JAYMITCHELL93@GMAIL.COM",
+        "name": "JERONE  MITCHELL",
+        "phone": "(612)251-9892",
+        "state": "MN",
+        "zip": "55113"
+      },
+      "owner": {
+        "address": "9617 OAKRIDGE TRL",
+        "email": "DGELB9617@YAHOO.COM",
+        "name": "DANIEL  GELB",
+        "phone": "6127246161",
+        "state": "MN",
+        "zip": "55305"
+      }
+    },
+    "nominatim": {
+      "address": "2436, North Newton Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6030220],
+      "place_ids": [1376859]
+    }
+  },
+  "edd718b211f7b297252b8b0d8644f697ed784a287d1d68f754e71b7339b952f4": {
+    "opendata": {
+      "property": {
+        "address": "5008 ZENITH AVE S",
+        "ward": "13",
+        "neighborhood": "Fulton",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91207,
+        "longitude": -93.32176
+      },
+      "applicant": {
+        "address": "6109 Blake Circle",
+        "email": "miket@falconwest.com",
+        "name": "MIKE C TANGHE",
+        "phone": "(612)310-1918",
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "5705 PARKWOOD LN",
+        "email": "mtanghe@hotmail.com",
+        "name": "MICHAEL C TANGHE",
+        "phone": "(612)310-1918",
+        "state": "MN",
+        "zip": "55436"
+      }
+    },
+    "nominatim": {
+      "address": "5008, Zenith Avenue South, Fulton, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [943073682],
+      "place_ids": [601466]
+    }
+  },
+  "bc826da281d4ea4c58c8b935604bf26ecd3ce0feb9a8d80f0bd5d1b8ffdf4c7a": {
+    "opendata": {
+      "property": {
+        "address": "822 24TH AVE N",
+        "ward": "5",
+        "neighborhood": "Hawthorne",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00392,
+        "longitude": -93.2907
+      },
+      "applicant": {
+        "address": "2718 QUENTIN AVE S",
+        "email": null,
+        "name": "MOSHE  VOROTINOV",
+        "phone": "(952)994-0581",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "2718 QUENTIN AVE S",
+        "email": null,
+        "name": "MOSHE  VOROTINOV",
+        "phone": "(952)994-0581",
+        "state": "MN",
+        "zip": "55416"
+      }
+    },
+    "nominatim": {
+      "address": "822, 24th Avenue North, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [1246448215],
+      "place_ids": [1420972]
+    }
+  },
+  "26e6958b98dfe8368dec742d221ac18648917948a15a43a4ffbd38936514738f": {
+    "opendata": {
+      "property": {
+        "address": "1086 11TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.99045,
+        "longitude": -93.23549
+      },
+      "applicant": {
+        "address": "291 Glenbrook Rd N",
+        "email": "matttoomey@hotmail.com",
+        "name": "MATT G TOOMEY",
+        "phone": "(612)327-1558",
+        "state": "MN",
+        "zip": "55391"
+      },
+      "owner": {
+        "address": "291 Glenbrook Rd N",
+        "email": "matttoomey@hotmail.com",
+        "name": "MATT G TOOMEY",
+        "phone": "(612)327-1558",
+        "state": "MN",
+        "zip": "55391"
+      }
+    },
+    "nominatim": {
+      "address": "1086, Southeast 11th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [512168497, 202056967],
+      "place_ids": [437782, 1418097]
+    }
+  },
+  "78a93e143a1751538465422119f48026a0ed30e99859af19d17ea1eb624ec37b": {
+    "opendata": {
+      "property": {
+        "address": "5117 FRANCE AVE S",
+        "ward": "13",
+        "neighborhood": "Fulton",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91006,
+        "longitude": -93.32864
+      },
+      "applicant": {
+        "address": "4201 EXCELSIOR BLVD",
+        "email": null,
+        "name": "JACOB I MIRMAN",
+        "phone": "6128361424",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "4201 EXCELSIOR BLVD",
+        "email": null,
+        "name": "JACOB I MIRMAN",
+        "phone": "6128361424",
+        "state": "MN",
+        "zip": "55416"
+      }
+    },
+    "nominatim": {
+      "address": "5117, France Avenue South, Fulton, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [943073588],
+      "place_ids": [591595]
+    }
+  },
+  "2406f7248772f22173df230b7da4f2ddc0a024ee7dc04fae96505be4d49c7125": {
+    "opendata": {
+      "property": {
+        "address": "3407 FREMONT AVE S",
+        "ward": "10",
+        "neighborhood": "South Uptown",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.94103,
+        "longitude": -93.29545
+      },
+      "applicant": {
+        "address": "910 Inwood Ave N",
+        "email": "eceglar16@gmail.com",
+        "name": "Evan Ceglar",
+        "phone": "(612)300-5771",
+        "state": "MN",
+        "zip": "55128"
+      },
+      "owner": {
+        "address": "910 Inwood Ave N",
+        "email": "eceglar16@gmail.com",
+        "name": "Evan Ceglar",
+        "phone": "(612)300-5771",
+        "state": "MN",
+        "zip": "55128"
+      }
+    },
+    "nominatim": {
+      "address": "3407, Fremont Avenue South, South Uptown, Calhoun Isles, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [89594901],
+      "place_ids": [612160]
+    }
+  },
+  "83ac50aa39679da84bbcbdfa4797b578ce19c82a4994192918ff1e0425f215d7": {
+    "opendata": {
+      "property": {
+        "address": "5417 25TH AVE S",
+        "ward": "11",
+        "neighborhood": "Wenonah",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90473,
+        "longitude": -93.23576
+      },
+      "applicant": {
+        "address": "1298 Hillcrest Ave",
+        "email": "mjpry@usinternet.com",
+        "name": "Jackie Pryor",
+        "phone": "(612)360-7497",
+        "state": "MN",
+        "zip": "55116"
+      },
+      "owner": {
+        "address": "420 Elmington Ave #1503",
+        "email": "jmpryor23@gmail.com",
+        "name": "John Pryor",
+        "phone": "(612)419-7438",
+        "state": "TN",
+        "zip": "37205"
+      }
+    },
+    "nominatim": {
+      "address": "5417, 25th Avenue South, Wenonah, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1315541924],
+      "place_ids": [478883]
+    }
+  },
+  "9352b1258f77c22429c047e9e46f674e2cd19971c71bdcc0f718019b4cf7b8c0": {
+    "opendata": {
+      "property": {
+        "address": "401 1ST ST S #101",
+        "ward": "3",
+        "neighborhood": "Downtown West",
+        "community": "Central",
+        "precinct": "1",
+        "latitude": 44.98091,
+        "longitude": -93.26086
+      },
+      "applicant": {
+        "address": "401 S 1st st #102",
+        "email": "jrnewmansings@gmail.com",
+        "name": "Jane Newman",
+        "phone": null,
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "401 S 1st st #102",
+        "email": "jrnewmansings@gmail.com",
+        "name": "Jane Newman",
+        "phone": null,
+        "state": "MN",
+        "zip": "55401"
+      }
+    },
+    "nominatim": {
+      "address": "RiverWest, 401, South 1st Street, Minneapolis, Hennepin County, 55401, United States",
+      "osm_ids": [111400189],
+      "place_ids": [636353]
+    }
+  },
+  "f087f327605f04acc713e404ea24fe2a52d2a85019c19b84b03a39dd7889edc5": {
+    "opendata": {
+      "property": {
+        "address": "2521 GIRARD AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00566,
+        "longitude": -93.29747
+      },
+      "applicant": {
+        "address": "1035 FRANKLIN AVE",
+        "email": "shantel.washintgon@ppl-inc.org",
+        "name": "Project For Pride in Living",
+        "phone": "(612)455-5178",
+        "state": "MN",
+        "zip": "55404"
+      },
+      "owner": {
+        "address": "1035 FRANKLIN AVE E",
+        "email": "BARBARA.MCCORMICK@PPL-INC.ORG",
+        "name": "BARBARA  MCCORMICK",
+        "phone": "(612)455-5100",
+        "state": "MN",
+        "zip": "55404"
+      }
+    },
+    "nominatim": {
+      "address": "2521, Girard Avenue North, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [204823790],
+      "place_ids": [1427656]
+    }
+  },
+  "119d394a17c751ab7d21282fd1b53071ce28296be1a5c87ff47238fc1ecdb064": {
+    "opendata": {
+      "property": {
+        "address": "5254 CAMDEN AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.051,
+        "longitude": -93.2886
+      },
+      "applicant": {
+        "address": "7760 France Ave S Suite 1100",
+        "email": "info@elitepropmgmt.com",
+        "name": "Bret Oeltjenbruns",
+        "phone": "(952)886-7440",
+        "state": "MN",
+        "zip": "55435"
+      },
+      "owner": {
+        "address": "11670 FOUNTAINS DRIVE #200",
+        "email": "CARRIEMOTARJEMI@GMAIL.COM",
+        "name": "CARRIE  MOTARJEMI",
+        "phone": "(507)227-8551",
+        "state": "MN",
+        "zip": "55369"
+      }
+    },
+    "nominatim": {
+      "address": "5254, North Camden Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934110832],
+      "place_ids": [278280]
+    }
+  },
+  "f48059af4a546cc763245ec98accccfb1b5e4e88a69da65c5a292f8a8e0c2224": {
+    "opendata": {
+      "property": {
+        "address": "2946 CALIFORNIA ST NE",
+        "ward": "1",
+        "neighborhood": "Marshall Terrace",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.02183,
+        "longitude": -93.26949
+      },
+      "applicant": {
+        "address": "6160 Stillwater Blvd N",
+        "email": "jrtimmers@hotmail.com",
+        "name": "Jason Timmers",
+        "phone": "(651)245-8146",
+        "state": "MN",
+        "zip": "55128"
+      },
+      "owner": {
+        "address": "6160 Stillwater Blvd N",
+        "email": "jrtimmers@hotmail.com",
+        "name": "Jason Timmers",
+        "phone": "(651)245-8146",
+        "state": "MN",
+        "zip": "55128"
+      }
+    },
+    "nominatim": {
+      "address": "2946, Northeast California Street, Marshall Terrace, Northeast, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [5996403],
+      "place_ids": [1439547]
+    }
+  },
+  "4660879703bba024ac8c596324b08a1e328d4a9caf018bab3b861912e55098b6": {
+    "opendata": {
+      "property": {
+        "address": "1029 24TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98881,
+        "longitude": -93.21937
+      },
+      "applicant": {
+        "address": "449 KIOWA AVE",
+        "email": "JOY636@AOL.COM",
+        "name": "JOY E THEOBALD",
+        "phone": "6512619900",
+        "state": "MN",
+        "zip": "55112"
+      },
+      "owner": {
+        "address": "449 KIOWA AVE",
+        "email": "joy636@aol.com",
+        "name": "JOY ELLEN THEOBALD",
+        "phone": "6516364333",
+        "state": "MN",
+        "zip": "55112"
+      }
+    },
+    "nominatim": {
+      "address": "1029, Southeast 24th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6015990],
+      "place_ids": [1379181]
+    }
+  },
+  "9d1a22a0a60ff2e68fb5b870bcef61a3971f052e268a2f684b7c02aa2ec12591": {
+    "opendata": {
+      "property": {
+        "address": "4733 GRAND AVE S",
+        "ward": "11",
+        "neighborhood": "Tangletown",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.9167,
+        "longitude": -93.28407
+      },
+      "applicant": {
+        "address": "4837 Grand Ave S",
+        "email": "MORGAN@brixtwincities.com",
+        "name": "MORGAN T WHITMAN",
+        "phone": "(612)747-4079",
+        "state": "MN",
+        "zip": "55419"
+      },
+      "owner": {
+        "address": "4837 Grand Ave S",
+        "email": null,
+        "name": "LOON BIRD LLC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55419"
+      }
+    },
+    "nominatim": {
+      "address": "4733, Grand Avenue South, Tangletown, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [636434122],
+      "place_ids": [1444137]
+    }
+  },
+  "462955b2af701fd331fda172e01f5dc993ed97316371501e5df4c82f347694c4": {
+    "opendata": {
+      "property": {
+        "address": "3808 52ND ST W",
+        "ward": "13",
+        "neighborhood": "Fulton",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.90916,
+        "longitude": -93.32838
+      },
+      "applicant": {
+        "address": "MONICA M HAMMERSTEN",
+        "email": "THAMMERSTEN@YAHOO.COM",
+        "name": "THOMAS  HAMMERSTEN",
+        "phone": "(952)715-1878",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "MONICA M HAMMERSTEN",
+        "email": "THAMMERSTEN@YAHOO.COM",
+        "name": "THOMAS  HAMMERSTEN",
+        "phone": "(952)715-1878",
+        "state": "MN",
+        "zip": "55416"
+      }
+    },
+    "nominatim": {
+      "address": "3808, West 52nd Street, Fulton, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [943073650],
+      "place_ids": [597730]
+    }
+  },
+  "b7fdca12a141970d154a88ce9471e5e2cc9f7535049cd6b1eee3b74f54508f05": {
+    "opendata": {
+      "property": {
+        "address": "5612 41ST AVE S",
+        "ward": "12",
+        "neighborhood": "Morris Park",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90126,
+        "longitude": -93.21437
+      },
+      "applicant": {
+        "address": "2122 94th Court E",
+        "email": "JOSHWITTMIER21@HOTMAIL.COM",
+        "name": "JOSH L WITTMIER",
+        "phone": "(612)310-4899",
+        "state": "MN",
+        "zip": "55077"
+      },
+      "owner": {
+        "address": "15364 FLOWER WAY",
+        "email": "HALL0956@UMN.EDU",
+        "name": "SYDNEY  HALL",
+        "phone": "6123068092",
+        "state": "MN",
+        "zip": "55124"
+      }
+    },
+    "nominatim": {
+      "address": "5612, 41st Avenue South, Morris Park, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [839934326],
+      "place_ids": [469990]
+    }
+  },
+  "773b24303f25781b53171aab84169a32a3f5d887266d0148939f97a6f1782f47": {
+    "opendata": {
+      "property": {
+        "address": "911 27TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.9871,
+        "longitude": -93.21559
+      },
+      "applicant": {
+        "address": "1522 Como Ave SE",
+        "email": "tom@vaithconstruction.com",
+        "name": "Thomas C Vaith",
+        "phone": "(612)670-5211",
+        "state": "MN",
+        "zip": "55414"
+      },
+      "owner": {
+        "address": "1522 Como Ave SE",
+        "email": "tom@vaithconstruction.com",
+        "name": "911 27th Ave SE LLC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55414"
+      }
+    },
+    "nominatim": {
+      "address": "911, Southeast 27th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [53191315, 53191315],
+      "place_ids": [1375302, 1444817]
+    }
+  },
+  "dc23606135f31eaa429d8fb1abd59361cdc952ec0d27cfd68050387d107eaed4": {
+    "opendata": {
+      "property": {
+        "address": "1700 PENN AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99653,
+        "longitude": -93.30785
+      },
+      "applicant": {
+        "address": "2220 Queen Ave N",
+        "email": "bevans2129@aol.com",
+        "name": "Bobbie Evans",
+        "phone": "(612)250-0114",
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "2220 Queen Ave N",
+        "email": "bevans2129@aol.com",
+        "name": "Bobbie Evans",
+        "phone": "(612)250-0114",
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "1700, Penn Avenue North, Harrison, Minneapolis, Hennepin County, 54011, United States",
+      "osm_ids": [762691906],
+      "place_ids": [634364]
+    }
+  },
+  "b6165c17cabb6b979b49eb087402e1dbe995c0a4dbefd740b12a473d9b14706d": {
+    "opendata": {
+      "property": {
+        "address": "1017 22ND AVE N",
+        "ward": "5",
+        "neighborhood": "Hawthorne",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00128,
+        "longitude": -93.29345
+      },
+      "applicant": {
+        "address": "Rental Managment Guys",
+        "email": "SCOTT@FICEKINVESTMENTS.COM",
+        "name": "Scott Ficek",
+        "phone": "(612)281-5419",
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "4920 Orchard Ridge Dr #301",
+        "email": "Bethveal@gmail.com",
+        "name": "Beth Veal Trustee",
+        "phone": "(678)577-4317",
+        "state": "VA",
+        "zip": "22407"
+      }
+    },
+    "nominatim": {
+      "address": "1017, North 22nd Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [938251611],
+      "place_ids": [284574]
+    }
+  },
+  "43c479859659d87d2038758fa69adce8c43300e1323ffde61897011fa3e63191": {
+    "opendata": {
+      "property": {
+        "address": "5612 36TH AVE S",
+        "ward": "12",
+        "neighborhood": "Morris Park",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90126,
+        "longitude": -93.22075
+      },
+      "applicant": {
+        "address": "Renters Warehouse, LLC",
+        "email": "inspections@renterswarehouse.com",
+        "name": "Jacob C Koch",
+        "phone": "(952)224-9912",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "ERIC L BLEISNER",
+        "email": "TAMMIEL2@HOTMAIL.COM",
+        "name": "TAMMIE  BLEISNER",
+        "phone": "6128072324",
+        "state": "MN",
+        "zip": "55379"
+      }
+    },
+    "nominatim": {
+      "address": "5612, 36th Avenue South, Morris Park, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1054575247],
+      "place_ids": [482057]
+    }
+  },
+  "911483f8fbd8c59496075675e9b8de2477e1604aa8f78bbd98edd5c862701def": {
+    "opendata": {
+      "property": {
+        "address": "887 27TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98644,
+        "longitude": -93.2156
+      },
+      "applicant": {
+        "address": "14581 HOMESTEAD AVE N",
+        "email": "whansen@efnsurvey.com",
+        "name": "WALLACE R HANSEN",
+        "phone": "(612)240-0923",
+        "state": "MN",
+        "zip": "55038"
+      },
+      "owner": {
+        "address": "14581 HOMESTEAD AVE N",
+        "email": "whansen@efnsurvey.com",
+        "name": "WALLACE R HANSEN",
+        "phone": "(612)240-0923",
+        "state": "MN",
+        "zip": "55038"
+      }
+    },
+    "nominatim": {
+      "address": "887, Southeast 27th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6041919, 53191315, 53191315],
+      "place_ids": [1444814, 1375302, 1444817]
+    }
+  },
+  "bfb6d2bceac89725ffac671c0926dc9b9b5d919d3c82a0e43b9eceeac27a1993": {
+    "opendata": {
+      "property": {
+        "address": "1041 24TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98914,
+        "longitude": -93.21936
+      },
+      "applicant": {
+        "address": "Urban Canopies LLC",
+        "email": "urbancanopiesllc@gmail.com",
+        "name": "JOEL C HUSSONG",
+        "phone": "(612)325-1283",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "Urban Canopies LLC",
+        "email": "urbancanopiesllc@gmail.com",
+        "name": "JOEL C HUSSONG",
+        "phone": "(612)325-1283",
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "1041, Southeast 24th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6015990],
+      "place_ids": [1379181]
+    }
+  },
+  "706e318ef3b979487bc39a2ec97afb517d9258c4d2164633f01dff870d9409f4": {
+    "opendata": {
+      "property": {
+        "address": "1076 25TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.99042,
+        "longitude": -93.21734
+      },
+      "applicant": {
+        "address": "7216 1ST AVE S",
+        "email": null,
+        "name": "SABRINA  KO",
+        "phone": "6127188826",
+        "state": "MN",
+        "zip": "55423"
+      },
+      "owner": {
+        "address": "7216 1ST AVE S",
+        "email": null,
+        "name": "SABRINA  KO",
+        "phone": "6127188826",
+        "state": "MN",
+        "zip": "55423"
+      }
+    },
+    "nominatim": {
+      "address": "1076, Southeast 25th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6034718],
+      "place_ids": [1414502]
+    }
+  },
+  "c047b27d4c3f837fcb5807924e26516093f240ad2a58b644d934998b188cd55f": {
+    "opendata": {
+      "property": {
+        "address": "4106 CHICAGO AVE",
+        "ward": "8",
+        "neighborhood": "Bryant",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.92845,
+        "longitude": -93.26289
+      },
+      "applicant": {
+        "address": "5871 Cedar Lake Rd - #103",
+        "email": "resident@lrprop.com",
+        "name": "Alexander Gruye",
+        "phone": "(952)303-5982",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "5871 CEDAR LAKE RS #103",
+        "email": null,
+        "name": "CHICAGO X LLC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55416"
+      }
+    },
+    "nominatim": {
+      "address": "4106, Chicago Avenue South, Bryant, Powderhorn, Minneapolis, Hennepin County, 55407, United States",
+      "osm_ids": [111293338],
+      "place_ids": [597208]
+    }
+  },
+  "4acf9847c3b09354276278254818cf30f514d5885c7dde56d79fa36cc4e5565e": {
+    "opendata": {
+      "property": {
+        "address": "429 2ND ST NE #101",
+        "ward": "3",
+        "neighborhood": "St. Anthony West",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.9928,
+        "longitude": -93.26093
+      },
+      "applicant": {
+        "address": "3220 5TH AVE S",
+        "email": "andrea.kiepe@gmail.com",
+        "name": "ANDREA K KIEPE",
+        "phone": "(612)462-8414",
+        "state": "MN",
+        "zip": "55408"
+      },
+      "owner": {
+        "address": "3220 5TH AVE S",
+        "email": "andrea.kiepe@gmail.com",
+        "name": "ANDREA K KIEPE",
+        "phone": "(612)462-8414",
+        "state": "MN",
+        "zip": "55408"
+      }
+    },
+    "nominatim": {
+      "address": "429, Northeast 2nd Street, St Anthony West, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [23125939],
+      "place_ids": [1370033]
+    }
+  },
+  "f98a49289391b620e0f48ceb6d10f27aba63b0210d0d38490270dab7621a07da": {
+    "opendata": {
+      "property": {
+        "address": "1024 25TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98873,
+        "longitude": -93.21736
+      },
+      "applicant": {
+        "address": "C/O MAI THAO",
+        "email": "mai.thao@invitationhomes.com",
+        "name": "INVITATION HOMES",
+        "phone": "(952)563-1950",
+        "state": "MN",
+        "zip": "55120"
+      },
+      "owner": {
+        "address": "1270 EAGAN INDUSTRIAL RD # 160",
+        "email": "MNRENTALLICENSE@INVITATIONHOMES.COM",
+        "name": "JEFFREY  KERSHNER",
+        "phone": "9525631950",
+        "state": "MN",
+        "zip": "55121"
+      }
+    },
+    "nominatim": {
+      "address": "1024, Southeast 25th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6034718],
+      "place_ids": [1427171]
+    }
+  },
+  "3fd4087ba561415e744461ebcd2281778dc27033ec76b46abb38a9f17fa9b881": {
+    "opendata": {
+      "property": {
+        "address": "4269 SHERIDAN AVE S",
+        "ward": "13",
+        "neighborhood": "Linden Hills",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.92507,
+        "longitude": -93.31393
+      },
+      "applicant": {
+        "address": "4271 SHERIDAN AVE S #103",
+        "email": "lburlingame@rtresi.com",
+        "name": "John Soto",
+        "phone": "(612)806-0616",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "2082 Michelson Dr",
+        "email": "nancy@dubonnet.law",
+        "name": "Michael B Earl",
+        "phone": "(949)399-2500",
+        "state": "CA",
+        "zip": "92612"
+      }
+    },
+    "nominatim": {
+      "address": "4269, Sheridan Avenue South, Linden Hills, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [103187701],
+      "place_ids": [595691]
+    }
+  },
+  "b9ede0489294ae61c7a6707f6f55c4d2cff3afaf98cab3e170d557859c8aafef": {
+    "opendata": {
+      "property": {
+        "address": "718 6TH ST NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony West",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99768,
+        "longitude": -93.25808
+      },
+      "applicant": {
+        "address": "5700 SCHAEFER RD",
+        "email": "STARMAX.MG@GMAIL.COM",
+        "name": "Shady Chahoud",
+        "phone": "(617)733-3668",
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "221 1st Ave NE - #46",
+        "email": "josh@gbgroupproperties.com",
+        "name": "Joshua Beatty",
+        "phone": "(763)639-8367",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "718, Northeast 6th Street, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [816596238],
+      "place_ids": [637882]
+    }
+  },
+  "1e2740f6a56cd01dafb7b76026f70aac609f0395dbd36fdee7d22b492fcb0f06": {
+    "opendata": {
+      "property": {
+        "address": "5825 LOGAN AVE S",
+        "ward": "13",
+        "neighborhood": "Kenny",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.89712,
+        "longitude": -93.30309
+      },
+      "applicant": {
+        "address": "6037 Xerxes Ave S",
+        "email": "nelsonsaraha@gmail.com",
+        "name": "Sarah Doege",
+        "phone": "(612)269-8892",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "6037 Xerxes Ave S",
+        "email": "nelsonsaraha@gmail.com",
+        "name": "Sarah Doege",
+        "phone": "(612)269-8892",
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "5825, Logan Avenue South, Kenny, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [6030648],
+      "place_ids": [1369939]
+    }
+  },
+  "aaf179ac581c311dbc26ae4972d272e867b60072cf24656fb32c6559163fc763": {
+    "opendata": {
+      "property": {
+        "address": "4815 28TH AVE S #611",
+        "ward": "12",
+        "neighborhood": "Keewaydin",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91573,
+        "longitude": -93.23182
+      },
+      "applicant": {
+        "address": "4815 28th Ave S - #611",
+        "email": "akblauvelt@gmail.com",
+        "name": "John Blauvelt",
+        "phone": "(952)465-8138",
+        "state": "MN",
+        "zip": "55417"
+      },
+      "owner": {
+        "address": "28401 River Crest Dr",
+        "email": "akblauvelt@gmail.com",
+        "name": "Andrew K Blauvelt",
+        "phone": "(612)986-7977",
+        "state": "MI",
+        "zip": "48034"
+      }
+    },
+    "nominatim": {
+      "address": "Lake Nokomis Condominium, 4815, 28th Avenue South, Keewaydin, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [314524593],
+      "place_ids": [467642]
+    }
+  },
+  "fcabcfdc14a6b216a9ed51619d4ac8a7a151a0cab897e51930cb453a93f7d915": {
+    "opendata": {
+      "property": {
+        "address": "3310 LYNDALE AVE S",
+        "ward": "10",
+        "neighborhood": "South Uptown",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.94257,
+        "longitude": -93.28859
+      },
+      "applicant": {
+        "address": "3310 Lyndale Ave S",
+        "email": "aj.singh0401@gmail.com",
+        "name": "Amarjit Singh",
+        "phone": "(612)889-4337",
+        "state": "MN",
+        "zip": "55408"
+      },
+      "owner": {
+        "address": "3310 Lyndale Ave S",
+        "email": "aj.singh0401@gmail.com",
+        "name": "Amarjit Singh",
+        "phone": "(612)889-4337",
+        "state": "MN",
+        "zip": "55408"
+      }
+    },
+    "nominatim": {
+      "address": "3310, Lyndale Avenue South, South Uptown, Calhoun Isles, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [497023594],
+      "place_ids": [1378784]
+    }
+  },
+  "d1b8d0488530f4d4c2933a213feb44a050c24afa10e81fb858f7c9450c828048": {
+    "opendata": {
+      "property": {
+        "address": "310 5TH AVE NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony West",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99363,
+        "longitude": -93.25957
+      },
+      "applicant": {
+        "address": "1808 West 31st Street",
+        "email": "tim.zellmer@genmills.com",
+        "name": "Timothy J Zellmer",
+        "phone": "(612)518-8530",
+        "state": "MN",
+        "zip": "55408"
+      },
+      "owner": {
+        "address": "1808 West 31st Street",
+        "email": "TIM.ZELLMER@GENMILLS.COM",
+        "name": "TIMOTHY J ZELLMER",
+        "phone": "(612)518-8530",
+        "state": "Minnesota",
+        "zip": "55408"
+      }
+    },
+    "nominatim": {
+      "address": "310, Northeast 5th Avenue, St Anthony West, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [128828405],
+      "place_ids": [1406108]
+    }
+  },
+  "c628db011c0a5fbe5edec5b1ea757ba18754120045f2f3345452b56b74e3eddd": {
+    "opendata": {
+      "property": {
+        "address": "5011 28TH AVE S",
+        "ward": "12",
+        "neighborhood": "Keewaydin",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91212,
+        "longitude": -93.23187
+      },
+      "applicant": {
+        "address": "17557 KODIAK COURT",
+        "email": "twbogen@gmail.com",
+        "name": "Thomas W Bogen",
+        "phone": "(612)720-5177",
+        "state": "MN",
+        "zip": "55044"
+      },
+      "owner": {
+        "address": "17557 KODIAK COURT",
+        "email": "twbogen@gmail.com",
+        "name": "Thomas W Bogen",
+        "phone": "(612)720-5177",
+        "state": "MN",
+        "zip": "55044"
+      }
+    },
+    "nominatim": {
+      "address": "5011, 28th Avenue South, Keewaydin, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1050781816],
+      "place_ids": [468900]
+    }
+  },
+  "ef6fb3e91ec55ebba6e959a9de6794564f298328eee86fa764401fd58262ec6b": {
+    "opendata": {
+      "property": {
+        "address": "4556 OAKLAND AVE",
+        "ward": "8",
+        "neighborhood": "Regina",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91988,
+        "longitude": -93.26676
+      },
+      "applicant": {
+        "address": "11510 Nevada Ave S",
+        "email": "cordell100@hotmail.com",
+        "name": "Cordell L Jung",
+        "phone": "(612)554-6272",
+        "state": "MN",
+        "zip": "55438"
+      },
+      "owner": {
+        "address": "11510 Nevada Ave S",
+        "email": "cordell100@hotmail.com",
+        "name": "Cordell L Jung",
+        "phone": "(612)554-6272",
+        "state": "MN",
+        "zip": "55438"
+      }
+    },
+    "nominatim": {
+      "address": "4556, Oakland Avenue South, Regina, Powderhorn, Minneapolis, Hennepin County, 55407, United States",
+      "osm_ids": [799383240],
+      "place_ids": [584062]
+    }
+  },
+  "417847defeb761f8e71ef423a94b65989805b17cc365efef529bbac3eafa76e6": {
+    "opendata": {
+      "property": {
+        "address": "218 BEDFORD ST SE",
+        "ward": "2",
+        "neighborhood": "Prospect Park - East River Road",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.96208,
+        "longitude": -93.20939
+      },
+      "applicant": {
+        "address": "700 Washington Ave N - #101",
+        "email": "rick@drgmpls.com",
+        "name": "Richard C Gendreau",
+        "phone": "(952)292-0858",
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "3001 Wright Ave",
+        "email": "smw.qc0011@gmail.com",
+        "name": "Stephen M Woessner",
+        "phone": "(651)387-9272",
+        "state": "WI",
+        "zip": "53405"
+      }
+    },
+    "nominatim": {
+      "address": "218, Southeast Bedford Street, Prospect Park - East River Road, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [552852167],
+      "place_ids": [443832]
+    }
+  },
+  "1191c1132a1a58bf910bdfce7ce6487be67a76d775f770d9c23fcf6474776802": {
+    "opendata": {
+      "property": {
+        "address": "1712 LYN CURVE AVE N",
+        "ward": "5",
+        "neighborhood": "Near - North",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99701,
+        "longitude": -93.28458
+      },
+      "applicant": {
+        "address": "3601 Park Ave. S.",
+        "email": "starmax.mg@gmail.com",
+        "name": "Chad Chahoud",
+        "phone": "(617)733-3668",
+        "state": "MN",
+        "zip": "55407"
+      },
+      "owner": {
+        "address": null,
+        "email": null,
+        "name": null,
+        "phone": null,
+        "state": null,
+        "zip": null
+      }
+    },
+    "nominatim": {
+      "address": "1712, North Lyn-Curve Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6028130],
+      "place_ids": [1411408]
+    }
+  },
+  "e85b7c8f21fe484b01e019df38188fee932316b7c4b25074708ce48e1e3c5d70": {
+    "opendata": {
+      "property": {
+        "address": "2428 JACKSON ST NE",
+        "ward": "1",
+        "neighborhood": "Holland",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.01302,
+        "longitude": -93.24944
+      },
+      "applicant": {
+        "address": "6410 Urbandale Ln N",
+        "email": "mroisum@gmail.com",
+        "name": "Michael G Roisum",
+        "phone": "(717)571-1938",
+        "state": "MN",
+        "zip": "55311"
+      },
+      "owner": {
+        "address": null,
+        "email": null,
+        "name": null,
+        "phone": null,
+        "state": null,
+        "zip": null
+      }
+    },
+    "nominatim": {
+      "address": "2428, Northeast Jackson Street, Northeast, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [1127930801],
+      "place_ids": [293514]
+    }
+  },
+  "303e6cd9d189a80b1711bfeb1ac04ef6dfbef8b815dcb855941deb3e09ef6be1": {
+    "opendata": {
+      "property": {
+        "address": "1111 MONROE ST NE",
+        "ward": "1",
+        "neighborhood": "Logan Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99908,
+        "longitude": -93.25209
+      },
+      "applicant": {
+        "address": "1560 HOLTON ST",
+        "email": "nealdlykke@gmail.com",
+        "name": "NEAL D LYKKE",
+        "phone": "7632214157",
+        "state": "MN",
+        "zip": "55108"
+      },
+      "owner": {
+        "address": "1560 HOLTON ST",
+        "email": "nealdlykke@gmail.com",
+        "name": "NEAL D LYKKE",
+        "phone": "7632214157",
+        "state": "MN",
+        "zip": "55108"
+      }
+    },
+    "nominatim": {
+      "address": "1111, Northeast Monroe Street, Logan Park, Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [947929001],
+      "place_ids": [634258]
+    }
+  },
+  "af61c987d2c522003f63509415721479df3a57a938eb5a4541458a51562b2597": {
+    "opendata": {
+      "property": {
+        "address": "4142 SHERIDAN AVE N",
+        "ward": "4",
+        "neighborhood": "Victory",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.03075,
+        "longitude": -93.31194
+      },
+      "applicant": {
+        "address": "4544 161st Ave NE",
+        "email": "rachael.lichtenberg@gmail.com",
+        "name": "Rachael Lichtenberg",
+        "phone": "(651)403-2289",
+        "state": "MN",
+        "zip": "55304"
+      },
+      "owner": {
+        "address": "4544 161st Ave NE",
+        "email": "rachael.lichtenberg@gmail.com",
+        "name": "Rachael Lichtenberg",
+        "phone": "(651)403-2289",
+        "state": "MN",
+        "zip": "55304"
+      }
+    },
+    "nominatim": {
+      "address": "4142, North Sheridan Avenue, Victory, Camden, Minneapolis, Hennepin County, 55412, United States",
+      "osm_ids": [934709939],
+      "place_ids": [287496]
+    }
+  },
+  "11daf5963b4fcb800983af6d23cb17a00122859eef5f2eca6f9857370eb66c6c": {
+    "opendata": {
+      "property": {
+        "address": "4830 FREMONT AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.04321,
+        "longitude": -93.29625
+      },
+      "applicant": {
+        "address": "2764 ENSIGN AVE N",
+        "email": "tryetkaren@gmail.com",
+        "name": "KAREN TRAN NGUYEN",
+        "phone": "6126695972",
+        "state": "MN",
+        "zip": "55427"
+      },
+      "owner": {
+        "address": "KAREN NGUYEN",
+        "email": "tuyetkaren@comcast.net",
+        "name": "HUNG  NGUYEN",
+        "phone": "6126695972",
+        "state": "MN",
+        "zip": "55427"
+      }
+    },
+    "nominatim": {
+      "address": "4830, North Fremont Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934134782],
+      "place_ids": [276170]
+    }
+  },
+  "b20fbad3667554975a1d11b7d75e835c3aa4a96beaed4bab1fdea5b36af5cc4b": {
+    "opendata": {
+      "property": {
+        "address": "5016 XERXES AVE S",
+        "ward": "13",
+        "neighborhood": "Fulton",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91182,
+        "longitude": -93.31922
+      },
+      "applicant": {
+        "address": "351 Kellogg Blvd E",
+        "email": "tgallagher@housinghubmn.com",
+        "name": "Tom Gallagher",
+        "phone": "(651)488-2437",
+        "state": "MN",
+        "zip": "55101"
+      },
+      "owner": {
+        "address": "351 Kellogg Blvd E",
+        "email": "tgallagher@housinghubmn.com",
+        "name": "Tom Gallagher",
+        "phone": "(651)488-2437",
+        "state": "MN",
+        "zip": "55101"
+      }
+    },
+    "nominatim": {
+      "address": "Linden Hills Laundromat, 5016, Xerxes Avenue South, Fulton, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [943073693],
+      "place_ids": [598723]
+    }
+  },
+  "fda29a82a9273239e5dcad5f6168dac917916fa3bb7f429bdac79785b53368cf": {
+    "opendata": {
+      "property": {
+        "address": "2520 PIERCE ST NE",
+        "ward": "1",
+        "neighborhood": "Audubon Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.01393,
+        "longitude": -93.24133
+      },
+      "applicant": {
+        "address": "19950 Dodd Blvd, Ste 102",
+        "email": "info@mauzyproperties.com",
+        "name": "Christopher Mauzy",
+        "phone": "(612)367-7848",
+        "state": "MN",
+        "zip": "55044"
+      },
+      "owner": {
+        "address": "3120 Hennepin Ave",
+        "email": "artdistrictrealty@gmail.com",
+        "name": "Philip Chan",
+        "phone": "(612)655-9000",
+        "state": "MN",
+        "zip": "55407"
+      }
+    },
+    "nominatim": {
+      "address": "2520, Northeast Pierce Street, Northeast, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [938186354],
+      "place_ids": [290606]
+    }
+  },
+  "6a758e3ef257debaae868a254dba18e76db77041a57f93bc369896e4bce99d1b": {
+    "opendata": {
+      "property": {
+        "address": "1513 35TH ST E",
+        "ward": "9",
+        "neighborhood": "Powderhorn Park",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.93937,
+        "longitude": -93.25292
+      },
+      "applicant": {
+        "address": "1521 35th St E",
+        "email": "time2play@gmail.com",
+        "name": "Ephraim Eusebie",
+        "phone": "(612)382-9477",
+        "state": "MN",
+        "zip": "55407"
+      },
+      "owner": {
+        "address": "1521 35th St E",
+        "email": "time2play@gmail.com",
+        "name": "Ephraim Eusebie",
+        "phone": "(612)382-9477",
+        "state": "MN",
+        "zip": "55407"
+      }
+    },
+    "nominatim": {
+      "address": "1513, West 35th Street, East Bde Maka Ska, Calhoun Isles, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [497019334],
+      "place_ids": [1452138]
+    }
+  },
+  "b82d1e8a6fe8d34c1dabdfb9277c530dbe56a729e8a680a241736560294f21d1": {
+    "opendata": {
+      "property": {
+        "address": "881 27TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98633,
+        "longitude": -93.21561
+      },
+      "applicant": {
+        "address": "5129 Morgan Ave S",
+        "email": "runyonproperties1@gmail.com",
+        "name": "John Runyon",
+        "phone": "(612)860-9745",
+        "state": "MN",
+        "zip": "55419"
+      },
+      "owner": {
+        "address": "5129 Morgan Ave S",
+        "email": "runyonproperties1@gmail.com",
+        "name": "John Runyon",
+        "phone": "(612)860-9745",
+        "state": "MN",
+        "zip": "55419"
+      }
+    },
+    "nominatim": {
+      "address": "881, Southeast 27th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6041919, 53191315, 53191315],
+      "place_ids": [1444814, 1375302, 1444817]
+    }
+  },
+  "2f730dff8f0846904b4868b1e484cc136ff19cda998341c83e505355bceec9cb": {
+    "opendata": {
+      "property": {
+        "address": "5331 46TH AVE S",
+        "ward": "12",
+        "neighborhood": "Minnehaha",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90625,
+        "longitude": -93.20722
+      },
+      "applicant": {
+        "address": "121 120TH AVE NW",
+        "email": "JJBOWER50@YAHOO.COM",
+        "name": "JOHN M BOWER",
+        "phone": "(612)655-4092",
+        "state": "MN",
+        "zip": "55448"
+      },
+      "owner": {
+        "address": "121 120TH AVE NW",
+        "email": "JJBOWER50@YAHOO.COM",
+        "name": "JOHN M BOWER",
+        "phone": "(612)655-4092",
+        "state": "MN",
+        "zip": "55448"
+      }
+    },
+    "nominatim": {
+      "address": "5331, 46th Avenue South, Minnehaha, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [511639652],
+      "place_ids": [467774]
+    }
+  },
+  "ad23da57a7c496bacce7b6f5d0ab54126ea78f6bd951d7816f8651cc70bd415d": {
+    "opendata": {
+      "property": {
+        "address": "1401 GOLDEN VALLEY RD",
+        "ward": "5",
+        "neighborhood": "Near - North",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99837,
+        "longitude": -93.29822
+      },
+      "applicant": {
+        "address": "12936 YUKON ST NW",
+        "email": "MICHAELFOBRIAN@HOTMAIL.COM",
+        "name": "Michael F OBrian",
+        "phone": "(763)670-0394",
+        "state": "MN",
+        "zip": "55448"
+      },
+      "owner": {
+        "address": "12936 YUKON ST NW",
+        "email": "MICHAELFOBRIAN@HOTMAIL.COM",
+        "name": "Michael F OBrian",
+        "phone": "(763)670-0394",
+        "state": "MN",
+        "zip": "55448"
+      }
+    },
+    "nominatim": {
+      "address": "1401, Golden Valley Road, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [636434062],
+      "place_ids": [1370386]
+    }
+  },
+  "ca8e65f917a4906a3f75b05c520e061a72b0adcf14f1b87551cd9dcde1133f43": {
+    "opendata": {
+      "property": {
+        "address": "433 7TH ST S #2122",
+        "ward": "7",
+        "neighborhood": "Downtown West",
+        "community": "Central",
+        "precinct": "1",
+        "latitude": 44.97368,
+        "longitude": -93.26622
+      },
+      "applicant": {
+        "address": "811 Washington Ave S. #702",
+        "email": "piek0023@umn.edu",
+        "name": "Brandon Piekarski",
+        "phone": "(612)281-2430",
+        "state": "MN",
+        "zip": "55415"
+      },
+      "owner": {
+        "address": "811 Washington Ave S. #702",
+        "email": "piek0023@umn.edu",
+        "name": "Brandon Piekarski",
+        "phone": "(612)281-2430",
+        "state": "MN",
+        "zip": "55415"
+      }
+    },
+    "nominatim": {
+      "address": "433, South 7th Street, Minneapolis, Hennepin County, 55415, United States",
+      "osm_ids": [636535778],
+      "place_ids": [1385432]
+    }
+  },
+  "8a05ff27aeea6b7ccac3a3d21f3a0575f4abbfe6f882837cfb6f226ff5b444be": {
+    "opendata": {
+      "property": {
+        "address": "2114 SHERIDAN AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00109,
+        "longitude": -93.31168
+      },
+      "applicant": {
+        "address": "5003 University Ave NE",
+        "email": "grigoriy@algorealty.com",
+        "name": "Grigoriy Gorshteyn",
+        "phone": "(612)433-4555x704",
+        "state": "MN",
+        "zip": "55421"
+      },
+      "owner": {
+        "address": "5808 Olinger Blvd",
+        "email": "help@olingerrentals.com",
+        "name": "Rada Varshavskaya",
+        "phone": "(612)454-0306",
+        "state": "MN",
+        "zip": "55436"
+      }
+    },
+    "nominatim": {
+      "address": "2114, North Sheridan Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [204843806],
+      "place_ids": [1378552]
+    }
+  },
+  "a506b112d976b428272a5c2b5a837993d95a240c7057b684d2e7172a5e878db8": {
+    "opendata": {
+      "property": {
+        "address": "4820 PARK AVE",
+        "ward": "8",
+        "neighborhood": "Field",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91546,
+        "longitude": -93.26562
+      },
+      "applicant": {
+        "address": "5318 HARRIET AVE S",
+        "email": "XANDMAC@HOTMAIL.COM",
+        "name": "ALEXANDER  MACMURDO",
+        "phone": "6127196091",
+        "state": "MN",
+        "zip": "55419"
+      },
+      "owner": {
+        "address": "5318 HARRIET AVE S",
+        "email": "XANDMAC@HOTMAIL.COM",
+        "name": "ALEXANDER  MACMURDO",
+        "phone": "6127196091",
+        "state": "MN",
+        "zip": "55419"
+      }
+    },
+    "nominatim": {
+      "address": "4820, Park Avenue South, Field, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [813031082],
+      "place_ids": [587621]
+    }
+  },
+  "83b48bdcd3f894761ca6565c0f4680e4e4f12f92746bbc748560d0779dc81507": {
+    "opendata": {
+      "property": {
+        "address": "4216 CHEATHAM AVE",
+        "ward": "12",
+        "neighborhood": "Hiawatha",
+        "community": "Longfellow",
+        "precinct": "3",
+        "latitude": 44.92627,
+        "longitude": -93.22136
+      },
+      "applicant": {
+        "address": "Renters Warehouse, LLC",
+        "email": "inspections@renterswarehouse.com",
+        "name": "Jacob C Koch",
+        "phone": "(952)224-9912",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "997 Morrison Dr",
+        "email": null,
+        "name": "Bismuth Bridge PropCo LLC",
+        "phone": null,
+        "state": "SC",
+        "zip": "29403"
+      }
+    },
+    "nominatim": {
+      "address": "4216, Cheatham Avenue, Nokomis, Minneapolis, Hennepin County, 55406, United States",
+      "osm_ids": [935938178],
+      "place_ids": [470777]
+    }
+  },
+  "81efc97eaa67d1de70bc8a56975f5a5b168e96a419e4711110315e697f6d2dd0": {
+    "opendata": {
+      "property": {
+        "address": "4917 FREMONT AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.04453,
+        "longitude": -93.297
+      },
+      "applicant": {
+        "address": "517 W River Parkway",
+        "email": "dmeier@agrexinc.com",
+        "name": "Dwayne G Meier",
+        "phone": "(612)750-7731",
+        "state": "MN",
+        "zip": "55316"
+      },
+      "owner": {
+        "address": "517 W River Parkway",
+        "email": "dmeier@agrexinc.com",
+        "name": "Dwayne G Meier",
+        "phone": "(612)750-7731",
+        "state": "MN",
+        "zip": "55316"
+      }
+    },
+    "nominatim": {
+      "address": "4917, North Fremont Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934504697],
+      "place_ids": [274443]
+    }
+  },
+  "ba60156c7ad1e584e89a23fe5f93021342007697231051d6cc4f3dc802a40d02": {
+    "opendata": {
+      "property": {
+        "address": "2222 RUSSELL AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00226,
+        "longitude": -93.3104
+      },
+      "applicant": {
+        "address": "Rental Managment Guys",
+        "email": "SCOTT@FICEKINVESTMENTS.COM",
+        "name": "Scott Ficek",
+        "phone": "(612)281-5419",
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "900 BROADWAY AVE",
+        "email": "dave.gallogly@gmail.com",
+        "name": "HAWKEYE REAL ESTATE INVESTMENT",
+        "phone": "(612)670-3684",
+        "state": "MN",
+        "zip": "55071"
+      }
+    },
+    "nominatim": {
+      "address": "2222, North Russell Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [761328034],
+      "place_ids": [1378554]
+    }
+  },
+  "5805c6814f2bce1189994e33a0e766786fa552b889cdf5bb19aef5188929b014": {
+    "opendata": {
+      "property": {
+        "address": "5240 28TH AVE S",
+        "ward": "11",
+        "neighborhood": "Keewaydin",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.90772,
+        "longitude": -93.23264
+      },
+      "applicant": {
+        "address": "C/O MAI THAO",
+        "email": "mai.thao@invitationhomes.com",
+        "name": "INVITATION HOMES",
+        "phone": "(952)563-1950",
+        "state": "MN",
+        "zip": "55120"
+      },
+      "owner": {
+        "address": "1270 EAGAN INDUSTRIAL RD # 160",
+        "email": "MNRENTALLICENSE@INVITATIONHOMES.COM",
+        "name": "JEFFREY  KERSHNER",
+        "phone": "9525631950",
+        "state": "MN",
+        "zip": "55121"
+      }
+    },
+    "nominatim": {
+      "address": "5240, 28th Avenue South, Keewaydin, Nokomis, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [1050799515],
+      "place_ids": [471121]
+    }
+  },
+  "4bde099e2fb495e87988959327dcf76efd847c3cb98cfab01b5c9d518cd994e0": {
+    "opendata": {
+      "property": {
+        "address": "1215 16TH AVE N",
+        "ward": "5",
+        "neighborhood": "Near - North",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99508,
+        "longitude": -93.29656
+      },
+      "applicant": {
+        "address": "1524 GIRARD AVE N",
+        "email": "tomsis@yahoo.com",
+        "name": "THOMAS J SIS",
+        "phone": "(612)521-6697",
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "1524 GIRARD AVE N",
+        "email": "tomsis@yahoo.com",
+        "name": "THOMAS J SIS",
+        "phone": "(612)521-6697",
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "1215, 16th Avenue North, Willard-Hay, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6020886],
+      "place_ids": [1370479]
+    }
+  },
+  "ee1ae62d955b75b3d44c310c1b89e6a5a37dc4005593b37f2534c3b9a29b378c": {
+    "opendata": {
+      "property": {
+        "address": "4747 BRYANT AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.04162,
+        "longitude": -93.2918
+      },
+      "applicant": {
+        "address": "433 S 7th St #2223",
+        "email": "mohshah.darabi@gmail.com",
+        "name": "Mohammad Darabi",
+        "phone": "(763)288-1443",
+        "state": "MN",
+        "zip": "55415"
+      },
+      "owner": {
+        "address": "1024 Granville Ct N",
+        "email": "KAMRANDARABI@YAHOO.COM",
+        "name": "KAMRAN DARABI",
+        "phone": "(605)610-5729",
+        "state": "FL",
+        "zip": "33701"
+      }
+    },
+    "nominatim": {
+      "address": "4747, North Bryant Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934135006],
+      "place_ids": [275662]
+    }
+  },
+  "2083159f34bd74ccfdf8bfccd21e149773a147cb3c0f0c361da019096a8d1146": {
+    "opendata": {
+      "property": {
+        "address": "4350 NICOLLET AVE",
+        "ward": "8",
+        "neighborhood": "King Field",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.92353,
+        "longitude": -93.27834
+      },
+      "applicant": {
+        "address": "4352 Nicollet Ave S",
+        "email": "stephan.l.desrochers@gmail.com",
+        "name": "Stephan Desrochers",
+        "phone": null,
+        "state": "MN",
+        "zip": "55409"
+      },
+      "owner": {
+        "address": "4352 Nicollet Ave S",
+        "email": "stephan.l.desrochers@gmail.com",
+        "name": "Stephan Desrochers",
+        "phone": null,
+        "state": "MN",
+        "zip": "55409"
+      }
+    },
+    "nominatim": {
+      "address": "4350, Nicollet Avenue South, King Field, Southwest, Minneapolis, Hennepin County, 55409, United States",
+      "osm_ids": [444072007],
+      "place_ids": [1414788]
+    }
+  },
+  "af89817f50f02fdcf17037beb6bc25fff2cd5466eb60c7a38fe9d977a46aaee8": {
+    "opendata": {
+      "property": {
+        "address": "714 SPRING ST NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony East",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.9949,
+        "longitude": -93.25152
+      },
+      "applicant": {
+        "address": "18300 Minnetonka Blvd",
+        "email": "ryanmaurer@hotmail.com",
+        "name": "RYAN P MAURER",
+        "phone": "(612)327-5144",
+        "state": "MN",
+        "zip": "55391"
+      },
+      "owner": {
+        "address": "901 MARQUETTE AVE # 1500",
+        "email": "ryanmaurer@hotmail.com",
+        "name": "RYAN P MAURER",
+        "phone": "6123275144",
+        "state": "MN",
+        "zip": "55402"
+      }
+    },
+    "nominatim": {
+      "address": "714, Northeast Spring Street, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [6033295],
+      "place_ids": [1384211]
+    }
+  },
+  "c3d5aaebae3a96d101499ceabb80a433f3d8bcf6fb7c5a8e5a9e2032c4bc6745": {
+    "opendata": {
+      "property": {
+        "address": "5020 EWING AVE S",
+        "ward": "13",
+        "neighborhood": "Fulton",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91186,
+        "longitude": -93.32812
+      },
+      "applicant": {
+        "address": "7800 METRO PKWY STE 300",
+        "email": "cblaiser@hbgltd.net",
+        "name": "CLINTON T BLAISER",
+        "phone": "(612)865-9865",
+        "state": "MN",
+        "zip": "55425"
+      },
+      "owner": {
+        "address": "6310 MCINTRE POINTE",
+        "email": null,
+        "name": "RTC INVESTMENT PROPERTIES LLC",
+        "phone": "9528332032",
+        "state": "MN",
+        "zip": "55439"
+      }
+    },
+    "nominatim": {
+      "address": "5020, Ewing Avenue South, Fulton, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [943073293],
+      "place_ids": [605104]
+    }
+  },
+  "4b8f82dcd55d5b23ff38c0777bfb38b24c3dcf6dd06a3e2a49fd0520390562f8": {
+    "opendata": {
+      "property": {
+        "address": "44 7TH AVE NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony West",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99327,
+        "longitude": -93.26769
+      },
+      "applicant": {
+        "address": "708 Main St NW, Ste 2B",
+        "email": "ourareahomes@gmail.com",
+        "name": "Heather B Dietrich Feigum",
+        "phone": "(612)309-7626",
+        "state": "MN",
+        "zip": "55330"
+      },
+      "owner": {
+        "address": "675 Stinson Blvd",
+        "email": "harkgeorge@gmail.com",
+        "name": "Northeast Equity LLC",
+        "phone": "(612)986-5230",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "44, Northeast 7th Avenue, St Anthony West, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [490247491],
+      "place_ids": [640376]
+    }
+  },
+  "8e79acdeca8768cce97580e73a176634e4e3de8b8858557e4790e6aaa56e0e9a": {
+    "opendata": {
+      "property": {
+        "address": "428 5TH ST NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony West",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99404,
+        "longitude": -93.25785
+      },
+      "applicant": {
+        "address": "435 4th St NE",
+        "email": "pastor@fddpminneapolis.org",
+        "name": "Christopher Pelster",
+        "phone": "(612)379-4996",
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "435 4th St NE",
+        "email": "pastor@fddpminneapolis.org",
+        "name": "Christopher Pelster",
+        "phone": "(612)379-4996",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "428, 5th Street Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [1113250168],
+      "place_ids": [1406146]
+    }
+  },
+  "d7de02c7d60329b5a3af1a05e63e1d633ea74883b18ebf49d5f4ea87564267c2": {
+    "opendata": {
+      "property": {
+        "address": "1225 PENN AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99056,
+        "longitude": -93.30861
+      },
+      "applicant": {
+        "address": "5408 RUSSELL AVE N",
+        "email": "JACKSONJOSEPH89@YAHOO.COM",
+        "name": "Joseph Jackson",
+        "phone": "(651)747-5580",
+        "state": "MN",
+        "zip": "55430"
+      },
+      "owner": {
+        "address": "5408 RUSSELL AVE N",
+        "email": "JACKSONJOSEPH89@YAHOO.COM",
+        "name": "Joseph Jackson",
+        "phone": "(651)747-5580",
+        "state": "MN",
+        "zip": "55430"
+      }
+    },
+    "nominatim": {
+      "address": "1225, Penn Avenue North, Harrison, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [636535857],
+      "place_ids": [1433389]
+    }
+  },
+  "cc8550562d083b99cd2d9d6cc53e2b01dbbc13393d355b5b20b72dabcdb4dc2c": {
+    "opendata": {
+      "property": {
+        "address": "1631 WASHBURN AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.9961,
+        "longitude": -93.31755
+      },
+      "applicant": {
+        "address": "21301 Furman St NE",
+        "email": "vue_properties@yahoo.com",
+        "name": "Bee Vue",
+        "phone": "(651)338-5377",
+        "state": "MN",
+        "zip": "55092"
+      },
+      "owner": {
+        "address": "21301 Furman St NE",
+        "email": "vue_properties@yahoo.com",
+        "name": "Bee Vue",
+        "phone": "(651)338-5377",
+        "state": "MN",
+        "zip": "55092"
+      }
+    },
+    "nominatim": {
+      "address": "1631, North Washburn Avenue, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [1028562930],
+      "place_ids": [631859]
+    }
+  },
+  "bfce0e057b1ee399c57ab33d9f77432cfbc70692fb54300b880e2d2568686cc2": {
+    "opendata": {
+      "property": {
+        "address": "1770 BRYANT AVE S #202",
+        "ward": "7",
+        "neighborhood": "Lowry Hill",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.96601,
+        "longitude": -93.2909
+      },
+      "applicant": {
+        "address": "2650 GRAND STREET NE",
+        "email": "SOPHIERPETTERS@GMAIL.COM",
+        "name": "SOPHIA PETTERS",
+        "phone": null,
+        "state": "MN",
+        "zip": "55418"
+      },
+      "owner": {
+        "address": "2650 GRAND STREET NE",
+        "email": "SOPHIERPETTERS@GMAIL.COM",
+        "name": "SOPHIA PETTERS",
+        "phone": null,
+        "state": "MN",
+        "zip": "55418"
+      }
+    },
+    "nominatim": {
+      "address": "Mount Curve Condominiums, 1770, Bryant Avenue South, Calhoun Isles, Minneapolis, Hennepin County, 55403, United States",
+      "osm_ids": [121047313],
+      "place_ids": [629806]
+    }
+  },
+  "0cb2c32b0d702a24cc3442b0fc7ac64a2a8d62a2e07e929a5492b7d232b0a791": {
+    "opendata": {
+      "property": {
+        "address": "1159 15TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.9926,
+        "longitude": -93.23115
+      },
+      "applicant": {
+        "address": "1742 Maple Court",
+        "email": "MICHAEL811005@YAHOO.COM.TW",
+        "name": "MICHAEL CHE-KANG FENG",
+        "phone": "(651)235-7857",
+        "state": "MN",
+        "zip": "55113"
+      },
+      "owner": {
+        "address": "1295 KARTH LAKE CIR",
+        "email": "JENNIFER5221@YAHOO.COM.TW",
+        "name": "CHIH-HUEI LIU",
+        "phone": "6513367907",
+        "state": "MN",
+        "zip": "55112"
+      }
+    },
+    "nominatim": {
+      "address": "1159, Southeast 15th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6034172],
+      "place_ids": [1391829]
+    }
+  },
+  "f6410559f1413157540946df2356cd292f8f1713ab5b0ee29cf4298ac305dcba": {
+    "opendata": {
+      "property": {
+        "address": "4727 DUPONT AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.04107,
+        "longitude": -93.29437
+      },
+      "applicant": {
+        "address": "12841 POLK ST NE",
+        "email": null,
+        "name": "MICHELLE R HARRIS",
+        "phone": "7637552437",
+        "state": "MN",
+        "zip": "55434"
+      },
+      "owner": {
+        "address": "12841 POLK ST NE",
+        "email": null,
+        "name": "MICHELLE R HARRIS",
+        "phone": "7637552437",
+        "state": "MN",
+        "zip": "55434"
+      }
+    },
+    "nominatim": {
+      "address": "4727, North Dupont Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934134649],
+      "place_ids": [276710]
+    }
+  },
+  "66a9cf3c91202a3f314b6f4c6ccb09cb32844ecf96264f5bf2763654cf323f2a": {
+    "opendata": {
+      "property": {
+        "address": "1420 RUSSELL AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99393,
+        "longitude": -93.31041
+      },
+      "applicant": {
+        "address": "13570 GROVE DRIVE #224",
+        "email": "VENDORS@PATHWAYSRE.NET",
+        "name": "KENT  LEFEVRE",
+        "phone": "(763)639-7544",
+        "state": "MN",
+        "zip": "55311"
+      },
+      "owner": {
+        "address": "13570 GROVE DRIVE #224",
+        "email": "VENDORS@PATHWAYSRE.NET",
+        "name": "KENT W LEFEVRE",
+        "phone": "(763)639-7544",
+        "state": "MN",
+        "zip": "55311"
+      }
+    },
+    "nominatim": {
+      "address": "1420, Russell Avenue North, Harrison, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6023851],
+      "place_ids": [1378619]
+    }
+  },
+  "d551d537bf5811a112b3004904a3dc4d7b524192f4fefb193532664ff1a3887a": {
+    "opendata": {
+      "property": {
+        "address": "4812 4TH AVE S",
+        "ward": "8",
+        "neighborhood": "Field",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.91561,
+        "longitude": -93.27068
+      },
+      "applicant": {
+        "address": "4820 4TH AVE S",
+        "email": "GBOXRUD@ICLOUD.COM",
+        "name": "GAIL M BOXRUD",
+        "phone": "(612)558-2284",
+        "state": "MN",
+        "zip": "55419"
+      },
+      "owner": {
+        "address": "4820 4TH AVE S",
+        "email": "GBOXRUD@ICLOUD.COM",
+        "name": "GAIL M BOXRUD",
+        "phone": "(612)558-2284",
+        "state": "MN",
+        "zip": "55419"
+      }
+    },
+    "nominatim": {
+      "address": "4812, 4th Avenue South, Field, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [823258244],
+      "place_ids": [581131]
+    }
+  },
+  "601e2c38476bf525631bf4b82dec80aaa77fda0d6d49db537b1089d97076025b": {
+    "opendata": {
+      "property": {
+        "address": "615 THOMAS AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.98473,
+        "longitude": -93.31376
+      },
+      "applicant": {
+        "address": "10024 Butternut Cir N",
+        "email": "alliedelectricminnesota@gmail.com",
+        "name": "Patrick Nguyen",
+        "phone": "(763)587-3035",
+        "state": "MN",
+        "zip": "55443"
+      },
+      "owner": {
+        "address": "10024 Butternut Cir N",
+        "email": "alliedelectricminnesota@gmail.com",
+        "name": "Patrick Nguyen",
+        "phone": "(763)587-3035",
+        "state": "MN",
+        "zip": "55443"
+      }
+    },
+    "nominatim": {
+      "address": "615, Thomas Avenue North, Harrison, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6022064],
+      "place_ids": [1414085]
+    }
+  },
+  "67906291b3fc529fcb86af09e60b78811aeabc35352a64651befedca2ab4dab4": {
+    "opendata": {
+      "property": {
+        "address": "1352 UPTON AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99321,
+        "longitude": -93.31426
+      },
+      "applicant": {
+        "address": "5700 SCHAEFER ROAD",
+        "email": "STARMAX.MG@GMAIL.COM",
+        "name": "Chad Chahoud",
+        "phone": "(617)733-3668",
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "15585 Dakota Ave S",
+        "email": "shasta@timberlonolscopes.com",
+        "name": "SRFF LLC",
+        "phone": "(612)730-3022",
+        "state": "MN",
+        "zip": "55372"
+      }
+    },
+    "nominatim": {
+      "address": "1352, North Upton Avenue, Willard-Hay, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [489602862],
+      "place_ids": [632068]
+    }
+  },
+  "b0c0629d4586982734158c51cdea34263ddae0f9ff85bcea21133ea6e541ad06": {
+    "opendata": {
+      "property": {
+        "address": "4027 ZENITH AVE S",
+        "ward": "13",
+        "neighborhood": "Linden Hills",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.92951,
+        "longitude": -93.32098
+      },
+      "applicant": {
+        "address": "323 N WASHINGTON AVENUE SUITE 200",
+        "email": "john@northpathpm.com",
+        "name": "JOHN L HAGEMAN",
+        "phone": "(612)270-1183",
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "4102 LINDEN HILLS BLVD",
+        "email": null,
+        "name": "ERIN V.W.GRIMM REVOCABLE INTERVIVOS TRUST",
+        "phone": null,
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "4027, Zenith Avenue South, Linden Hills, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [1033915219],
+      "place_ids": [600685]
+    }
+  },
+  "47097c0d97f8c330d19003714482fcc0f3dcf4152642696b6e85674a9e221035": {
+    "opendata": {
+      "property": {
+        "address": "2313 COLE AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98665,
+        "longitude": -93.21951
+      },
+      "applicant": {
+        "address": "291 Glenbrook Rd N",
+        "email": "angietoomey@gmail.com",
+        "name": "Angela Toomey",
+        "phone": "(612)590-5399",
+        "state": "MN",
+        "zip": "55391"
+      },
+      "owner": {
+        "address": "291 Glenbrook Rd N",
+        "email": "angietoomey@gmail.com",
+        "name": "Angela Toomey",
+        "phone": "(612)590-5399",
+        "state": "MN",
+        "zip": "55391"
+      }
+    },
+    "nominatim": {
+      "address": "2313, Southeast Cole Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [202725397],
+      "place_ids": [1427154]
+    }
+  },
+  "68f1a3ddf2924a9eb40b3aa7ad4c3195459814147374e28d59a5323beb324d0c": {
+    "opendata": {
+      "property": {
+        "address": "515 QUEEN AVE N",
+        "ward": "5",
+        "neighborhood": "Harrison",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.98317,
+        "longitude": -93.31009
+      },
+      "applicant": {
+        "address": "6385 Old Shady Oak Rd - #250",
+        "email": "samantha@twincitiesleasing.com",
+        "name": "Samantha Dietsch",
+        "phone": "(612)367-6723",
+        "state": "MN",
+        "zip": "55344"
+      },
+      "owner": {
+        "address": "518  Queen Ave N",
+        "email": "ike.bradlich@gmail.com",
+        "name": "Isaac W Bradlich",
+        "phone": "(612)281-7225",
+        "state": "MN",
+        "zip": "55405"
+      }
+    },
+    "nominatim": {
+      "address": "515, Queen Avenue North, Harrison, Minneapolis, Hennepin County, 55405, United States",
+      "osm_ids": [989777528],
+      "place_ids": [628518]
+    }
+  },
+  "8a10bf6366fcd7975c9d9c796925adc93256c739aaf7922d096451f172d1e1bf": {
+    "opendata": {
+      "property": {
+        "address": "1526 THOMAS AVE N",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.99491,
+        "longitude": -93.31298
+      },
+      "applicant": {
+        "address": "18042 88TH PL N",
+        "email": "GEORGEHJOU@GMAIL.COM",
+        "name": "GEORGE H JOU",
+        "phone": "(612)207-8588",
+        "state": "MN",
+        "zip": "55311"
+      },
+      "owner": {
+        "address": "18042 88TH PL N",
+        "email": "GEORGEHJOU@GMAIL.COM",
+        "name": "GEORGE H JOU",
+        "phone": "(612)207-8588",
+        "state": "MN",
+        "zip": "55311"
+      }
+    },
+    "nominatim": {
+      "address": "1526, Thomas Avenue North, Harrison, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6022064],
+      "place_ids": [1440995]
+    }
+  },
+  "fd0829b8c5558c03bd62f30b91886d82c9c589fcbd78dc883e44e51f6769b525": {
+    "opendata": {
+      "property": {
+        "address": "1415 GRAND ST NE",
+        "ward": "3",
+        "neighborhood": "Sheridan",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00226,
+        "longitude": -93.26941
+      },
+      "applicant": {
+        "address": "1415 GRAND ST NE #1",
+        "email": "info@syninnovation.com",
+        "name": "MICHAEL J KLOOSTERBOER",
+        "phone": "(608)438-7730",
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "1415 GRAND ST NE #1",
+        "email": "info@syninnovation.com",
+        "name": "MICHAEL J KLOOSTERBOER",
+        "phone": "(608)438-7730",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "1415, Northeast Grand Street, Sheridan, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [948567832],
+      "place_ids": [292076]
+    }
+  },
+  "391ae4320f41939da949889f48cd8890b0f89995e8a755319519df2ef0907384": {
+    "opendata": {
+      "property": {
+        "address": "2700 IRVING AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00792,
+        "longitude": -93.29901
+      },
+      "applicant": {
+        "address": "270 Hennepin Ave Unit 305",
+        "email": "jlundy03@gmail.com",
+        "name": "Jamael Lundy",
+        "phone": "(404)694-5552",
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "270 Hennepin Ave Unit 305",
+        "email": "jlundy03@gmail.com",
+        "name": "Jamael Lundy",
+        "phone": "(404)694-5552",
+        "state": "MN",
+        "zip": "55401"
+      }
+    },
+    "nominatim": {
+      "address": "2700, North Irving Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [204757475],
+      "place_ids": [1443514]
+    }
+  },
+  "a7c27411232cd93d833e53a4a614d785ddea30eeb02fd90d4948554fbb179744": {
+    "opendata": {
+      "property": {
+        "address": "2337 FERRANT PL",
+        "ward": "5",
+        "neighborhood": "Willard - Hay",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00349,
+        "longitude": -93.31019
+      },
+      "applicant": {
+        "address": "25 MOUND AVE",
+        "email": "dmacgibbon@gmail.com",
+        "name": "G D MACGIBBON",
+        "phone": "(612)281-0648",
+        "state": "MN",
+        "zip": "55331"
+      },
+      "owner": {
+        "address": "25 MOUND AVE",
+        "email": null,
+        "name": "DOUG G MACGIBBON",
+        "phone": "6122810648",
+        "state": "MN",
+        "zip": "55331"
+      }
+    },
+    "nominatim": {
+      "address": "2337, North Ferrant Place, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [6028572],
+      "place_ids": [1380979]
+    }
+  },
+  "be416213bb1ff44726a59edd50ee32b0d17fa50e59fed2348c377511eabdde0d": {
+    "opendata": {
+      "property": {
+        "address": "5312 14TH AVE S",
+        "ward": "11",
+        "neighborhood": "Hale",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.9066,
+        "longitude": -93.25537
+      },
+      "applicant": {
+        "address": "3138 Island View Drive",
+        "email": "cassie.marie2@gmail.com",
+        "name": "Cassie Marie Batinich",
+        "phone": "(801)920-6246",
+        "state": "MN",
+        "zip": "55364"
+      },
+      "owner": {
+        "address": "3138 Island View Drive",
+        "email": "cassie.marie2@gmail.com",
+        "name": "Cassie Marie Batinich",
+        "phone": "(801)920-6246",
+        "state": "MN",
+        "zip": "55364"
+      }
+    },
+    "nominatim": {
+      "address": "5312, 14th Avenue South, Hale, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [6014561],
+      "place_ids": [1401804]
+    }
+  },
+  "0ac1b42c6a8d0759e4ffe01f8a75866df63229d9a22560ce5a868100c52ef5ed": {
+    "opendata": {
+      "property": {
+        "address": "2516 LYNDALE AVE N",
+        "ward": "5",
+        "neighborhood": "Hawthorne",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00542,
+        "longitude": -93.28756
+      },
+      "applicant": {
+        "address": "7040 LAKELAND AVE N # 112",
+        "email": "HOMES@LENNYFROLOV.COM",
+        "name": "LENNY FROLOV",
+        "phone": "(612)242-9073",
+        "state": "MN",
+        "zip": "55428"
+      },
+      "owner": {
+        "address": "7100 Northland Cir #400",
+        "email": "DGELB9617@YAHOO.COM",
+        "name": "Daniel L Gelb",
+        "phone": "(612)964-9617",
+        "state": "MN",
+        "zip": "55428"
+      }
+    },
+    "nominatim": {
+      "address": "2516, North Lyndale Avenue, Hawthorne, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [938245785],
+      "place_ids": [284332]
+    }
+  },
+  "27f0df23cf9fa0bc2a21400d2363e07a32c2165b1d309319e6534532d39180f2": {
+    "opendata": {
+      "property": {
+        "address": "3117 45TH AVE S",
+        "ward": "12",
+        "neighborhood": "Cooper",
+        "community": "Longfellow",
+        "precinct": "3",
+        "latitude": 44.94623,
+        "longitude": -93.2084
+      },
+      "applicant": {
+        "address": "3117 45th Avenue South",
+        "email": "nvon001@gmail.com",
+        "name": "Anousone Vongsouvan",
+        "phone": "(651)253-2594",
+        "state": "MN",
+        "zip": "55406"
+      },
+      "owner": {
+        "address": "3117 45th Avenue South",
+        "email": "nvon001@gmail.com",
+        "name": "Anousone Vongsouvan",
+        "phone": "(651)253-2594",
+        "state": "MN",
+        "zip": "55406"
+      }
+    },
+    "nominatim": {
+      "address": "3117, 45th Avenue South, Cooper, Longfellow, Minneapolis, Hennepin County, 55406, United States",
+      "osm_ids": [6036051],
+      "place_ids": [1422762]
+    }
+  },
+  "f56fff01649c6a0e2ead6615308a655c874143914e30c637105841f55a9f5866": {
+    "opendata": {
+      "property": {
+        "address": "1516 3RD ST NE",
+        "ward": "3",
+        "neighborhood": "Sheridan",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00364,
+        "longitude": -93.26507
+      },
+      "applicant": {
+        "address": "1475 HIGHVIEW AVE",
+        "email": "BRITTANY.ELIZABETH.JOHNSON@GMAIL.COM",
+        "name": "BRITTANY E JOHNSON",
+        "phone": "6513242820",
+        "state": "MN",
+        "zip": "55121"
+      },
+      "owner": {
+        "address": "1475 HIGHVIEW AVE",
+        "email": "BRITTANY.ELIZABETH.JOHNSON@GMAIL.COM",
+        "name": "BRITTANY E JOHNSON & DAIN A JOHNSON",
+        "phone": "6513242820",
+        "state": "MN",
+        "zip": "55121"
+      }
+    },
+    "nominatim": {
+      "address": "1516, Northeast 3rd Street, Sheridan, Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [947996115],
+      "place_ids": [290431]
+    }
+  },
+  "5a1fbab82e8b3436e836cf2789a453d1a8089e1241cf26bd3c43b90486bf5ebd": {
+    "opendata": {
+      "property": {
+        "address": "524 8TH AVE NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony West",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.99782,
+        "longitude": -93.25827
+      },
+      "applicant": {
+        "address": "5700 Schaefer Road",
+        "email": null,
+        "name": "Star Max Property Management",
+        "phone": null,
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "845 TUSCARORA AVE W",
+        "email": "GBGROUP@GMail.com",
+        "name": "JOSHUA  BEATTY",
+        "phone": "(763)639-8367",
+        "state": "MN",
+        "zip": "55102"
+      }
+    },
+    "nominatim": {
+      "address": "524, Northeast 8th Avenue, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [816596236],
+      "place_ids": [632358]
+    }
+  },
+  "665521f3b76efe0a06c7823d13a2acc3b63549163b35c468783034f747b91b1e": {
+    "opendata": {
+      "property": {
+        "address": "500 RUSSELL AVE N",
+        "ward": null,
+        "neighborhood": null,
+        "community": null,
+        "precinct": null,
+        "latitude": 44.98284,
+        "longitude": -93.31065
+      },
+      "applicant": {
+        "address": "507 SHERIDAN AVE N",
+        "email": "SHMOEN@AOL.COM",
+        "name": "SCOTT H MOEN",
+        "phone": "(612)669-9662",
+        "state": "MN",
+        "zip": "55405"
+      },
+      "owner": {
+        "address": "507 SHERIDAN AVE N",
+        "email": "SHMOEN@AOL.COM",
+        "name": "SCOTT H MOEN",
+        "phone": "(612)669-9662",
+        "state": "MN",
+        "zip": "55405"
+      }
+    },
+    "nominatim": {
+      "address": "500, Russell Avenue North, Harrison, Minneapolis, Hennepin County, 55405, United States",
+      "osm_ids": [989777520],
+      "place_ids": [623514]
+    }
+  },
+  "1f0818fda30d1df462d356cf82aafe9af6323ec76f965e22b3f055b2230e2918": {
+    "opendata": {
+      "property": {
+        "address": "2404 FREMONT AVE S",
+        "ward": "7",
+        "neighborhood": "East Isles",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.95884,
+        "longitude": -93.29596
+      },
+      "applicant": {
+        "address": "2404 Fremont Ave S, #6",
+        "email": "gerald.ryan40@protonmail.com",
+        "name": "Gerald Ryan",
+        "phone": "(701)739-0039",
+        "state": "MN",
+        "zip": "55405"
+      },
+      "owner": {
+        "address": "2404 Fremont Ave S, #6",
+        "email": "gerald.ryan40@protonmail.com",
+        "name": "Gerald Ryan",
+        "phone": "(701)739-0039",
+        "state": "MN",
+        "zip": "55405"
+      }
+    },
+    "nominatim": {
+      "address": "2404,2406, Fremont Avenue South, Lowry Hill East, Calhoun Isles, Minneapolis, Hennepin County, 55405, United States",
+      "osm_ids": [135340940],
+      "place_ids": [616636]
+    }
+  },
+  "ea7e1d9d30ad09daf9ad816b4197efe803205e87f89e34d6a97d4bc7b1311083": {
+    "opendata": {
+      "property": {
+        "address": "4261 SHERIDAN AVE S",
+        "ward": "13",
+        "neighborhood": "Linden Hills",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.9254,
+        "longitude": -93.31381
+      },
+      "applicant": {
+        "address": "4271 SHERIDAN AVE S #103",
+        "email": "agustafson@rtresi.com",
+        "name": "John Soto",
+        "phone": "(612)806-0616",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "2082 Michelson Dr",
+        "email": "nancy@dubonnet.law",
+        "name": "FLT SHERIDAN TERRACE LLC",
+        "phone": "(949)399-2525",
+        "state": "CA",
+        "zip": "92612"
+      }
+    },
+    "nominatim": {
+      "address": "4261, Sheridan Avenue South, Linden Hills, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [103187702],
+      "place_ids": [589434]
+    }
+  },
+  "dd25ffec75f1cedbf5ddd32f6109f362a8554e543e34185b144f5b63ca471950": {
+    "opendata": {
+      "property": {
+        "address": "316 22ND AVE N",
+        "ward": "5",
+        "neighborhood": "Hawthorne",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.0017,
+        "longitude": -93.28428
+      },
+      "applicant": {
+        "address": "318 22ND AVE N",
+        "email": null,
+        "name": "JULIO  PINA",
+        "phone": "(612)636-9048",
+        "state": "MN",
+        "zip": "55411"
+      },
+      "owner": {
+        "address": "318 22ND AVE N",
+        "email": null,
+        "name": "JULIO  PINA",
+        "phone": "(612)636-9048",
+        "state": "MN",
+        "zip": "55411"
+      }
+    },
+    "nominatim": {
+      "address": "316, North 22nd Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [204823786],
+      "place_ids": [1405364]
+    }
+  },
+  "d75dfb27b2ff52f225b64a73d0bac22d4827c5e8fbda85688d5c59cc8f1e1197": {
+    "opendata": {
+      "property": {
+        "address": "2212 ALDRICH AVE S #102",
+        "ward": "10",
+        "neighborhood": "Lowry Hill East",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.96033,
+        "longitude": -93.28967
+      },
+      "applicant": {
+        "address": "7900 International Dr",
+        "email": "kari@reiprop.com",
+        "name": "Kari L Anderson",
+        "phone": "(952)454-1767",
+        "state": "MN",
+        "zip": "55425"
+      },
+      "owner": {
+        "address": "11113 Yuma Place",
+        "email": "alisalogan2@hotmail.com",
+        "name": "Alissa Logan",
+        "phone": "(818)406-3247",
+        "state": "MO",
+        "zip": "63126"
+      }
+    },
+    "nominatim": {
+      "address": "2212, Aldrich Avenue South, Calhoun Isles, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [121047319],
+      "place_ids": [623969]
+    }
+  },
+  "3bd4c0557be0ba17ea00686df1edcba45cb4ff509d65d1dc8907150f34f8817b": {
+    "opendata": {
+      "property": {
+        "address": "1934 ALDRICH AVE S #304",
+        "ward": "10",
+        "neighborhood": "Lowry Hill East",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.96327,
+        "longitude": -93.28976
+      },
+      "applicant": {
+        "address": "700 Washington Ave N - #101",
+        "email": "rick@drgmpls.com",
+        "name": "Richard C Gendreau",
+        "phone": "(952)292-0858",
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "1509 Sundew Ave",
+        "email": "khelavon2005@icloud.com",
+        "name": "Khela M Von Linsowe",
+        "phone": "(850)226-3600",
+        "state": "FL",
+        "zip": "32405"
+      }
+    },
+    "nominatim": {
+      "address": "1934, Aldrich Avenue South, Calhoun Isles, Minneapolis, Hennepin County, 55403, United States",
+      "osm_ids": [119059449],
+      "place_ids": [626136]
+    }
+  },
+  "98f3b5ad2cf43e166cee8c0cc9fe4a3cca5f8b565b7c7a6db6e5487266439ff5": {
+    "opendata": {
+      "property": {
+        "address": "3258 CLEVELAND ST NE",
+        "ward": "1",
+        "neighborhood": "Waite Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.02756,
+        "longitude": -93.23109
+      },
+      "applicant": {
+        "address": "5831 159th Lane NW",
+        "email": "mlflulstad@gmail.com",
+        "name": "Marie Ulstad",
+        "phone": "(612)270-7530",
+        "state": "MN",
+        "zip": "55303"
+      },
+      "owner": {
+        "address": "5831 159th Lane NW",
+        "email": "mlflulstad@gmail.com",
+        "name": "Marie Ulstad",
+        "phone": "(612)270-7530",
+        "state": "MN",
+        "zip": "55303"
+      }
+    },
+    "nominatim": {
+      "address": "3258, Northeast Cleveland Street, Northeast Park, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [937919716],
+      "place_ids": [296401]
+    }
+  },
+  "227a6d2430dafdee022b2c779b5a63a2b010153e7947b38a8f4bb006e0c91c5a": {
+    "opendata": {
+      "property": {
+        "address": "5101 ZENITH AVE S",
+        "ward": "13",
+        "neighborhood": "Fulton",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91051,
+        "longitude": -93.32103
+      },
+      "applicant": {
+        "address": "5103 Zenith Ave S",
+        "email": "molly_schoen@yahoo.com",
+        "name": "Molly Schoen",
+        "phone": "(612)598-8558",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "5103 Zenith Ave S",
+        "email": "molly_schoen@yahoo.com",
+        "name": "Molly Schoen",
+        "phone": "(612)598-8558",
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "5101, Zenith Avenue South, Fulton, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [943073476],
+      "place_ids": [602512]
+    }
+  },
+  "fa6d8b668758b0695e07db3586a28781dd1f9d6ad261f11e15765f8d67fc1bc9": {
+    "opendata": {
+      "property": {
+        "address": "2729 BLOOMINGTON AVE",
+        "ward": "9",
+        "neighborhood": "East Phillips",
+        "community": "Phillips",
+        "precinct": "3",
+        "latitude": 44.95257,
+        "longitude": -93.25207
+      },
+      "applicant": {
+        "address": "2729 Bloomington Ave",
+        "email": "cesarprado32@yahoo.com",
+        "name": "Cesar Prado",
+        "phone": "(612)408-0828",
+        "state": "MN",
+        "zip": "55407"
+      },
+      "owner": {
+        "address": "2729 Bloomington Ave",
+        "email": "cesarprado32@yahoo.com",
+        "name": "Cesar Prado",
+        "phone": "(612)408-0828",
+        "state": "MN",
+        "zip": "55407"
+      }
+    },
+    "nominatim": {
+      "address": "2729, Bloomington Avenue South, East Phillips, Phillips, Minneapolis, Hennepin County, 55407, United States",
+      "osm_ids": [514392520],
+      "place_ids": [626114]
+    }
+  },
+  "700f08dd63ab701ebd9a11aff673115865a1f5e41260aeb1036c5120062f41ee": {
+    "opendata": {
+      "property": {
+        "address": "1920 EMERSON AVE S",
+        "ward": "7",
+        "neighborhood": "Lowry Hill",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.96368,
+        "longitude": -93.29472
+      },
+      "applicant": {
+        "address": "4656 9 OAKS CIR",
+        "email": "JTSCHOHL@AOL.COM",
+        "name": "JOHN  TSCHOHL",
+        "phone": "(612)382-5636",
+        "state": "MN",
+        "zip": "55437"
+      },
+      "owner": {
+        "address": "4656 9 OAKS CIR",
+        "email": "JTSCHOHL@AOL.COM",
+        "name": "JOHN  TSCHOHL",
+        "phone": "(612)382-5636",
+        "state": "MN",
+        "zip": "55437"
+      }
+    },
+    "nominatim": {
+      "address": "1920, Emerson Avenue South, Lowry Hill, Calhoun Isles, Minneapolis, Hennepin County, 55403, United States",
+      "osm_ids": [140589403],
+      "place_ids": [628452]
+    }
+  },
+  "cff88c7aea94c21177e7aff4d0b92b67b4d46640b94ff78a3a76115e0d9f1e32": {
+    "opendata": {
+      "property": {
+        "address": "4721 LYNDALE AVE S",
+        "ward": "11",
+        "neighborhood": "Tangletown",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.91701,
+        "longitude": -93.28789
+      },
+      "applicant": {
+        "address": "2710 OVERLOOK DR",
+        "email": "WINDDNCR86@AOL.COM",
+        "name": "ELIZABETH  POTTER",
+        "phone": "(952)884-5932",
+        "state": "MN",
+        "zip": "55431"
+      },
+      "owner": {
+        "address": "2710 OVERLOOK DR",
+        "email": "WINDDNCR86@AOL.COM",
+        "name": "ELIZABETH  POTTER",
+        "phone": "(952)884-5932",
+        "state": "MN",
+        "zip": "55431"
+      }
+    },
+    "nominatim": {
+      "address": "4721, Lyndale Avenue South, Tangletown, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [496574534],
+      "place_ids": [1393114]
+    }
+  },
+  "5114b05040d66335f2f972bd64302b334d527ee84f5119c607536a78f8b17ddb": {
+    "opendata": {
+      "property": {
+        "address": "1703 2ND AVE S",
+        "ward": "6",
+        "neighborhood": "Steven's Square - Loring Heights",
+        "community": "Central",
+        "precinct": "5",
+        "latitude": 44.96609,
+        "longitude": -93.27384
+      },
+      "applicant": {
+        "address": "2404 Fremont Ave S, #6",
+        "email": "gerald.ryan40@protonmail.com",
+        "name": "Gerald Ryan",
+        "phone": "(701)739-0039",
+        "state": "MN",
+        "zip": "55405"
+      },
+      "owner": {
+        "address": "2404 Fremont Ave S, #6",
+        "email": "gerald.ryan40@protonmail.com",
+        "name": "Gerald Ryan",
+        "phone": "(701)739-0039",
+        "state": "MN",
+        "zip": "55405"
+      }
+    },
+    "nominatim": {
+      "address": "1703, 2nd Avenue South, Stevens Square - Loring Heights, Phillips, Minneapolis, Hennepin County, 55403, United States",
+      "osm_ids": [264242353],
+      "place_ids": [1386448]
+    }
+  },
+  "045477c71a324cf5db07247658da26199743a63ac48bdd7c22986e2c14c17ac6": {
+    "opendata": {
+      "property": {
+        "address": "1225 LASALLE AVE #708",
+        "ward": "7",
+        "neighborhood": "Loring Park",
+        "community": "Central",
+        "precinct": "1",
+        "latitude": 44.97139,
+        "longitude": -93.27849
+      },
+      "applicant": {
+        "address": "CEDAR MANAGEMENT",
+        "email": "MJOHNSON@CEDARMANAGEMENT.COM",
+        "name": "MELISSA JOHNSON",
+        "phone": null,
+        "state": "MN",
+        "zip": "55432"
+      },
+      "owner": {
+        "address": "2051 LONG LAKE ROAD",
+        "email": null,
+        "name": "SHAREHOLDER LUCY K LEVITAN REVOKABLE LIVING TRUST",
+        "phone": null,
+        "state": "MN",
+        "zip": "55112"
+      }
+    },
+    "nominatim": {
+      "address": "1225, LaSalle Avenue, Loring Park, Minneapolis, Hennepin County, 55403, United States",
+      "osm_ids": [42829733],
+      "place_ids": [1423513]
+    }
+  },
+  "54f7f835a5c5be33a915942e1229f948104d23b25f755a53014772e2e45bf3a4": {
+    "opendata": {
+      "property": {
+        "address": "6104 KNOX AVE S",
+        "ward": "13",
+        "neighborhood": "Kenny",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.89137,
+        "longitude": -93.30347
+      },
+      "applicant": {
+        "address": "3519 VIRGINIA AVE",
+        "email": "ERUBIO2@ICLOUD.COM",
+        "name": "ERICA M RUBIO",
+        "phone": null,
+        "state": "MN",
+        "zip": "55426"
+      },
+      "owner": {
+        "address": "3519 VIRGINIA AVE",
+        "email": "ERUBIO2@ICLOUD.COM",
+        "name": "ERICA M RUBIO",
+        "phone": null,
+        "state": "MN",
+        "zip": "55426"
+      }
+    },
+    "nominatim": {
+      "address": "6104, Knox Avenue South, Kenny, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [1314470226],
+      "place_ids": [585220]
+    }
+  },
+  "9b3b3c5e946d454f6fcbbb4dbda797407afa1a5eabbb4d79d5e1bef0c9f112ba": {
+    "opendata": {
+      "property": {
+        "address": "118 14TH AVE NE",
+        "ward": "3",
+        "neighborhood": "Sheridan",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00135,
+        "longitude": -93.26971
+      },
+      "applicant": {
+        "address": "15612 WILLOWOOD DR",
+        "email": null,
+        "name": "MELAINE A SARTORIS",
+        "phone": "9524861019",
+        "state": "MN",
+        "zip": "55345"
+      },
+      "owner": {
+        "address": "15612 WILLOWOOD DR",
+        "email": null,
+        "name": "MELANIE A SARTORIS",
+        "phone": "9524861019",
+        "state": "MN",
+        "zip": "55345"
+      }
+    },
+    "nominatim": {
+      "address": "118, Northeast 14th Avenue, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [948567879],
+      "place_ids": [290318]
+    }
+  },
+  "5cec0da875f0a4559f3c916afb2ad2e2ce303301dc4aae1e16afc281eb84c354": {
+    "opendata": {
+      "property": {
+        "address": "845 19TH AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98481,
+        "longitude": -93.22597
+      },
+      "applicant": {
+        "address": "1522 COMO AVE SE",
+        "email": "GRANTVAITH@GMAIL.COM",
+        "name": "GRANT T VAITH",
+        "phone": "(651)210-7314",
+        "state": "MN",
+        "zip": "55414"
+      },
+      "owner": {
+        "address": "1522 COMO AVE SE",
+        "email": "GRANTVAITH@GMAIL.COM",
+        "name": "GRANT T VAITH",
+        "phone": "(651)210-7314",
+        "state": "MN",
+        "zip": "55414"
+      }
+    },
+    "nominatim": {
+      "address": "845, Southeast 19th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [39799983],
+      "place_ids": [1421836]
+    }
+  },
+  "bcb9cb67826da04e3caaf4a65ba1e1e29399c6d0d10300e55434cf058d13699e": {
+    "opendata": {
+      "property": {
+        "address": "2406 INGLEWOOD AVE",
+        "ward": "5",
+        "neighborhood": "Harrison",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 44.98014,
+        "longitude": -93.31129
+      },
+      "applicant": {
+        "address": "6615 LONDONDERRY DR",
+        "email": "mrmcnaughton@msn.com",
+        "name": "MARK R MCNAUGHTON",
+        "phone": "(612)819-6893",
+        "state": "MN",
+        "zip": "55436"
+      },
+      "owner": {
+        "address": "6615 LONDONDERRY DR",
+        "email": "mrmcnaughton@msn.com",
+        "name": "MARK R MCNAUGHTON",
+        "phone": "(612)819-6893",
+        "state": "MN",
+        "zip": "55436"
+      }
+    },
+    "nominatim": {
+      "address": "2406, 2408, Inglewood Avenue North, Harrison, Minneapolis, Hennepin County, 55405, United States",
+      "osm_ids": [989254461],
+      "place_ids": [632199]
+    }
+  },
+  "b1390081482a68f3402967984a3bd2335e80a9553118bed335b58788eeb5ba29": {
+    "opendata": {
+      "property": {
+        "address": "5521 OLIVER AVE S",
+        "ward": "13",
+        "neighborhood": "Armatage",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.9025,
+        "longitude": -93.30701
+      },
+      "applicant": {
+        "address": "MICHAEL LAVIN",
+        "email": null,
+        "name": "MARYANNE W LAVIN",
+        "phone": "6128360537",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "MICHAEL LAVIN",
+        "email": null,
+        "name": "MARYANNE W LAVIN",
+        "phone": "6128360537",
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "5521;5523, Oliver Avenue South, Armatage, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [1313989682],
+      "place_ids": [583137]
+    }
+  },
+  "213cbec00d59a45785f1ecc4aca3527403da25ea42c772c03235fd41a18de816": {
+    "opendata": {
+      "property": {
+        "address": "1712 CALIFORNIA ST NE",
+        "ward": "3",
+        "neighborhood": "Sheridan",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00558,
+        "longitude": -93.2693
+      },
+      "applicant": {
+        "address": "1672 Peninsula Dr",
+        "email": "jason.macdonald@gmail.com",
+        "name": "Jason MacDonald",
+        "phone": "(612)986-4246",
+        "state": "MN",
+        "zip": "55112"
+      },
+      "owner": {
+        "address": "1672 Peninsula Dr",
+        "email": "jason.macdonald@gmail.com",
+        "name": "Fortune Holdings, LLC",
+        "phone": "(612)986-4246",
+        "state": "MN",
+        "zip": "55112"
+      }
+    },
+    "nominatim": {
+      "address": "1712, Northeast California Street, Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [158082790],
+      "place_ids": [1417369]
+    }
+  },
+  "f48d674b9c1600900ae7fd707e80a1e5a1cc53f3e743fa17a3b09cc669db8937": {
+    "opendata": {
+      "property": {
+        "address": "2214 GIRARD AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00207,
+        "longitude": -93.29674
+      },
+      "applicant": {
+        "address": "5003 University Ave NE",
+        "email": "grigoriy@algorealty.com",
+        "name": "Grigoriy Gorshteyn",
+        "phone": "(612)433-4555x704",
+        "state": "MN",
+        "zip": "55421"
+      },
+      "owner": {
+        "address": "5123 W 98th St #1301",
+        "email": "mnhousing2020@gmail.com",
+        "name": "MN HOUSING I LLC",
+        "phone": "(312)909-8393",
+        "state": "MN",
+        "zip": "55437"
+      }
+    },
+    "nominatim": {
+      "address": "2214, Girard Avenue North, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [204823790],
+      "place_ids": [1374031]
+    }
+  },
+  "59671f0a0dd74e5515df38ee1e5d65ad1ae927d8ea70519a1ef7032602283ffa": {
+    "opendata": {
+      "property": {
+        "address": "1621 6TH ST NE",
+        "ward": "3",
+        "neighborhood": "Sheridan",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.00486,
+        "longitude": -93.25852
+      },
+      "applicant": {
+        "address": "1621 6th St NE",
+        "email": "chadpeichel@gmail.com",
+        "name": "Chad L Peichel",
+        "phone": "(320)250-6590",
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "1621 6th St NE",
+        "email": "chadpeichel@gmail.com",
+        "name": "Chad L Peichel",
+        "phone": "(320)250-6590",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "1621, Northeast 6th Street, Northeast, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [947944498],
+      "place_ids": [291895]
+    }
+  },
+  "e2007c5d9b500716b52469cded364c1a296d5d284e8a27791c07c176dd91eb19": {
+    "opendata": {
+      "property": {
+        "address": "2405 COLE AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98609,
+        "longitude": -93.21855
+      },
+      "applicant": {
+        "address": "6437 BAKER AVE",
+        "email": "ORTEG040@UMN.EDU",
+        "name": "FELIPE D ORTEGA",
+        "phone": "(507)350-8389",
+        "state": "MN",
+        "zip": "55432"
+      },
+      "owner": {
+        "address": "6437 BAKER AVE",
+        "email": "ORTEG040@UMN.EDU",
+        "name": "FELIPE D ORTEGA",
+        "phone": "(507)350-8389",
+        "state": "MN",
+        "zip": "55432"
+      }
+    },
+    "nominatim": {
+      "address": "2405, Southeast Cole Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [202725401],
+      "place_ids": [1387754]
+    }
+  },
+  "acbc08808fea72cb28e7b1dcd35ae851abe731edb2a723b4e279f13f40c47f78": {
+    "opendata": {
+      "property": {
+        "address": "2319 COLE AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98658,
+        "longitude": -93.21939
+      },
+      "applicant": {
+        "address": "291 Glenbrook Rd N",
+        "email": "angietoomey@gmail.com",
+        "name": "ANGELA M TOOMEY",
+        "phone": "(612)590-5399",
+        "state": "MN",
+        "zip": "55391"
+      },
+      "owner": {
+        "address": "291 Glenbrook Rd N",
+        "email": "angietoomey@gmail.com",
+        "name": "ANGELA M TOOMEY",
+        "phone": "(612)590-5399",
+        "state": "MN",
+        "zip": "55391"
+      }
+    },
+    "nominatim": {
+      "address": "2319, Southeast Cole Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [202725397],
+      "place_ids": [1427154]
+    }
+  },
+  "7e6a25b7a5d8986a985366fee7e5eff5851c30f757882d70b5f317ee58ecaab3": {
+    "opendata": {
+      "property": {
+        "address": "3549 HOLMES AVE S",
+        "ward": "10",
+        "neighborhood": "East Bde Maka Ska",
+        "community": "Calhoun Isle",
+        "precinct": "5",
+        "latitude": 44.93799,
+        "longitude": -93.29927
+      },
+      "applicant": {
+        "address": "4216 Vincent Ave S",
+        "email": "shotsief@aol.com",
+        "name": "Charlotte Forsythe",
+        "phone": "(612)237-7676",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "4216 Vincent Ave S",
+        "email": "shotsief@aol.com",
+        "name": "Charlotte Forsythe",
+        "phone": "(612)237-7676",
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "3549, Holmes Avenue South, East Bde Maka Ska, Calhoun Isles, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [88778954],
+      "place_ids": [605560]
+    }
+  },
+  "ba23c202e9231d7f7c4cbab4325e17ea53ae943e0a310764fac2de3e33be448b": {
+    "opendata": {
+      "property": {
+        "address": "5836 EMERSON AVE S",
+        "ward": "13",
+        "neighborhood": "Kenny",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.89673,
+        "longitude": -93.29503
+      },
+      "applicant": {
+        "address": "7121 HEATHERTON TRL",
+        "email": "SJOHNSON@CBBURNET.COM",
+        "name": "SETH H JOHNSON",
+        "phone": "(612)810-5124",
+        "state": "MN",
+        "zip": "55435"
+      },
+      "owner": {
+        "address": "7121 HEATHERTON TRL",
+        "email": "SJOHNSON@CBBURNET.COM",
+        "name": "SETH H H JOHNSON",
+        "phone": "(612)810-5124",
+        "state": "MN",
+        "zip": "55435"
+      }
+    },
+    "nominatim": {
+      "address": "5836, Emerson Avenue South, Kenny, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [6038749],
+      "place_ids": [1377721]
+    }
+  },
+  "5d5d51b2fb1f24364999824e2484e1ec20543a9b0ac7fd6609b9ce7ced979a8a": {
+    "opendata": {
+      "property": {
+        "address": "3420 PORTLAND AVE",
+        "ward": "8",
+        "neighborhood": "Central",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.94064,
+        "longitude": -93.26807
+      },
+      "applicant": {
+        "address": "5003 University Ave NE",
+        "email": "grigoriy@algorealty.com",
+        "name": "Grigoriy Gorshteyn",
+        "phone": "(612)433-4555x704",
+        "state": "MN",
+        "zip": "55421"
+      },
+      "owner": {
+        "address": "1633 Concord St S",
+        "email": "dressengaby@gmail.com",
+        "name": "Thirty Four Twenty LLC",
+        "phone": "(651)398-5231",
+        "state": "MN",
+        "zip": "55075"
+      }
+    },
+    "nominatim": {
+      "address": "3420, Portland Avenue South, Central, Powderhorn, Minneapolis, Hennepin County, 55407, United States",
+      "osm_ids": [573296243],
+      "place_ids": [618479]
+    }
+  },
+  "ec2aebefc954dee1268199c72e4b5c0c4bb6ddd9384a0e25b9af935d4576ce30": {
+    "opendata": {
+      "property": {
+        "address": "317 GROVELAND AVE #404",
+        "ward": "7",
+        "neighborhood": "Loring Park",
+        "community": "Central",
+        "precinct": "1",
+        "latitude": 44.9652,
+        "longitude": -93.28524
+      },
+      "applicant": {
+        "address": "1932 James Ave S",
+        "email": "alexandra.colich@gmail.com",
+        "name": "Alexandra Nicole Colich",
+        "phone": "(612)963-3209",
+        "state": "MN",
+        "zip": "55403"
+      },
+      "owner": {
+        "address": "1932 James Ave S",
+        "email": "alexandra.colich@gmail.com",
+        "name": "Alexandra Nicole Colich",
+        "phone": "(612)963-3209",
+        "state": "MN",
+        "zip": "55403"
+      }
+    },
+    "nominatim": {
+      "address": "317, Groveland Avenue, Loring Park, Minneapolis, Hennepin County, 55403, United States",
+      "osm_ids": [45416004],
+      "place_ids": [625696]
+    }
+  },
+  "89b569ecf28ae92225f2933d3b1c8b42d4bea39be27dace2e4e5abb70f780019": {
+    "opendata": {
+      "property": {
+        "address": "1013 24TH AVE SE",
+        "ward": "1",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98837,
+        "longitude": -93.21938
+      },
+      "applicant": {
+        "address": "14770 THICKET LN",
+        "email": "BERNENSJ@GMAIL.COM",
+        "name": "JOHN T BERNENS",
+        "phone": "(763)218-0673",
+        "state": "MN",
+        "zip": "55327"
+      },
+      "owner": {
+        "address": "14770 THICKET LN",
+        "email": "BERNENSJ@GMAIL.COM",
+        "name": "JOHN T BERNENS",
+        "phone": "(763)218-0673",
+        "state": "MN",
+        "zip": "55327"
+      }
+    },
+    "nominatim": {
+      "address": "1013, Southeast 24th Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [6015990],
+      "place_ids": [1379181]
+    }
+  },
+  "47e37117b2bd412f995272de10ae26de308540ffc8ef4a92f1af1cb986d5974e": {
+    "opendata": {
+      "property": {
+        "address": "924 21ST AVE S",
+        "ward": "6",
+        "neighborhood": "Seward",
+        "community": "Longfellow",
+        "precinct": "3",
+        "latitude": 44.96322,
+        "longitude": -93.24298
+      },
+      "applicant": {
+        "address": "700 WASHINGTON AVE N",
+        "email": "RICK@DRGMPLS.COM",
+        "name": "RICK C GENDREAU",
+        "phone": "(612)424-6041",
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "607 Washington Ave S, #101",
+        "email": "dan@invictusmultifamily.com",
+        "name": "21st Ave Apartments LLC",
+        "phone": null,
+        "state": "MN",
+        "zip": "55415"
+      }
+    },
+    "nominatim": {
+      "address": "924, 21st Avenue South, Seward, Phillips, Minneapolis, Hennepin County, 55404, United States",
+      "osm_ids": [6040496],
+      "place_ids": [1386459]
+    }
+  },
+  "c347ee797e65b3931882e2caef17c6139093a66cdc40d4046ac6bf6127f19f19": {
+    "opendata": {
+      "property": {
+        "address": "866 21ST AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98559,
+        "longitude": -93.2225
+      },
+      "applicant": {
+        "address": "1363 WESTWOOD RD W NW",
+        "email": "THIE0212@GMAIL.COM",
+        "name": "Brandon R Thiemann",
+        "phone": "(612)718-1074",
+        "state": "MN",
+        "zip": "55350"
+      },
+      "owner": {
+        "address": "1363 WESTWOOD RD W NW",
+        "email": "THIE0212@GMAIL.COM",
+        "name": "Brandon R Thiemann",
+        "phone": "(612)718-1074",
+        "state": "MN",
+        "zip": "55350"
+      }
+    },
+    "nominatim": {
+      "address": "866, Southeast 21st Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [39799981],
+      "place_ids": [1421847]
+    }
+  },
+  "6ab25d990e8b5b6a045c11e694d7f3a0a6c2535e5f0b097cc97c50f38ff1e90e": {
+    "opendata": {
+      "property": {
+        "address": "867 22ND AVE SE",
+        "ward": "2",
+        "neighborhood": "Como",
+        "community": "University",
+        "precinct": "2",
+        "latitude": 44.98559,
+        "longitude": -93.22195
+      },
+      "applicant": {
+        "address": "2400 Como Ave SE",
+        "email": "gogopherrentals@outlook.com",
+        "name": "CHAD D KRAFT",
+        "phone": "(612)315-3265",
+        "state": "MN",
+        "zip": "55414"
+      },
+      "owner": {
+        "address": "2400 Como Ave SE",
+        "email": "gogopherrentals@outlook.com",
+        "name": "CHAD D KRAFT",
+        "phone": "(612)315-3265",
+        "state": "MN",
+        "zip": "55414"
+      }
+    },
+    "nominatim": {
+      "address": "867, Southeast 22nd Avenue, Minneapolis, Hennepin County, 55414, United States",
+      "osm_ids": [1248082985],
+      "place_ids": [1427158]
+    }
+  },
+  "4c8288b1ef4a0da0a217486fa8bce58049248da0ee716d87caf60351a40d95e6": {
+    "opendata": {
+      "property": {
+        "address": "2609 ROBBINS ST",
+        "ward": "13",
+        "neighborhood": "Armatage",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.90402,
+        "longitude": -93.31298
+      },
+      "applicant": {
+        "address": "Renters Warehouse, LLC",
+        "email": "inspections@renterswarehouse.com",
+        "name": "Jacob C Koch",
+        "phone": "(952)224-9912",
+        "state": "MN",
+        "zip": "55416"
+      },
+      "owner": {
+        "address": "28753 PRAIRIE FALCON CT",
+        "email": "samira.kashani@gmail.com",
+        "name": "SAMIRA K EBRAHIMI",
+        "phone": null,
+        "state": "CA",
+        "zip": "92563"
+      }
+    },
+    "nominatim": {
+      "address": "2609, Robbins Street, Armatage, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [270228056],
+      "place_ids": [576345]
+    }
+  },
+  "dc5373ee84fa72dce0cef76570aff71c6d97f4a6c3ee54f35cccb3679545fa1e": {
+    "opendata": {
+      "property": {
+        "address": "3553 3RD AVE S",
+        "ward": "8",
+        "neighborhood": "Central",
+        "community": "Powderhorn",
+        "precinct": "3",
+        "latitude": 44.93792,
+        "longitude": -93.27238
+      },
+      "applicant": {
+        "address": "3553 3rd Ave S",
+        "email": "homempls3553@gmail.com",
+        "name": "Jerri Neddermeyer",
+        "phone": null,
+        "state": "MN",
+        "zip": "55408"
+      },
+      "owner": {
+        "address": "3553 3rd Ave S",
+        "email": "homempls3553@gmail.com",
+        "name": "Jerri Neddermeyer",
+        "phone": null,
+        "state": "MN",
+        "zip": "55408"
+      }
+    },
+    "nominatim": {
+      "address": "3553, 3rd Avenue South, Central, Powderhorn, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [946159217],
+      "place_ids": [618343]
+    }
+  },
+  "8602a0060169e117699155e3f3f8415fa1fbb200663f4cbe7f25bd3a9f74af2a": {
+    "opendata": {
+      "property": {
+        "address": "5725 THOMAS AVE S",
+        "ward": "13",
+        "neighborhood": "Armatage",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.89894,
+        "longitude": -93.3133
+      },
+      "applicant": {
+        "address": "9201 Syndicate Ave South",
+        "email": "oldcarguyjohn@gmail.com",
+        "name": "JOHN H JACOBSON",
+        "phone": "(612)222-0196",
+        "state": "MN",
+        "zip": "55420"
+      },
+      "owner": {
+        "address": "9201 Syndicate Ave South",
+        "email": "oldcarguyjohn@gmail.com",
+        "name": "JOHN H JACOBSON",
+        "phone": "(612)222-0196",
+        "state": "MN",
+        "zip": "55420"
+      }
+    },
+    "nominatim": {
+      "address": "5725, Thomas Avenue South, Armatage, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [6026430],
+      "place_ids": [1390092]
+    }
+  },
+  "a36fb5b1a3e1371c15f6c3c2a81d08f53f2144354df5dea780a2d884bad87fdd": {
+    "opendata": {
+      "property": {
+        "address": "4500 CHICAGO AVE #310",
+        "ward": "8",
+        "neighborhood": "Regina",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.92115,
+        "longitude": -93.26297
+      },
+      "applicant": {
+        "address": "4500 Chicago Ave #310",
+        "email": "roehlke@gmail.com",
+        "name": "Rachel Oehlke",
+        "phone": "(507)251-7056",
+        "state": "MN",
+        "zip": "55407"
+      },
+      "owner": {
+        "address": "4500 Chicago Ave #310",
+        "email": "roehlke@gmail.com",
+        "name": "Rachel Oehlke",
+        "phone": "(507)251-7056",
+        "state": "MN",
+        "zip": "55407"
+      }
+    },
+    "nominatim": {
+      "address": "4500, Chicago Avenue South, Regina, Minneapolis, Hennepin County, 55417, United States",
+      "osm_ids": [240665971],
+      "place_ids": [593811]
+    }
+  },
+  "ec6c8cdc3abda3079f191fd6a92e57732ebd0a45657bbf6675a6023995063037": {
+    "opendata": {
+      "property": {
+        "address": "401 1ST ST S #1720",
+        "ward": "3",
+        "neighborhood": "Downtown West",
+        "community": "Central",
+        "precinct": "1",
+        "latitude": 44.98091,
+        "longitude": -93.26086
+      },
+      "applicant": {
+        "address": "5045 Shady Island Rd",
+        "email": "trskarvan@gmail.com",
+        "name": "Tristan Skarvan",
+        "phone": "(715)456-0726",
+        "state": "MN",
+        "zip": "55364"
+      },
+      "owner": {
+        "address": "5045 Shady Island Rd",
+        "email": "trskarvan@gmail.com",
+        "name": "Tristan Skarvan",
+        "phone": "(715)456-0726",
+        "state": "MN",
+        "zip": "55364"
+      }
+    },
+    "nominatim": {
+      "address": "RiverWest, 401, South 1st Street, Minneapolis, Hennepin County, 55401, United States",
+      "osm_ids": [111400189],
+      "place_ids": [636353]
+    }
+  },
+  "9f6bb7d039278e430aa6e190fc5d5feb453c49df60fb89f64d7743e8024dd1c3": {
+    "opendata": {
+      "property": {
+        "address": "5508 PENN AVE S",
+        "ward": "13",
+        "neighborhood": "Armatage",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.90291,
+        "longitude": -93.30902
+      },
+      "applicant": {
+        "address": "7824 SHENANDOAH LN N",
+        "email": "KARRIF@COMCAST.NET",
+        "name": "JAY S FABER",
+        "phone": "(763)416-9716",
+        "state": "MN",
+        "zip": "55311"
+      },
+      "owner": {
+        "address": "4025 OLD SHAKOPEE RD W",
+        "email": null,
+        "name": "JACE L BROCKEL",
+        "phone": "6127022164",
+        "state": "MN",
+        "zip": "55437"
+      }
+    },
+    "nominatim": {
+      "address": "5508, Penn Avenue South, Armatage, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [364534952],
+      "place_ids": [1396419]
+    }
+  },
+  "d8b7b9eea9613880a514f3a3e379735c050849effa5b6c4a1643ddc4da3b41b0": {
+    "opendata": {
+      "property": {
+        "address": "4151 HUMBOLDT AVE N",
+        "ward": "4",
+        "neighborhood": "Webber - Camden",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.03089,
+        "longitude": -93.29864
+      },
+      "applicant": {
+        "address": "4239 Fremont Ave N",
+        "email": "spiritpropertiesmn@gmail.com",
+        "name": "Lynne Kelly",
+        "phone": null,
+        "state": "MN",
+        "zip": "55412"
+      },
+      "owner": {
+        "address": "7542 Monarch Mills Way",
+        "email": "ttdworg@gmail.com",
+        "name": "Terry Williams",
+        "phone": null,
+        "state": "MD",
+        "zip": "21046"
+      }
+    },
+    "nominatim": {
+      "address": "4151, North Humboldt Avenue, Webber-Camden, Camden, Minneapolis, Hennepin County, 55412, United States",
+      "osm_ids": [204339005],
+      "place_ids": [1418600]
+    }
+  },
+  "0f8819b37a1b5372080b842d668a9dbfd6a0b974a864d0602109dcb4b8bf0edc": {
+    "opendata": {
+      "property": {
+        "address": "2321 58TH ST W",
+        "ward": "13",
+        "neighborhood": "Armatage",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.89762,
+        "longitude": -93.30964
+      },
+      "applicant": {
+        "address": "2321 58TH ST W",
+        "email": "STEVEKALDERON@GMAIL.COM",
+        "name": "Steven A Kalderon",
+        "phone": null,
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "2321 58TH ST W",
+        "email": "STEVEKALDERON@GMAIL.COM",
+        "name": "Steven A Kalderon",
+        "phone": null,
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "2321, West 58th Street, Armatage, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [291968380],
+      "place_ids": [1447246]
+    }
+  },
+  "d151f69c19b7fd9c82e4c4363e0792103d7478423353a1b05059b6cbe720b96e": {
+    "opendata": {
+      "property": {
+        "address": "2740 PLEASANT AVE",
+        "ward": "10",
+        "neighborhood": "Whittier",
+        "community": "Powderhorn",
+        "precinct": "5",
+        "latitude": 44.95237,
+        "longitude": -93.28339
+      },
+      "applicant": {
+        "address": "16 9th Ave N, Suite 200",
+        "email": "caden@blvd-management.com",
+        "name": "Caden Smith",
+        "phone": "(651)362-3300",
+        "state": "MN",
+        "zip": "55343"
+      },
+      "owner": {
+        "address": "607 Washington Ave S #101",
+        "email": "management@invictusmanagement.io",
+        "name": "Daniel Krueger",
+        "phone": "(612)886-7368",
+        "state": "MN",
+        "zip": "55415"
+      }
+    },
+    "nominatim": {
+      "address": "2740, Pleasant Avenue, Whittier, Minneapolis, Hennepin County, 55408, United States",
+      "osm_ids": [135350425],
+      "place_ids": [614278]
+    }
+  },
+  "dff359c786fe4fcf19db653589d4f65272a280d5d0b4caa7ade3bf665f1cf179": {
+    "opendata": {
+      "property": {
+        "address": "2623 FREMONT AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00668,
+        "longitude": -93.29594
+      },
+      "applicant": {
+        "address": "120 Hennepin Ave Apt 502",
+        "email": "rodriguez.anthony18@gmail.com",
+        "name": "Anthony Rodriguez",
+        "phone": "(619)502-1602",
+        "state": "MN",
+        "zip": "55401"
+      },
+      "owner": {
+        "address": "120 Hennepin Ave Apt 502",
+        "email": "rodriguez.anthony18@gmail.com",
+        "name": "Anthony Rodriguez",
+        "phone": "(619)502-1602",
+        "state": "MN",
+        "zip": "55401"
+      }
+    },
+    "nominatim": {
+      "address": "2623, North Fremont Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [862424538],
+      "place_ids": [1427671]
+    }
+  },
+  "0b46479b324a8b28aa1ed38e63e9480f6fd7ed324987f3b8374ee8d7c1a141ce": {
+    "opendata": {
+      "property": {
+        "address": "1815 25TH AVE N",
+        "ward": "5",
+        "neighborhood": "Jordan",
+        "community": "Near North",
+        "precinct": "4",
+        "latitude": 45.00486,
+        "longitude": -93.30389
+      },
+      "applicant": {
+        "address": "5701 Shingle Creek Pkwy #550D",
+        "email": "INFO@DKWPROPERTIES.COM",
+        "name": "DAMARLIN WRIGHT",
+        "phone": "(612)222-5925",
+        "state": "MN",
+        "zip": "55430"
+      },
+      "owner": {
+        "address": "5701 Shingle Creek Pkwy - Ste 550D",
+        "email": "INFO@DKWPROPERTIES.COM",
+        "name": "Damarlin Wright",
+        "phone": "(612)222-5925",
+        "state": "MN",
+        "zip": "55430"
+      }
+    },
+    "nominatim": {
+      "address": "1815, North 25th Avenue, Near North, Minneapolis, Hennepin County, 55411, United States",
+      "osm_ids": [204823791],
+      "place_ids": [1376864]
+    }
+  },
+  "a9ac9fd29f867e8bd664a8740d7e57f25a9d7728e9f71f5c423ceff0c088ff31": {
+    "opendata": {
+      "property": {
+        "address": "4320 WEST LAKE HARRIET PKWY",
+        "ward": "13",
+        "neighborhood": "Linden Hills",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.92421,
+        "longitude": -93.31146
+      },
+      "applicant": {
+        "address": "4320 West Lake Harriet Parkway",
+        "email": "mplskayaker@gmail.com",
+        "name": "Eric A Tollefson",
+        "phone": "(612)423-6037",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "4320 West Lake Harriet Parkway",
+        "email": "mplskayaker@gmail.com",
+        "name": "Eric A Tollefson",
+        "phone": "(612)423-6037",
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "4320, West Lake Harriet Parkway, Linden Hills, Southwest, Minneapolis, Hennepin County, 55410, United States",
+      "osm_ids": [1025849808],
+      "place_ids": [590243]
+    }
+  },
+  "e7267ae7aeeed4e72e28c884371655782994d1d70a033a20f217991aae8088fe": {
+    "opendata": {
+      "property": {
+        "address": "2411 BLAISDELL AVE",
+        "ward": "10",
+        "neighborhood": "Whittier",
+        "community": "Powderhorn",
+        "precinct": "5",
+        "latitude": 44.95861,
+        "longitude": -93.27914
+      },
+      "applicant": {
+        "address": "17725 72nd Pl N",
+        "email": "contact@theworusbnb.com",
+        "name": "Joanne Hanson",
+        "phone": "(763)353-9954",
+        "state": "MN",
+        "zip": "55311"
+      },
+      "owner": {
+        "address": "15830 50th Pl N",
+        "email": "vishal.devarabhavi@gmail.com",
+        "name": "Vishal Devarabhavi",
+        "phone": "(651)353-2012",
+        "state": "MN",
+        "zip": "55448"
+      }
+    },
+    "nominatim": {
+      "address": "2411, Blaisdell Avenue South, Whittier, Minneapolis, Hennepin County, 55409, United States",
+      "osm_ids": [230860227],
+      "place_ids": [624898]
+    }
+  },
+  "a7d6f33a986da3a34123a99ef8463721c261921ffc3d5bdc100d497ff72eb5e9": {
+    "opendata": {
+      "property": {
+        "address": "4417 CLINTON AVE",
+        "ward": "8",
+        "neighborhood": "Regina",
+        "community": "Nokomis",
+        "precinct": "3",
+        "latitude": 44.92272,
+        "longitude": -93.27113
+      },
+      "applicant": {
+        "address": "5531 Halifax Ave N",
+        "email": "wclabots@gmail.com",
+        "name": "William Clabots",
+        "phone": "(612)309-1772",
+        "state": "MN",
+        "zip": "55429"
+      },
+      "owner": {
+        "address": "5531 Halifax Ave N",
+        "email": "wclabots@gmail.com",
+        "name": "William Clabots",
+        "phone": "(612)309-1772",
+        "state": "MN",
+        "zip": "55429"
+      }
+    },
+    "nominatim": {
+      "address": "4417, Clinton Avenue South, Regina, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [798552892],
+      "place_ids": [588340]
+    }
+  },
+  "a9f390ff3b42d73b504f999aba30367473d353686d7353d40eef17987d176707": {
+    "opendata": {
+      "property": {
+        "address": "2719 MCKINLEY ST NE",
+        "ward": "1",
+        "neighborhood": "Audubon Park",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 45.01741,
+        "longitude": -93.22778
+      },
+      "applicant": {
+        "address": "2617 Pahl Ave",
+        "email": "janene@christyliving.com",
+        "name": "Janene K Christy",
+        "phone": "(612)889-5100",
+        "state": "MN",
+        "zip": "55418"
+      },
+      "owner": {
+        "address": "2855 Anthony Lane South #130",
+        "email": "thad@huntersrockinc.com",
+        "name": "Hunter's Rock Inc",
+        "phone": "(763)228-3168",
+        "state": "MN",
+        "zip": "55418"
+      }
+    },
+    "nominatim": {
+      "address": "2719, Northeast McKinley Street, Minneapolis, Hennepin County, 55418, United States",
+      "osm_ids": [203047344],
+      "place_ids": [1386515]
+    }
+  },
+  "05606d4a3f2f09a89eb2886b4a56e224ede750814aa92c4a43af55b0fe100be4": {
+    "opendata": {
+      "property": {
+        "address": "725 JACKSON ST NE",
+        "ward": "3",
+        "neighborhood": "St. Anthony East",
+        "community": "Northeast",
+        "precinct": "2",
+        "latitude": 44.9977,
+        "longitude": -93.24953
+      },
+      "applicant": {
+        "address": "725 Jackson St NE",
+        "email": "mitchjon000@gmail.com",
+        "name": "Jonathan Mitchell",
+        "phone": "(952)288-7086",
+        "state": "MN",
+        "zip": "55413"
+      },
+      "owner": {
+        "address": "725 Jackson St NE",
+        "email": "mitchjon000@gmail.com",
+        "name": "Jonathan Mitchell",
+        "phone": "(952)288-7086",
+        "state": "MN",
+        "zip": "55413"
+      }
+    },
+    "nominatim": {
+      "address": "725, Northeast Jackson Street, Minneapolis, Hennepin County, 55413, United States",
+      "osm_ids": [6029257],
+      "place_ids": [1418004]
+    }
+  },
+  "51584f5558f71ccf7be057b6af612c5114330d72462e6d302566494502876e13": {
+    "opendata": {
+      "property": {
+        "address": "5920 OLIVER AVE S",
+        "ward": "13",
+        "neighborhood": "Armatage",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.89607,
+        "longitude": -93.30775
+      },
+      "applicant": {
+        "address": "3336 33rd Ave S",
+        "email": "kaare3336@hotmail.com",
+        "name": "David Nelson",
+        "phone": "(651)325-7916",
+        "state": "MN",
+        "zip": "55406"
+      },
+      "owner": {
+        "address": "3336 33rd Ave S",
+        "email": "kaare3336@hotmail.com",
+        "name": "David Nelson",
+        "phone": "(651)325-7916",
+        "state": "MN",
+        "zip": "55406"
+      }
+    },
+    "nominatim": {
+      "address": "5920, Oliver Avenue South, Armatage, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [6028016],
+      "place_ids": [1367637]
+    }
+  },
+  "65cee4c8cccc5a0bc89ad3d235d2112385a61127511d69027dba7ef91cf8f918": {
+    "opendata": {
+      "property": {
+        "address": "99 54TH ST E",
+        "ward": "11",
+        "neighborhood": "Tangletown",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.90479,
+        "longitude": -93.27684
+      },
+      "applicant": {
+        "address": "5018 France Ave South",
+        "email": "paul@emory-properties.com",
+        "name": "Paul Begich",
+        "phone": "(952)847-3406",
+        "state": "MN",
+        "zip": "55410"
+      },
+      "owner": {
+        "address": "5018 France Ave South",
+        "email": "paul@emory-properties.com",
+        "name": "Paul Begich",
+        "phone": "(952)847-3406",
+        "state": "MN",
+        "zip": "55410"
+      }
+    },
+    "nominatim": {
+      "address": "99, East 54th Street, Tangletown, Southwest, Minneapolis, Hennepin County, 55419, United States",
+      "osm_ids": [5994257],
+      "place_ids": [1410875]
+    }
+  },
+  "a040c7375b8b138ae5d3235d4f182ae2b384ea6b3d00f33bf9150bc29fc67ce3": {
+    "opendata": {
+      "property": {
+        "address": "4417 ALDRICH AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.03614,
+        "longitude": -93.29047
+      },
+      "applicant": {
+        "address": "8161 Hidden Ct",
+        "email": "dustin@varpnessproperties.com",
+        "name": "Dustin James Varpness",
+        "phone": "(612)230-1288",
+        "state": "MN",
+        "zip": "55317"
+      },
+      "owner": {
+        "address": "8161 Hidden Ct",
+        "email": "dustin@varpnessproperties.com",
+        "name": "Dustin James Varpness",
+        "phone": "(612)230-1288",
+        "state": "MN",
+        "zip": "55317"
+      }
+    },
+    "nominatim": {
+      "address": "4417, Aldrich Avenue North, McKinley, Camden, Minneapolis, Hennepin County, 55412, United States",
+      "osm_ids": [6033909],
+      "place_ids": [1437881]
+    }
+  },
+  "88b34de70b8841fcf22826853e8b62c941aca50c6987f1bc86ab9bd5bd92c075": {
+    "opendata": {
+      "property": {
+        "address": "4901 CAMDEN AVE N",
+        "ward": "4",
+        "neighborhood": "Lind - Bohanon",
+        "community": "Camden",
+        "precinct": "4",
+        "latitude": 45.0441,
+        "longitude": -93.28926
+      },
+      "applicant": {
+        "address": "5344 Camden Ave N",
+        "email": "lawrencerentalsinc@gmail.com",
+        "name": "Michael A George",
+        "phone": "(267)997-5411",
+        "state": "MN",
+        "zip": "55430"
+      },
+      "owner": {
+        "address": "361 Washington Ave",
+        "email": "matthewlove100@gmail.com",
+        "name": "Corian M Lawrence",
+        "phone": "(301)232-4432",
+        "state": "MD",
+        "zip": "21060"
+      }
+    },
+    "nominatim": {
+      "address": "4901, North Camden Avenue, Lind-Bohanon, Camden, Minneapolis, Hennepin County, 55430, United States",
+      "osm_ids": [934504560],
+      "place_ids": [274713]
+    }
+  },
+  "d7153abcae30a421b8ccaed1ff613e4fba27aaad5400fd469dfbe18853e61117": {
+    "opendata": {
+      "property": {
+        "address": "3626 HARRIET AVE",
+        "ward": "8",
+        "neighborhood": "King Field",
+        "community": "Southwest",
+        "precinct": "5",
+        "latitude": 44.93679,
+        "longitude": -93.286
+      },
+      "applicant": {
+        "address": "3626 HARRIET AVENUE #2",
+        "email": "clairette.lapointe@gmail.com",
+        "name": "Clairette LaPointe",
+        "phone": null,
+        "state": "MN",
+        "zip": "55409"
+      },
+      "owner": {
+        "address": "4716 W 162th St",
+        "email": "garrett@sum.vs",
+        "name": "Garrett Gilbertson",
+        "phone": null,
+        "state": "CA",
+        "zip": "90260"
+      }
+    },
+    "nominatim": {
+      "address": "3626, Harriet Avenue South, King Field, Southwest, Minneapolis, Hennepin County, 55409, United States",
+      "osm_ids": [92189551],
+      "place_ids": [1430390]
+    }
+  }
+}
