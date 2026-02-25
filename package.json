@@ -10,7 +10,7 @@
   },
   "scripts": {
     "check": "prettier --check . && tsc",
-    "start": "node --watch --env-file-if-exists .env src/app.ts",
+    "start": "node --watch --env-file-if-exists .env src/serve.ts",
     "write": "node --env-file .env src/bin/fetchAndProcessData.ts > output.json"
   },
   "dependencies": {

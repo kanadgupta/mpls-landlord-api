@@ -1,5 +1,4 @@
 import { Hono } from "hono";
-import { serve } from "@hono/node-server";
 
 import importedRentalData from "../output.json" with { type: "json" };
 import type { Result } from "./types/processedData.ts";
@@ -7,8 +6,6 @@ import type { NominatimPlace } from "./types/nominatim.ts";
 import { getDisplayName, nominatimFetch } from "./utils.ts";
 
 const rentalData = importedRentalData as Result;
-
-const port = 3000;
 
 const app = new Hono();
 
@@ -54,9 +51,4 @@ app.get("/", async (c) => {
   return c.json(found.opendata);
 });
 
-serve({
-  fetch: app.fetch,
-  port,
-});
-
-console.log(`running at http://localhost:${port}`);
+export default app;
