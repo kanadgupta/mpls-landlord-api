@@ -10,7 +10,9 @@
   },
   "scripts": {
     "check": "prettier --check . && tsc",
+    "pretest": "npm run check",
     "start": "node --watch --env-file-if-exists .env src/serve.ts",
+    "test": "vitest run",
     "write": "node --env-file .env src/bin/fetchAndProcessData.ts > output.json"
   },
   "dependencies": {
@@ -21,6 +23,7 @@
     "@types/geojson": "^7946.0.16",
     "@types/node": "^25.3.0",
     "prettier": "^3.8.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
   }
 }
