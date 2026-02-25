@@ -43,6 +43,7 @@ the query parameters follow the same patterns as [the nominatim search endpoint'
 ## next steps
 
 - [ ] unit tests
+- [ ] general fine tuning of nominatim queries to improve general API accuracy
 - [ ] rework the fetching in `fetchAndProcessData.ts` to not hammer the nominatim api
 - [ ] git scrape and process the active rental license data
 - [ ] better error handling throughout (particularly for addresses in active rental license data that aren't geocodeable for some reason)
