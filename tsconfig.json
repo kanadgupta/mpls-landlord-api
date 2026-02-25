@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "erasableSyntaxOnly": true,
+    "module": "node20",
+    "noEmit": true,
+    "rewriteRelativeImportExtensions": true,
+    "strict": true,
+    "verbatimModuleSyntax": true
+  }
+}

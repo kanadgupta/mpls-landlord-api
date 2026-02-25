@@ -1,0 +1,26 @@
+{
+  "name": "mpls-landlord-api",
+  "private": true,
+  "license": "ISC",
+  "author": "Kanad Gupta",
+  "version": "0.0.1",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "prettier --check . && tsc",
+    "start": "node --watch --env-file-if-exists .env src/app.ts",
+    "write": "node --env-file .env src/bin/fetchAndProcessData.ts > output-new-display-name.json"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.9",
+    "hono": "^4.12.2"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^25.3.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  }
+}
