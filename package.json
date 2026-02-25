@@ -11,7 +11,7 @@
   "scripts": {
     "check": "prettier --check . && tsc",
     "start": "node --watch --env-file-if-exists .env src/app.ts",
-    "write": "node --env-file .env src/bin/fetchAndProcessData.ts > output-new-display-name.json"
+    "write": "node --env-file .env src/bin/fetchAndProcessData.ts > output.json"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.9",
