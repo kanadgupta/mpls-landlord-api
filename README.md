@@ -53,6 +53,6 @@ the query parameters follow the same patterns as [the nominatim search endpoint'
 
 most of this was put together during a pairing jam at the [recurse center](https://www.recurse.com/) on feb 24, 2026 in collaboration with:
 
-- @bnb
-- @margo-K
-- @Giesch
+- [@bnb](https://github.com/bnb)
+- [@Giesch](https://github.com/Giesch)
+- [@margo-K](https://github.com/margo-K)
