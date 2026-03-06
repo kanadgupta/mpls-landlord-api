@@ -1,5 +1,8 @@
 import { createHash } from "node:crypto";
+import fs from "node:fs/promises";
+
 import type { FeatureCollection, Point } from "geojson";
+
 import type { RentalProps } from "../types/rentalProps.ts";
 import type {
   NominatimAggregateResult,
@@ -11,13 +14,30 @@ import { getDisplayName, nominatimFetch } from "../utils.ts";
 const apiUrl =
   "https://opendata.arcgis.com/api/v3/datasets/baf5f14d67704668884275686e3db867_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1";
 
+async function fetchData(
+  refresh = true,
+): Promise<FeatureCollection<Point, RentalProps>> {
+  if (refresh) {
+    const body = await fetch(apiUrl);
+    const data = await body.text();
+    await fs.writeFile("input.json", data, { encoding: "utf-8" });
+    return JSON.parse(data);
+  } else {
+    const data = JSON.parse(
+      await fs.readFile("input.json", { encoding: "utf-8" }),
+    );
+    return data;
+  }
+}
+
 /**
  * Fetches the active rental license data and processes it with nominatim.
  */
 export async function fetchAndProcessData() {
   const result: Result = {};
-  const body = await fetch(apiUrl);
-  const data = (await body.json()) as FeatureCollection<Point, RentalProps>;
+  // todo: make this a CLI flag
+  const data = await fetchData(false);
+
   await Promise.all(
     // todo: chunk this out properly so requests are properly batched
     data.features
