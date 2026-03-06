@@ -4,17 +4,21 @@ import importedRentalData from "../output.json" with { type: "json" };
 import type { Result } from "./types/processedData.ts";
 import type { NominatimPlace } from "./types/nominatim.ts";
 import { getDisplayName, nominatimFetch } from "./utils.ts";
+import { validator } from "hono/validator";
 
 const rentalData = importedRentalData as Result;
 
 const app = new Hono();
 
-app.get("/", async (c) => {
-  const q = c.req.query("q");
+const validate = validator("query", (val, c) => {
+  const q = val["q"];
+  return q && typeof q === "string"
+    ? { q }
+    : c.text("missing `q` query param", 400);
+});
 
-  if (!q) {
-    return c.text("missing `q` query param", 400);
-  }
+app.get("/", validate, async (c) => {
+  const { q } = c.req.valid("query");
 
   const res = await nominatimFetch(q);
 
