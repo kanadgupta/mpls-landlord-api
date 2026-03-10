@@ -38,12 +38,36 @@ async function fetchData(
  */
 export async function fetchAndProcessData() {
   const result: Result = {};
+
+  const summary = {
+    success: {
+      oneMatch: 0,
+      multipleMatches: 0,
+    },
+    failed: {
+      noFullResults: 0,
+      multipleDisplayAddresses: 0,
+      fetchFailure: 0,
+      parseFailure: 0,
+    },
+  };
+
   // todo: make this a CLI flag
   const data = await fetchData();
 
   const splitLength = 1000;
 
   console.log("# of properties:", data.features.length);
+
+  const handleError = (
+    key: string,
+    errorType: keyof (typeof summary)["failed"],
+    message: string,
+  ) => {
+    console.error(message);
+    result[key] = { error: { message }, success: false };
+    summary.failed[errorType] = summary.failed[errorType] + 1;
+  };
 
   const splitData = data.features
     .reduce<Feature<Point, RentalProps>[][]>((prev, current, i) => {
@@ -84,9 +108,12 @@ export async function fetchAndProcessData() {
       const text = await res.text();
 
       if (!res.ok) {
-        const message = `‼️ failed to fetch for this address: ${entry.properties.address} — received ${res.status} with text: ${text}`;
-        console.error(message);
-        result[hashedAddress] = { error: { message }, success: false };
+        handleError(
+          hashedAddress,
+          "fetchFailure",
+          `‼️ failed to fetch for this address: ${entry.properties.address} — received ${res.status} with text: ${text}`,
+        );
+
         continue;
       }
 
@@ -95,9 +122,11 @@ export async function fetchAndProcessData() {
       try {
         json = JSON.parse(text);
       } catch (e) {
-        const message = `‼️ failed to parse JSON this address: ${entry.properties.address}: ${text}`;
-        console.error(message);
-        result[hashedAddress] = { error: { message }, success: false };
+        handleError(
+          hashedAddress,
+          "parseFailure",
+          `‼️ failed to parse JSON this address: ${entry.properties.address}: ${text}`,
+        );
 
         continue;
       }
@@ -105,9 +134,11 @@ export async function fetchAndProcessData() {
       const filtered = json.filter((x) => x.place_rank === 30);
 
       if (filtered.length === 0) {
-        const message = `‼️ no full results for this address: ${entry.properties.address}, ${JSON.stringify(json)}`;
-        console.error(message);
-        result[hashedAddress] = { error: { message }, success: false };
+        handleError(
+          hashedAddress,
+          "noFullResults",
+          `‼️ no full results for this address: ${entry.properties.address}, ${JSON.stringify(json)}`,
+        );
 
         continue;
       }
@@ -115,9 +146,12 @@ export async function fetchAndProcessData() {
       if (
         filtered.some((x) => getDisplayName(x) !== getDisplayName(filtered[0]))
       ) {
-        const message = `‼️ multiple display addresses for this address: ${entry.properties.address}, ${JSON.stringify(json)}`;
-        console.error(message);
-        result[hashedAddress] = { error: { message }, success: false };
+        handleError(
+          hashedAddress,
+          "multipleDisplayAddresses",
+          `‼️ multiple display addresses for this address: ${entry.properties.address}, ${JSON.stringify(json)}`,
+        );
+
         continue;
       }
 
@@ -172,10 +206,12 @@ export async function fetchAndProcessData() {
         console.warn(
           `⚠️ multiple OSM results for this address: ${entry.properties.address}, ${JSON.stringify(json)}`,
         );
+        summary.success.multipleMatches = summary.success.multipleMatches + 1;
       } else {
         console.log(
           `✅ successfully added output for ${entry.properties.address}`,
         );
+        summary.success.oneMatch = summary.success.oneMatch + 1;
       }
     }
     // await new Promise((r) => setTimeout(r, 1000));
@@ -187,9 +223,11 @@ export async function fetchAndProcessData() {
   await fs.writeFile("output.json", JSON.stringify(result, null, 2), {
     encoding: "utf-8",
   });
+
+  console.log("🎊 done");
+  console.log("summary", JSON.stringify(summary));
 }
 
 fetchAndProcessData().then(() => {
-  console.log("🎊 done");
   process.exit(0);
 });
