@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 
 import importedRentalData from "../output.json" with { type: "json" };
-import type { Result } from "./types/processedData.ts";
+import type { Result, SuccessResult } from "./types/processedData.ts";
 import type { NominatimPlace } from "./types/nominatim.ts";
 import { getDisplayName, nominatimFetch } from "./utils.ts";
 import { validator } from "hono/validator";
@@ -45,8 +45,8 @@ app.get("/", validate, async (c) => {
   }
 
   const found = Object.values(rentalData).find((val) => {
-    return val.nominatim.address === getDisplayName(filtered[0]);
-  });
+    return val.success && val.nominatim.address === getDisplayName(filtered[0]);
+  }) as SuccessResult;
 
   if (!found) {
     return c.text("no match found", 400);
