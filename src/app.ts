@@ -1,10 +1,10 @@
 import { Hono } from "hono";
+import { validator } from "hono/validator";
 
 import importedRentalData from "../output.json" with { type: "json" };
 import type { Result, SuccessResult } from "./types/processedData.ts";
 import type { NominatimPlace } from "./types/nominatim.ts";
 import { getDisplayName, nominatimFetch } from "./utils.ts";
-import { validator } from "hono/validator";
 
 const rentalData = importedRentalData as Result;
 
