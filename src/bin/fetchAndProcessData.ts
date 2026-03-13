@@ -131,16 +131,29 @@ export async function fetchAndProcessData() {
         continue;
       }
 
-      const filtered = json.filter((x) => x.place_rank === 30);
+      let filtered = json.filter((x) => x.place_rank === 30);
 
       if (filtered.length === 0) {
-        handleError(
-          hashedAddress,
-          "noFullResults",
-          `‼️ no full results for this address: ${entry.properties.address}, ${JSON.stringify(json)}`,
-        );
+        let updatedAddress = entry.properties.address;
+        // redo it, but with any unit numbers stripped out
+        if (json.length === 0 && updatedAddress.includes(" #")) {
+          updatedAddress = updatedAddress.replace(/ #.*/, "");
+          json = await (
+            await nominatimFetch(`${updatedAddress}, Minneapolis`)
+          ).json();
 
-        continue;
+          filtered = json.filter((x) => x.place_rank === 30);
+        }
+
+        if (filtered.length === 0) {
+          handleError(
+            hashedAddress,
+            "noFullResults",
+            `‼️ no full results for this address: ${updatedAddress}, ${JSON.stringify(json)}`,
+          );
+
+          continue;
+        }
       }
 
       if (
