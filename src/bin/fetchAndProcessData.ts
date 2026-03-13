@@ -226,6 +226,10 @@ export async function fetchAndProcessData() {
 
   console.log("🎊 done");
   console.log("summary", JSON.stringify(summary));
+
+  await fs.writeFile("summary.json", JSON.stringify(summary, null, 2), {
+    encoding: "utf-8",
+  });
 }
 
 fetchAndProcessData().then(() => {
