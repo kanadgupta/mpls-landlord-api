@@ -17,9 +17,11 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.9",
+    "d3-dsv": "^3.0.1",
     "hono": "^4.12.2"
   },
   "devDependencies": {
+    "@types/d3-dsv": "^3.0.7",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^25.3.0",
     "nock": "^14.0.11",

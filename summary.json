@@ -1,12 +1,10 @@
 {
   "success": {
-    "oneMatch": 21820,
-    "multipleMatches": 832
+    "oneMatch": 21844,
+    "multipleMatches": 834
   },
   "failed": {
-    "noFullResults": 576,
-    "multipleDisplayAddresses": 398,
-    "fetchFailure": 0,
-    "parseFailure": 0
+    "noFullResults": 557,
+    "multipleDisplayAddresses": 391
   }
 }

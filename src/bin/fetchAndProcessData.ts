@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 
 import type { Feature, FeatureCollection, Point } from "geojson";
+import * as d3 from "d3-dsv";
 
 import type { RentalProps } from "../types/rentalProps.ts";
 import type {
@@ -47,8 +48,6 @@ export async function fetchAndProcessData() {
     failed: {
       noFullResults: 0,
       multipleDisplayAddresses: 0,
-      fetchFailure: 0,
-      parseFailure: 0,
     },
   };
 
@@ -57,16 +56,62 @@ export async function fetchAndProcessData() {
 
   const splitLength = 1000;
 
+  await fs.writeFile(
+    "errors.csv",
+    `${d3.csvFormatRow(["address", "errortype", "results"])}\n`,
+    { encoding: "utf-8" },
+  );
+
   console.log("# of properties:", data.features.length);
 
-  const handleError = (
-    key: string,
+  const handleError = async (
+    address: string,
+    hashedAddress: string,
     errorType: keyof (typeof summary)["failed"],
     message: string,
   ) => {
     console.error(message);
-    result[key] = { error: { message }, success: false };
+    result[hashedAddress] = { error: { message }, success: false };
     summary.failed[errorType] = summary.failed[errorType] + 1;
+    await fs.appendFile(
+      "errors.csv",
+      `${d3.csvFormatRow([address, errorType, message])}\n`,
+      {
+        encoding: "utf-8",
+      },
+    );
+  };
+
+  const fetchAndParse = async (
+    address: string,
+    unresolved: () => Promise<Response>,
+  ): Promise<NominatimPlace[]> => {
+    const res = await unresolved().catch((e) => {
+      console.error(
+        `‼️ failed to fetch for this address: ${address} — server is likely down!`,
+      );
+      throw e;
+    });
+
+    const text = await res.text();
+
+    if (!res.ok) {
+      throw new Error(
+        `‼️ failed to fetch for this address: ${address} — received ${res.status} with text: ${text}`,
+      );
+    }
+
+    let json: NominatimPlace[] = [];
+
+    try {
+      json = JSON.parse(text);
+    } catch (e) {
+      throw new Error(
+        `‼️ failed to parse JSON this address: ${address}: ${text}`,
+      );
+    }
+
+    return json;
   };
 
   const splitData = data.features
@@ -98,55 +143,27 @@ export async function fetchAndProcessData() {
         .update(entry.properties.address)
         .digest("hex");
 
-      const res = await unresolvedRes().catch((e) => {
-        console.error(
-          `‼️ failed to fetch for this address: ${entry.properties.address} — server is likely down!`,
-        );
-        throw e;
-      });
-
-      const text = await res.text();
-
-      if (!res.ok) {
-        handleError(
-          hashedAddress,
-          "fetchFailure",
-          `‼️ failed to fetch for this address: ${entry.properties.address} — received ${res.status} with text: ${text}`,
-        );
-
-        continue;
-      }
-
-      let json: NominatimPlace[] = [];
-
-      try {
-        json = JSON.parse(text);
-      } catch (e) {
-        handleError(
-          hashedAddress,
-          "parseFailure",
-          `‼️ failed to parse JSON this address: ${entry.properties.address}: ${text}`,
-        );
-
-        continue;
-      }
+      let json = await fetchAndParse(entry.properties.address, unresolvedRes);
 
       let filtered = json.filter((x) => x.place_rank === 30);
 
       if (filtered.length === 0) {
         let updatedAddress = entry.properties.address;
-        // redo it, but with any unit numbers stripped out
+        // reattempt fetch, but with unit numbers stripped out
         if (json.length === 0 && updatedAddress.includes(" #")) {
           updatedAddress = updatedAddress.replace(/ #.*/, "");
-          json = await (
-            await nominatimFetch(`${updatedAddress}, Minneapolis`)
-          ).json();
+
+          const unresolvedReattemptRes = () =>
+            nominatimFetch(`${updatedAddress}, Minneapolis`);
+
+          json = await fetchAndParse(updatedAddress, unresolvedReattemptRes);
 
           filtered = json.filter((x) => x.place_rank === 30);
         }
 
         if (filtered.length === 0) {
-          handleError(
+          await handleError(
+            updatedAddress,
             hashedAddress,
             "noFullResults",
             `‼️ no full results for this address: ${updatedAddress}, ${JSON.stringify(json)}`,
@@ -159,7 +176,8 @@ export async function fetchAndProcessData() {
       if (
         filtered.some((x) => getDisplayName(x) !== getDisplayName(filtered[0]))
       ) {
-        handleError(
+        await handleError(
+          entry.properties.address,
           hashedAddress,
           "multipleDisplayAddresses",
           `‼️ multiple display addresses for this address: ${entry.properties.address}, ${JSON.stringify(json)}`,
