@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
+    "composite": true,
+    "declaration": true,
     "erasableSyntaxOnly": true,
     "module": "node20",
-    "noEmit": true,
+    "outDir": "dist",
     "rewriteRelativeImportExtensions": true,
     "strict": true,
     "verbatimModuleSyntax": true
-  }
+  },
+  "include": ["src/**/*.ts", "src/**/*.json"]
 }
