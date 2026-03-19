@@ -5,20 +5,32 @@ import type { Feature, FeatureCollection, Point } from "geojson";
 import * as d3 from "d3-dsv";
 
 import type { RentalProps } from "../types/rentalProps.ts";
-import type {
-  NominatimAggregateResult,
-  Result,
-} from "../types/processedData.ts";
-import type { NominatimPlace } from "../types/nominatim.ts";
-import { getNominatimDisplayName, nominatimFetch } from "../utils.ts";
+import type { Result } from "../types/processedData.ts";
+import {
+  filterForAddresses,
+  getPeliasDisplayName,
+  peliasStructuredSearch,
+} from "../utils.ts";
+import type { PeliasProperties, PeliasResponse } from "../types/pelias.ts";
 
 const apiUrl =
   "https://opendata.arcgis.com/api/v3/datasets/baf5f14d67704668884275686e3db867_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1";
 
 const inputFile = "src/data/rentals-input.json" as const;
-const outputFile = "src/data/rentals-output-nominatim.json" as const;
-const summaryFile = "src/data/rentals-output-nominatim-summary.json" as const;
-const csvReportFile = "src/data/rentals-output-nominatim-errors.csv" as const;
+const outputFile = "src/data/rentals-output-pelias.json" as const;
+const summaryFile = "src/data/rentals-output-pelias-summary.json" as const;
+const csvReportFile = "src/data/rentals-output-pelias-errors.csv" as const;
+
+/** CSV rows */
+const row = [
+  "address",
+  "errorType",
+  "confidence",
+  "match_type",
+  "accuracy",
+  "layer",
+  "message",
+] as const;
 
 async function fetchData(
   refresh = true,
@@ -40,7 +52,7 @@ async function fetchData(
 }
 
 /**
- * Fetches the active rental license data and processes it with nominatim.
+ * Fetches the active rental license data and processes it with pelias.
  */
 export async function fetchAndProcessData() {
   const result: Result = {};
@@ -57,15 +69,13 @@ export async function fetchAndProcessData() {
   };
 
   // todo: make this a CLI flag
-  const data = await fetchData();
+  const data = await fetchData(false);
 
   const splitLength = 1000;
 
-  await fs.writeFile(
-    csvReportFile,
-    `${d3.csvFormatRow(["address", "errortype", "results"])}\n`,
-    { encoding: "utf-8" },
-  );
+  await fs.writeFile(csvReportFile, `${d3.csvFormatRow(row)}\n`, {
+    encoding: "utf-8",
+  });
 
   console.log("# of properties:", data.features.length);
 
@@ -74,13 +84,17 @@ export async function fetchAndProcessData() {
     hashedAddress: string,
     errorType: keyof (typeof summary)["failed"],
     message: string,
+    confidence?: PeliasProperties["confidence"],
+    match_type?: PeliasProperties["match_type"],
+    accuracy?: PeliasProperties["accuracy"],
+    layer?: PeliasProperties["layer"],
   ) => {
     console.error(message);
     result[hashedAddress] = { error: { message }, success: false };
     summary.failed[errorType] = summary.failed[errorType] + 1;
     await fs.appendFile(
       csvReportFile,
-      `${d3.csvFormatRow([address, errorType, message])}\n`,
+      `${d3.csvFormatBody([{ address, errorType, message, confidence, match_type, accuracy, layer }], row)}\n`,
       {
         encoding: "utf-8",
       },
@@ -90,7 +104,7 @@ export async function fetchAndProcessData() {
   const fetchAndParse = async (
     address: string,
     unresolved: () => Promise<Response>,
-  ): Promise<NominatimPlace[]> => {
+  ): Promise<PeliasResponse> => {
     const res = await unresolved().catch((e) => {
       console.error(
         `‼️ failed to fetch for this address: ${address} — server is likely down!`,
@@ -106,7 +120,7 @@ export async function fetchAndProcessData() {
       );
     }
 
-    let json: NominatimPlace[] = [];
+    let json: PeliasResponse;
 
     try {
       json = JSON.parse(text);
@@ -137,7 +151,7 @@ export async function fetchAndProcessData() {
       return outer.map((entry) => {
         // function that initiates fetch when resolved
         const res = () =>
-          nominatimFetch(`${entry.properties.address}, Minneapolis`);
+          peliasStructuredSearch({ address: entry.properties.address });
         return [entry, res] as const;
       });
     });
@@ -148,22 +162,27 @@ export async function fetchAndProcessData() {
         .update(entry.properties.address)
         .digest("hex");
 
-      let json = await fetchAndParse(entry.properties.address, unresolvedRes);
+      let json = (await fetchAndParse(entry.properties.address, unresolvedRes))
+        .features;
 
-      let filtered = json.filter((x) => x.place_rank === 30);
+      let filtered = json.filter(filterForAddresses);
 
       if (filtered.length === 0) {
         let updatedAddress = entry.properties.address;
-        // reattempt fetch, but with unit numbers stripped out
-        if (json.length === 0 && updatedAddress.includes(" #")) {
-          updatedAddress = updatedAddress.replace(/ #.*/, "");
+        // reattempt fetch, but replace unit numbers like "#1A" with "Apt 1A"
+        const regex = /( #)(?<unit>[A-z,0-9,-]+$)/;
+        const match = updatedAddress.match(regex);
+        const unit = match?.groups?.unit;
+        if (unit) {
+          updatedAddress = updatedAddress.replace(regex, ` Apt ${unit}`);
 
           const unresolvedReattemptRes = () =>
-            nominatimFetch(`${updatedAddress}, Minneapolis`);
+            peliasStructuredSearch({ address: updatedAddress });
 
-          json = await fetchAndParse(updatedAddress, unresolvedReattemptRes);
+          json = (await fetchAndParse(updatedAddress, unresolvedReattemptRes))
+            .features;
 
-          filtered = json.filter((x) => x.place_rank === 30);
+          filtered = json.filter(filterForAddresses);
         }
 
         if (filtered.length === 0) {
@@ -172,40 +191,15 @@ export async function fetchAndProcessData() {
             hashedAddress,
             "noFullResults",
             `‼️ no full results for this address: ${updatedAddress}, ${JSON.stringify(json)}`,
+            json[0]?.properties.confidence,
+            json[0]?.properties.match_type,
+            json[0]?.properties.accuracy,
+            json[0]?.properties.layer,
           );
 
           continue;
         }
       }
-
-      if (
-        filtered.some(
-          (x) =>
-            getNominatimDisplayName(x) !== getNominatimDisplayName(filtered[0]),
-        )
-      ) {
-        await handleError(
-          entry.properties.address,
-          hashedAddress,
-          "multipleDisplayAddresses",
-          `‼️ multiple display addresses for this address: ${entry.properties.address}, ${JSON.stringify(json)}`,
-        );
-
-        continue;
-      }
-
-      const singleResult = filtered.reduce<NominatimAggregateResult>(
-        (prev, curr) => {
-          prev.osm_ids.push(curr.osm_id);
-          prev.place_ids.push(curr.place_id);
-          return prev;
-        },
-        {
-          address: getNominatimDisplayName(filtered[0]),
-          osm_ids: [],
-          place_ids: [],
-        },
-      );
 
       result[hashedAddress] = {
         opendata: {
@@ -237,21 +231,17 @@ export async function fetchAndProcessData() {
             zip: entry.properties.ownerZip,
           },
         },
-        nominatim: singleResult,
+        pelias: {
+          address: getPeliasDisplayName(filtered[0]),
+          gid: filtered[0].properties.gid,
+        },
         success: true,
       };
 
-      if (singleResult.osm_ids.length !== 1) {
-        console.warn(
-          `⚠️ multiple OSM results for this address: ${entry.properties.address}, ${JSON.stringify(json)}`,
-        );
-        summary.success.multipleMatches = summary.success.multipleMatches + 1;
-      } else {
-        console.log(
-          `✅ successfully added output for ${entry.properties.address}`,
-        );
-        summary.success.oneMatch = summary.success.oneMatch + 1;
-      }
+      console.log(
+        `✅ successfully added output for ${entry.properties.address}`,
+      );
+      summary.success.oneMatch = summary.success.oneMatch + 1;
     }
     // await new Promise((r) => setTimeout(r, 1000));
   }

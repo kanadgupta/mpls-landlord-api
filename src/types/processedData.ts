@@ -1,7 +1,10 @@
-export type NominatimAggregateResult = {
+export type PeliasRecord = {
   address: string;
-  osm_ids: number[];
-  place_ids: number[];
+  /**
+   * stored purely for debugging purposes, we should not be matching based on this value.
+   * @see {@link https://github.com/pelias/documentation/blob/a4650408d8b98f19a64d8a10f1bcbd541985b153/response.md#gid}
+   */
+  gid: string;
 };
 
 export type Result = Record<string, SuccessResult | ErrorResult>;
@@ -34,7 +37,7 @@ export type SuccessResult = {
       zip: string | null;
     };
   };
-  nominatim: NominatimAggregateResult;
+  pelias: PeliasRecord;
   success: true;
 };
 
