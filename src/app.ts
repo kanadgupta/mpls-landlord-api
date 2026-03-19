@@ -21,7 +21,7 @@ const validate = validator("query", (val, c) => {
     : c.text("missing `address` query param", 400);
 });
 
-app.get("/", validate, async (c) => {
+const route = app.get("/", validate, async (c) => {
   const { address } = c.req.valid("query");
 
   const res = await peliasStructuredSearch({ address });
@@ -66,3 +66,5 @@ app.get("/", validate, async (c) => {
 });
 
 export default app;
+
+export type AppType = typeof route;
