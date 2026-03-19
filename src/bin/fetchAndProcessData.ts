@@ -15,19 +15,24 @@ import { getDisplayName, nominatimFetch } from "../utils.ts";
 const apiUrl =
   "https://opendata.arcgis.com/api/v3/datasets/baf5f14d67704668884275686e3db867_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1";
 
+const inputFile = "src/data/rentals-input.json" as const;
+const outputFile = "src/data/rentals-output-nominatim.json" as const;
+const summaryFile = "src/data/rentals-output-nominatim-summary.json" as const;
+const csvReportFile = "src/data/rentals-output-nominatim-errors.csv" as const;
+
 async function fetchData(
   refresh = true,
 ): Promise<FeatureCollection<Point, RentalProps>> {
   if (refresh) {
     const body = await fetch(apiUrl);
     const data = await body.text();
-    await fs.writeFile("input.json", data, { encoding: "utf-8" });
+    await fs.writeFile(inputFile, data, { encoding: "utf-8" });
     const parsed = JSON.parse(data);
     console.log("📦 successfully fetched rental data");
     return parsed;
   } else {
     const data = JSON.parse(
-      await fs.readFile("input.json", { encoding: "utf-8" }),
+      await fs.readFile(inputFile, { encoding: "utf-8" }),
     );
     console.log("💤 using cached rental data");
     return data;
@@ -57,7 +62,7 @@ export async function fetchAndProcessData() {
   const splitLength = 1000;
 
   await fs.writeFile(
-    "errors.csv",
+    csvReportFile,
     `${d3.csvFormatRow(["address", "errortype", "results"])}\n`,
     { encoding: "utf-8" },
   );
@@ -74,7 +79,7 @@ export async function fetchAndProcessData() {
     result[hashedAddress] = { error: { message }, success: false };
     summary.failed[errorType] = summary.failed[errorType] + 1;
     await fs.appendFile(
-      "errors.csv",
+      csvReportFile,
       `${d3.csvFormatRow([address, errorType, message])}\n`,
       {
         encoding: "utf-8",
@@ -251,14 +256,14 @@ export async function fetchAndProcessData() {
   // todo: summary stats
   // todo: CLI flag for writing vs not?
   // todo: should we write each line? maybe as JSONL?
-  await fs.writeFile("output.json", JSON.stringify(result, null, 2), {
+  await fs.writeFile(outputFile, JSON.stringify(result, null, 2), {
     encoding: "utf-8",
   });
 
   console.log("🎊 done");
   console.log("summary", JSON.stringify(summary));
 
-  await fs.writeFile("summary.json", JSON.stringify(summary, null, 2), {
+  await fs.writeFile(summaryFile, JSON.stringify(summary, null, 2), {
     encoding: "utf-8",
   });
 }
