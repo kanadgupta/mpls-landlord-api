@@ -5,32 +5,6 @@ export const peliasBaseUrl =
   process.env.PELIAS_BASE_URL || "https://api.geocode.earth";
 
 /**
- * TODO: compare this against the structured search to see which yields better results
- * {@see @link https://github.com/pelias/documentation/blob/a4650408d8b98f19a64d8a10f1bcbd541985b153/search.md}
- */
-export async function peliasSearch(
-  text: string,
-  /**
-   * @see {@link https://github.com/pelias/documentation/blob/a4650408d8b98f19a64d8a10f1bcbd541985b153/search.md#search-within-a-circular-region}
-   */
-  coordinates?: { lat: number; long: number },
-) {
-  const search = new URLSearchParams({
-    text,
-    // layers: "venue,address",
-    size: "1",
-  });
-
-  if (coordinates) {
-    search.set("boundary.circle.lat", String(coordinates.lat));
-    search.set("boundary.circle.lon", String(coordinates.long));
-    search.set("boundary.circle.radius", "1");
-  }
-
-  return fetch(`${peliasBaseUrl}/v1/search?${search.toString()}`);
-}
-
-/**
  * filter pelias results for valid addresses
  */
 export const filterForAddresses = (
@@ -74,7 +48,6 @@ export async function peliasStructuredSearch(
 ) {
   const search = new URLSearchParams({
     locality: "Minneapolis",
-    // layers: "venue,address",
     size: "1",
     ...opts,
   });
