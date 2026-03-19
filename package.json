@@ -9,11 +9,11 @@
     "node": ">=22"
   },
   "scripts": {
-    "check": "prettier --check . && tsc",
+    "check": "knip && oxlint --deny-warnings && prettier --check . && tsc",
+    "fetch": "node --env-file .env src/bin/fetchAndProcessData.ts",
     "pretest": "npm run check",
     "start": "node --watch --env-file-if-exists .env src/serve.ts",
-    "test": "vitest run",
-    "write": "node --env-file .env src/bin/fetchAndProcessData.ts"
+    "test": "vitest run"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.9",
@@ -24,7 +24,9 @@
     "@types/d3-dsv": "^3.0.7",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^25.3.0",
+    "knip": "^5.87.0",
     "nock": "^14.0.11",
+    "oxlint": "^1.56.0",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"

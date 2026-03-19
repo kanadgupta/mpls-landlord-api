@@ -110,7 +110,7 @@ export async function fetchAndProcessData() {
 
     try {
       json = JSON.parse(text);
-    } catch (e) {
+    } catch {
       throw new Error(
         `‼️ failed to parse JSON this address: ${address}: ${text}`,
       );
