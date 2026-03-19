@@ -44,6 +44,8 @@ the `address` query param should be a street address (i.e., no city/state/zip in
 
 - [x] unit tests
 - [x] general fine tuning of geocoding queries to improve general API accuracy (mostly done, but leaving it here in case we want to improve upon this in the future)
+  - [ ] perhaps we leverage the ability to [search within a circular region](https://github.com/pelias/documentation/blob/a4650408d8b98f19a64d8a10f1bcbd541985b153/search.md#search-within-a-circular-region)?
+  - [ ] alternatively, maybe [a free form query](https://github.com/pelias/documentation/blob/a4650408d8b98f19a64d8a10f1bcbd541985b153/search-workflows.md) might be more suitable in certain instances?
 - [x] rework the fetching in `fetchAndProcessData.ts` to not hammer the geocoding api
   - [ ] smarter retry-based handling
 - [ ] git scrape and process the active rental license data
