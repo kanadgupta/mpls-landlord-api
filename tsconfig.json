@@ -9,5 +9,6 @@
     "strict": true,
     "verbatimModuleSyntax": true
   },
-  "include": ["src/**/*.ts", "src/**/*.json"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/data/*.json"]
 }

@@ -1,6 +1,7 @@
 import { Hono } from "hono";
 import { validator } from "hono/validator";
 
+// @ts-ignore this file is massive so we're preventing `tsc` from attempting to type it
 import processedRentalData from "./data/rentals-output-pelias.json" with { type: "json" };
 import type { Result, SuccessResult } from "./types/processedData.ts";
 import type { PeliasResponse } from "./types/pelias.ts";
