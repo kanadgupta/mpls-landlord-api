@@ -30,33 +30,21 @@ export const filterForAddresses = (
 /**
  * {@see @link https://github.com/pelias/documentation/blob/a4650408d8b98f19a64d8a10f1bcbd541985b153/structured-geocoding.md}
  */
-export async function peliasStructuredSearch(
-  opts: {
-    address: string;
-    neighbourhood?: string;
-    borough?: string;
-    locality?: string;
-    county?: string;
-    region?: string;
-    postalcode?: string;
-    country?: string;
-  },
-  /**
-   * @see {@link https://github.com/pelias/documentation/blob/a4650408d8b98f19a64d8a10f1bcbd541985b153/search.md#search-within-a-circular-region}
-   */
-  coordinates?: { lat: number; long: number },
-) {
+export async function peliasStructuredSearch(opts: {
+  address: string;
+  neighbourhood?: string;
+  borough?: string;
+  locality?: string;
+  county?: string;
+  region?: string;
+  postalcode?: string;
+  country?: string;
+}) {
   const search = new URLSearchParams({
     locality: "Minneapolis",
     size: "1",
     ...opts,
   });
-
-  if (coordinates) {
-    search.set("boundary.circle.lat", String(coordinates.lat));
-    search.set("boundary.circle.lon", String(coordinates.long));
-    search.set("boundary.circle.radius", "1");
-  }
 
   return fetch(`${peliasBaseUrl}/v1/search/structured?${search.toString()}`);
 }
