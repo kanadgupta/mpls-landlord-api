@@ -10,28 +10,28 @@ export type SuccessResult = {
   opendata: {
     property: {
       address: string;
-      ward: string;
-      neighborhood: string;
-      community: string;
-      precinct: string;
+      ward: string | null;
+      neighborhood: string | null;
+      community: string | null;
+      precinct: string | null;
       latitude: number;
       longitude: number;
     };
     applicant: {
       address: string | null;
-      email: string;
-      name: string;
-      phone: string;
-      state: string;
-      zip: string;
+      email: string | null;
+      name: string | null;
+      phone: string | null;
+      state: string | null;
+      zip: string | null;
     };
     owner: {
-      address: string;
-      email: string;
-      name: string;
-      phone: string;
-      state: string;
-      zip: string;
+      address: string | null;
+      email: string | null;
+      name: string | null;
+      phone: string | null;
+      state: string | null;
+      zip: string | null;
     };
   };
   nominatim: NominatimAggregateResult;
