@@ -15,16 +15,16 @@ const rentalData = processedRentalData as Result;
 const app = new Hono();
 
 const validate = validator("query", (val, c) => {
-  const q = val["q"];
-  return q && typeof q === "string"
-    ? { q }
-    : c.text("missing `q` query param", 400);
+  const address = val["address"];
+  return address && typeof address === "string"
+    ? { address }
+    : c.text("missing `address` query param", 400);
 });
 
 app.get("/", validate, async (c) => {
-  const { q } = c.req.valid("query");
+  const { address } = c.req.valid("query");
 
-  const res = await peliasStructuredSearch({ address: q });
+  const res = await peliasStructuredSearch({ address });
 
   if (!res.ok) {
     const text = await res.text();

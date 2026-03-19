@@ -8,15 +8,16 @@ describe("app tests", () => {
   it("should return 400 if no query param is passed", async () => {
     const res = await app.request("/");
     expect(res.status).toBe(400);
+    expect(await res.text()).toBe("missing `address` query param");
   });
 
   it("should return 400 if no results are found", async () => {
-    const q = "123 main st";
+    const address = "123 main st";
     nock(peliasBaseUrl, {
       encodedQueryParams: true,
     })
       .get("/v1/search/structured")
-      .query({ address: q, locality: "Minneapolis", size: "1" })
+      .query({ address, locality: "Minneapolis", size: "1" })
       .reply(200, {
         geocoding: {
           version: "0.2",
@@ -24,7 +25,7 @@ describe("app tests", () => {
           query: {
             parsed_text: {
               city: "minneapolis",
-              street: q,
+              street: address,
             },
             size: 1,
             private: false,
@@ -105,7 +106,7 @@ describe("app tests", () => {
         bbox: [-93.329108, 44.890589, -93.194329, 45.051246],
       });
 
-    const search = new URLSearchParams({ q }).toString();
+    const search = new URLSearchParams({ address }).toString();
 
     const res = await app.request(`/?${search}`);
 
