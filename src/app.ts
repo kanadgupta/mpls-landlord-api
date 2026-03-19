@@ -4,7 +4,7 @@ import { validator } from "hono/validator";
 import processedRentalData from "./data/rentals-output-nominatim.json" with { type: "json" };
 import type { Result, SuccessResult } from "./types/processedData.ts";
 import type { NominatimPlace } from "./types/nominatim.ts";
-import { getDisplayName, nominatimFetch } from "./utils.ts";
+import { getNominatimDisplayName, nominatimFetch } from "./utils.ts";
 
 const rentalData = processedRentalData as Result;
 
@@ -37,7 +37,12 @@ app.get("/", validate, async (c) => {
     return c.text("no actual address found", 400);
   }
 
-  if (filtered.some((x) => getDisplayName(x) !== getDisplayName(filtered[0]))) {
+  if (
+    filtered.some(
+      (x) =>
+        getNominatimDisplayName(x) !== getNominatimDisplayName(filtered[0]),
+    )
+  ) {
     return c.text(
       `‼️ conflicting display addresses: ${JSON.stringify(filtered)}`,
       400,
@@ -45,7 +50,10 @@ app.get("/", validate, async (c) => {
   }
 
   const found = Object.values(rentalData).find((val) => {
-    return val.success && val.nominatim.address === getDisplayName(filtered[0]);
+    return (
+      val.success &&
+      val.nominatim.address === getNominatimDisplayName(filtered[0])
+    );
   }) as SuccessResult;
 
   if (!found) {

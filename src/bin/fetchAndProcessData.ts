@@ -10,7 +10,7 @@ import type {
   Result,
 } from "../types/processedData.ts";
 import type { NominatimPlace } from "../types/nominatim.ts";
-import { getDisplayName, nominatimFetch } from "../utils.ts";
+import { getNominatimDisplayName, nominatimFetch } from "../utils.ts";
 
 const apiUrl =
   "https://opendata.arcgis.com/api/v3/datasets/baf5f14d67704668884275686e3db867_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1";
@@ -179,7 +179,10 @@ export async function fetchAndProcessData() {
       }
 
       if (
-        filtered.some((x) => getDisplayName(x) !== getDisplayName(filtered[0]))
+        filtered.some(
+          (x) =>
+            getNominatimDisplayName(x) !== getNominatimDisplayName(filtered[0]),
+        )
       ) {
         await handleError(
           entry.properties.address,
@@ -198,7 +201,7 @@ export async function fetchAndProcessData() {
           return prev;
         },
         {
-          address: getDisplayName(filtered[0]),
+          address: getNominatimDisplayName(filtered[0]),
           osm_ids: [],
           place_ids: [],
         },

@@ -28,7 +28,7 @@ export async function nominatimFetch(
   });
 }
 
-export function getDisplayName(input: NominatimPlace): string {
+export function getNominatimDisplayName(input: NominatimPlace): string {
   // todo: might be worth reinvestigating this once i figure out how to
   // include the state in the nominatim responses (might require zip code data?)
   return `${input.address.house_number} ${input.address.road}, ${input.address.city}, ${input.address.postcode}`;
