@@ -37,11 +37,4 @@ export interface RentalProps {
   longitude: number;
   xWebMercator: number;
   yWebMercator: number;
-
-  // new property that we add
-  nominatim: {
-    address: string;
-    osm_id: number[];
-    place_id: number[];
-  };
 }

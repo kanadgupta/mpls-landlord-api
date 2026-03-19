@@ -1,10 +1,14 @@
 import { Hono } from "hono";
 import { validator } from "hono/validator";
 
-import processedRentalData from "./data/rentals-output-nominatim.json" with { type: "json" };
+import processedRentalData from "./data/rentals-output-pelias.json" with { type: "json" };
 import type { Result, SuccessResult } from "./types/processedData.ts";
-import type { NominatimPlace } from "./types/nominatim.ts";
-import { getNominatimDisplayName, nominatimFetch } from "./utils.ts";
+import type { PeliasResponse } from "./types/pelias.ts";
+import {
+  filterForAddresses,
+  getPeliasDisplayName,
+  peliasStructuredSearch,
+} from "./utils.ts";
 
 const rentalData = processedRentalData as Result;
 
@@ -20,18 +24,18 @@ const validate = validator("query", (val, c) => {
 app.get("/", validate, async (c) => {
   const { q } = c.req.valid("query");
 
-  const res = await nominatimFetch(q);
+  const res = await peliasStructuredSearch({ address: q });
 
   if (!res.ok) {
     const text = await res.text();
     // todo: better error handling
-    return c.text(`issue hitting nominatim api: ${text}`, 500);
+    return c.text(`issue hitting geocoding api: ${text}`, 500);
   }
 
   // todo: better error handling
-  const json = (await res.json()) as NominatimPlace[];
+  const json = (await res.json()) as PeliasResponse;
 
-  const filtered = json.filter((x) => x.place_rank === 30);
+  const filtered = json.features.filter(filterForAddresses);
 
   if (filtered.length === 0) {
     return c.text("no actual address found", 400);
@@ -39,8 +43,7 @@ app.get("/", validate, async (c) => {
 
   if (
     filtered.some(
-      (x) =>
-        getNominatimDisplayName(x) !== getNominatimDisplayName(filtered[0]),
+      (x) => getPeliasDisplayName(x) !== getPeliasDisplayName(filtered[0]),
     )
   ) {
     return c.text(
@@ -51,8 +54,7 @@ app.get("/", validate, async (c) => {
 
   const found = Object.values(rentalData).find((val) => {
     return (
-      val.success &&
-      val.nominatim.address === getNominatimDisplayName(filtered[0])
+      val.success && val.pelias.address === getPeliasDisplayName(filtered[0])
     );
   }) as SuccessResult;
 
