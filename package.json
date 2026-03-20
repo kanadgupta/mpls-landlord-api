@@ -9,6 +9,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "build": "tsc",
     "check": "knip && oxlint --deny-warnings && prettier --check . && tsc --noEmit",
     "fetch": "node --env-file .env src/bin/fetchAndProcessData.ts",
     "pretest": "npm run check",
