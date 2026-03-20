@@ -6,12 +6,8 @@ import * as d3 from "d3-dsv";
 
 import type { RentalProps } from "../types/rentalProps.ts";
 import type { Result } from "../types/processedData.ts";
-import {
-  filterForAddresses,
-  getPeliasDisplayName,
-  peliasStructuredSearch,
-} from "../utils.ts";
-import type { PeliasProperties, PeliasResponse } from "../types/pelias.ts";
+import { getPeliasDisplayName, peliasStructuredSearch } from "../utils.ts";
+import type { PeliasProperties } from "../types/pelias.ts";
 
 const apiUrl =
   "https://opendata.arcgis.com/api/v3/datasets/baf5f14d67704668884275686e3db867_0/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1";
@@ -101,38 +97,6 @@ export async function fetchAndProcessData() {
     );
   };
 
-  const fetchAndParse = async (
-    address: string,
-    unresolved: () => Promise<Response>,
-  ): Promise<PeliasResponse> => {
-    const res = await unresolved().catch((e) => {
-      console.error(
-        `‼️ failed to fetch for this address: ${address} — server is likely down!`,
-      );
-      throw e;
-    });
-
-    const text = await res.text();
-
-    if (!res.ok) {
-      throw new Error(
-        `‼️ failed to fetch for this address: ${address} — received ${res.status} with text: ${text}`,
-      );
-    }
-
-    let json: PeliasResponse;
-
-    try {
-      json = JSON.parse(text);
-    } catch {
-      throw new Error(
-        `‼️ failed to parse JSON this address: ${address}: ${text}`,
-      );
-    }
-
-    return json;
-  };
-
   const splitData = data.features
     .reduce<Feature<Point, RentalProps>[][]>((prev, current, i) => {
       // splits the features into chunks of splitLength
@@ -150,8 +114,7 @@ export async function fetchAndProcessData() {
     .map((outer) => {
       return outer.map((entry) => {
         // function that initiates fetch when resolved
-        const res = () =>
-          peliasStructuredSearch({ address: entry.properties.address });
+        const res = () => peliasStructuredSearch(entry.properties.address);
         return [entry, res] as const;
       });
     });
@@ -162,10 +125,9 @@ export async function fetchAndProcessData() {
         .update(entry.properties.address)
         .digest("hex");
 
-      let json = (await fetchAndParse(entry.properties.address, unresolvedRes))
-        .features;
+      let { original, filtered } = await unresolvedRes();
 
-      let filtered = json.filter(filterForAddresses);
+      let json = original.features;
 
       if (filtered.length === 0) {
         let updatedAddress = entry.properties.address;
@@ -176,13 +138,10 @@ export async function fetchAndProcessData() {
         if (unit) {
           updatedAddress = updatedAddress.replace(regex, ` Apt ${unit}`);
 
-          const unresolvedReattemptRes = () =>
-            peliasStructuredSearch({ address: updatedAddress });
+          const secondSearch = await peliasStructuredSearch(updatedAddress);
 
-          json = (await fetchAndParse(updatedAddress, unresolvedReattemptRes))
-            .features;
-
-          filtered = json.filter(filterForAddresses);
+          json = secondSearch.original.features;
+          filtered = secondSearch.filtered;
         }
 
         if (filtered.length === 0) {

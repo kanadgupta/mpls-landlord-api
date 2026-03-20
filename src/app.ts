@@ -4,12 +4,7 @@ import { validator } from "hono/validator";
 // @ts-ignore this file is massive so we're preventing `tsc` from attempting to type it
 import processedRentalData from "./data/rentals-output-pelias.json" with { type: "json" };
 import type { Result, SuccessResult } from "./types/processedData.ts";
-import type { PeliasResponse } from "./types/pelias.ts";
-import {
-  filterForAddresses,
-  getPeliasDisplayName,
-  peliasStructuredSearch,
-} from "./utils.ts";
+import { getPeliasDisplayName, peliasStructuredSearch } from "./utils.ts";
 
 const rentalData = processedRentalData as Result;
 
@@ -25,18 +20,7 @@ const validate = validator("query", (val, c) => {
 const route = app.get("/", validate, async (c) => {
   const { address } = c.req.valid("query");
 
-  const res = await peliasStructuredSearch({ address });
-
-  if (!res.ok) {
-    const text = await res.text();
-    // todo: better error handling
-    return c.text(`issue hitting geocoding api: ${text}`, 500);
-  }
-
-  // todo: better error handling
-  const json = (await res.json()) as PeliasResponse;
-
-  const filtered = json.features.filter(filterForAddresses);
+  const { filtered } = await peliasStructuredSearch(address);
 
   if (filtered.length === 0) {
     return c.text("no actual address found", 400);
