@@ -161,7 +161,8 @@ export async function fetchAndProcessData() {
       }
 
       result[hashedAddress] = {
-        opendata: entry.properties,
+        // include the address property at the beginning of the object
+        opendata: Object.assign({ address: null }, entry.properties),
         pelias: {
           address: getPeliasDisplayName(filtered[0]),
           gid: filtered[0].properties.gid,
