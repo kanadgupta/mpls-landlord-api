@@ -47,7 +47,7 @@ const route = app.get("/", validate, async (c) => {
     return c.text("no match found", 400);
   }
 
-  return c.json(found.opendata);
+  return c.json(found);
 });
 
 export default app;

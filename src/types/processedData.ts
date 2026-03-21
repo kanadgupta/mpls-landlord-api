@@ -1,3 +1,5 @@
+import type { RentalProps } from "./rentalProps.ts";
+
 export type PeliasRecord = {
   address: string;
   /**
@@ -10,33 +12,7 @@ export type PeliasRecord = {
 export type Result = Record<string, SuccessResult | ErrorResult>;
 
 export type SuccessResult = {
-  opendata: {
-    property: {
-      address: string;
-      ward: string | null;
-      neighborhood: string | null;
-      community: string | null;
-      precinct: string | null;
-      latitude: number;
-      longitude: number;
-    };
-    applicant: {
-      address: string | null;
-      email: string | null;
-      name: string | null;
-      phone: string | null;
-      state: string | null;
-      zip: string | null;
-    };
-    owner: {
-      address: string | null;
-      email: string | null;
-      name: string | null;
-      phone: string | null;
-      state: string | null;
-      zip: string | null;
-    };
-  };
+  opendata: RentalProps;
   pelias: PeliasRecord;
   success: true;
 };

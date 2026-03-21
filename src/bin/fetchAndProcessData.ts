@@ -161,35 +161,7 @@ export async function fetchAndProcessData() {
       }
 
       result[hashedAddress] = {
-        opendata: {
-          property: {
-            address: entry.properties.address,
-            ward: entry.properties.ward,
-            neighborhood: entry.properties.neighborhoodDesc,
-            community: entry.properties.communityDesc,
-            precinct: entry.properties.policePrecinct,
-            latitude: entry.properties.latitude,
-            longitude: entry.properties.longitude,
-          },
-          applicant: {
-            address: entry.properties.applicantAddress1
-              ? entry.properties.applicantAddress1
-              : entry.properties.applicantAddress2,
-            email: entry.properties.applicantEmail,
-            name: entry.properties.applicantName,
-            phone: entry.properties.applicantPhone,
-            state: entry.properties.applicantState,
-            zip: entry.properties.applicantZip,
-          },
-          owner: {
-            address: entry.properties.ownerAddress1,
-            email: entry.properties.ownerEmail,
-            name: entry.properties.ownerName,
-            phone: entry.properties.ownerPhone,
-            state: entry.properties.ownerState,
-            zip: entry.properties.ownerZip,
-          },
-        },
+        opendata: entry.properties,
         pelias: {
           address: getPeliasDisplayName(filtered[0]),
           gid: filtered[0].properties.gid,
